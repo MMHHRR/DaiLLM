@@ -75,7 +75,7 @@ class Generator:
     
     def generate_trajectory(self, profile: str, pattern: str, historical_data: pd.DataFrame, feedback_prompt: str = None) -> pd.DataFrame:
         prompt = f"""
-        Generate a one-day trajectory based on:
+        Generate a one-day (2025/5/28) trajectory based on:
         
         User Profile:
         {profile}
@@ -83,7 +83,7 @@ class Generator:
         Mobility Pattern:
         {pattern}
         
-        Historical Data:
+        Historical Location Data:
         {historical_data.to_string()}
         
         Generate a realistic trajectory that includes:
@@ -149,26 +149,26 @@ class Discriminator:
         {real.to_string()}
         
         Please evaluate based on these criteria, considering the single day vs multi-day context:
-        1. Temporal patterns (0-1 score):
+        1. Temporal patterns (0.00-1.00 score):
         - Does the day follow common daily rhythm (morning, noon, evening activities)?
         - Award full points if timing matches ANY typical day pattern in real data
         
-        2. Venue type frequency (0-1 score):
+        2. Venue type frequency (0.00-1.00 score):
         - Compare to the average daily venue type distribution
         - Award full points if proportions are within reasonable daily variation
         - Don't penalize for missing venue types that aren't visited every day
         
-        3. Geographical distribution (0-1 score):
+        3. Geographical distribution (0.00-1.00 score):
         - Focus on travel distances and area coverage for a single day
         - Award full points if locations fall within common activity zones
         - Don't penalize for not covering all possible areas in one day
         
-        4. Venue transition logic (0-1 score):
+        4. Venue transition logic (0.00-1.00 score):
         - Evaluate if each transition makes sense in sequence
         - Award full points for logical daily flow (e.g., home->work->restaurant->home)
         - Consider common daily patterns rather than weekly variety
         
-        5. Stay duration patterns (0-1 score):
+        5. Stay duration patterns (0.00-1.00 score):
         - Compare durations to typical single-day patterns
         - Award full points if durations match common venue-specific stays
         - Consider peak/off-peak timing appropriateness
@@ -189,44 +189,50 @@ class Discriminator:
         
         try:
             content = response.choices[0].message.content.strip()
+            # 清理可能的 markdown 代码块标记
             if content.startswith('```json'):
                 content = content[7:]
             if content.endswith('```'):
                 content = content[:-3]
             content = content.strip()
+            
+            # 尝试找到第一个 { 和最后一个 } 之间的内容
+            start_idx = content.find('{')
+            end_idx = content.rfind('}') + 1
+            if start_idx != -1 and end_idx != 0:
+                content = content[start_idx:end_idx]
+            
             evaluation = json.loads(content)
             self.score = evaluation['overall_score']
             self.feedback = evaluation.get('feedback', [])
             return self.score, self.feedback
         except json.JSONDecodeError as e:
             print(f"JSON decode error: {str(e)}")
+            print(f"Problematic content: {content}")
             raise ValueError(f"Failed to parse evaluation result: {str(e)}")
 
 def main():
-    # 1. Data loading and preprocessing
     print("Loading data...")
     data = pd.read_csv(r'D:\A_Research\A_doing_research\20250526_LLM_causal_inference\dataset\dataset_TSMC2014_NYC.csv')
     data = data.drop(['venueId', 'venueCategoryId'], axis=1)
     data['utcTimestamp'] = pd.to_datetime(data['utcTimestamp'])
     
-    # 2. Initialize components
     profiler = Profiler()
     generator = Generator()
     discriminator = Discriminator()
     
-    # 3. Get all users
     unique_users = data['userId'].unique()
     print(f"Found {len(unique_users)} users")
     
-    # 4. Process each user
     all_results = []
     all_scores = []
     
     for idx, user_id in enumerate(unique_users):
-        if idx >= 3:
+        if idx >= 1083:  ##number people of simulating 
             break
         print(f"\nProcessing user {user_id}...")
         user_data = data[data['userId'] == user_id].copy()
+        POI_data = user_data[['venueCategory', 'latitude', 'longitude']].copy()
         
         # 4.1 Analyze user features
         long_term_profile = profiler.analyze_long_term_profile(user_data)
@@ -251,7 +257,8 @@ def main():
             current_trajectory = generator.generate_trajectory(
                 long_term_profile, 
                 short_term_pattern, 
-                user_data,
+                # user_data,
+                POI_data,
                 feedback_prompt=feedback_prompt
             )
             
@@ -273,10 +280,8 @@ def main():
         if best_trajectory is not None:
             best_trajectory['userId'] = user_id
             
-            # Sort by timestamp
             best_trajectory = best_trajectory.sort_values('timestamp')
             
-            # Create OD pairs
             od_data = []
             for i in range(len(best_trajectory) - 1):
                 current = best_trajectory.iloc[i]
@@ -297,7 +302,6 @@ def main():
             all_results.extend(od_data)
             all_scores.append({'userId': user_id, 'score': best_score})
     
-    # 5. Save final results
     if all_results:
         final_results = pd.DataFrame(all_results)
         scores_df = pd.DataFrame(all_scores)
