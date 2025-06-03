@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+858,2025-05-28 08:30:00,40.763489,-73.996091,Office,40.717688,-73.990602,Coffee Shop
+858,2025-05-28 10:30:00,40.717688,-73.990602,Coffee Shop,40.72561,-73.991976,American Restaurant
+858,2025-05-28 12:00:00,40.72561,-73.991976,American Restaurant,40.763489,-73.996091,Office
+858,2025-05-28 13:30:00,40.763489,-73.996091,Office,40.718864,-73.989095,Gym / Fitness Center
+858,2025-05-28 17:00:00,40.718864,-73.989095,Gym / Fitness Center,40.718152,-73.990002,Mexican Restaurant
+858,2025-05-28 18:30:00,40.718152,-73.990002,Mexican Restaurant,40.718535,-73.990208,Bar
+858,2025-05-28 20:00:00,40.718535,-73.990208,Bar,40.727144,-73.988872,Music Venue

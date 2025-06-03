@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+734,2025-05-28 07:30:00,40.941759,-74.012385,Home (private),40.895825,-74.053215,Medical Center
+734,2025-05-28 08:30:00,40.895825,-74.053215,Medical Center,40.946039,-74.016256,General Travel
+734,2025-05-28 09:30:00,40.946039,-74.016256,General Travel,40.965771,-74.075661,Electronics Store
+734,2025-05-28 10:00:00,40.965771,-74.075661,Electronics Store,40.941759,-74.012385,Home (private)
+734,2025-05-28 11:00:00,40.941759,-74.012385,Home (private),40.817523,-74.065706,American Restaurant
+734,2025-05-28 12:30:00,40.817523,-74.065706,American Restaurant,40.946039,-74.016256,General Travel
+734,2025-05-28 14:00:00,40.946039,-74.016256,General Travel,40.946572,-74.030514,Other Great Outdoors
+734,2025-05-28 15:30:00,40.946572,-74.030514,Other Great Outdoors,40.813024,-74.057181,General Entertainment
+734,2025-05-28 17:00:00,40.813024,-74.057181,General Entertainment,40.959986,-74.067163,Seafood Restaurant
+734,2025-05-28 19:00:00,40.959986,-74.067163,Seafood Restaurant,40.941759,-74.012385,Home (private)

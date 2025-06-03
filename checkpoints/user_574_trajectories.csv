@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+574,2025-05-28 08:30:00,40.785672,-73.972715,Coffee Shop,40.735619,-73.997214,College Academic Building
+574,2025-05-28 09:30:00,40.735619,-73.997214,College Academic Building,40.730595,-73.98302,Sushi Restaurant
+574,2025-05-28 12:00:00,40.730595,-73.98302,Sushi Restaurant,40.735619,-73.997214,College Academic Building
+574,2025-05-28 13:15:00,40.735619,-73.997214,College Academic Building,40.748386,-74.005651,Art Gallery
+574,2025-05-28 17:00:00,40.748386,-74.005651,Art Gallery,40.725081,-73.951409,Bar
+574,2025-05-28 18:30:00,40.725081,-73.951409,Bar,40.722298,-73.983258,Burger Joint
+574,2025-05-28 20:00:00,40.722298,-73.983258,Burger Joint,40.749306,-74.004056,Art Gallery
+574,2025-05-28 21:30:00,40.749306,-74.004056,Art Gallery,40.730147,-74.004785,Bar
+574,2025-05-28 23:00:00,40.730147,-74.004785,Bar,40.735619,-73.997214,College Academic Building

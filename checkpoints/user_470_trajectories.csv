@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+470,2025-05-28 07:30:00,40.777925,-73.966613,Gym / Fitness Center,40.777224,-73.949465,Vegetarian / Vegan Restaurant
+470,2025-05-28 09:00:00,40.777224,-73.949465,Vegetarian / Vegan Restaurant,40.71981,-74.002581,Arts & Crafts Store
+470,2025-05-28 11:00:00,40.71981,-74.002581,Arts & Crafts Store,40.683178,-73.965746,Sushi Restaurant
+470,2025-05-28 12:30:00,40.683178,-73.965746,Sushi Restaurant,40.774338,-73.984785,Library
+470,2025-05-28 14:00:00,40.774338,-73.984785,Library,40.71981,-74.002581,Arts & Crafts Store
+470,2025-05-28 17:00:00,40.71981,-74.002581,Arts & Crafts Store,40.745254,-73.985697,Vegetarian / Vegan Restaurant
+470,2025-05-28 19:00:00,40.745254,-73.985697,Vegetarian / Vegan Restaurant,40.687583,-73.989895,Sushi Restaurant
+470,2025-05-28 21:00:00,40.687583,-73.989895,Sushi Restaurant,40.753461,-73.979895,Gym / Fitness Center

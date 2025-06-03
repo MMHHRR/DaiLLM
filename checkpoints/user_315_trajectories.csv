@@ -1,0 +1,12 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+315,2025-05-28 08:30:00,40.674934,-73.87131,Home (private),40.672889,-73.870888,Salon / Barbershop
+315,2025-05-28 09:00:00,40.672889,-73.870888,Salon / Barbershop,40.672874,-73.870819,Gas Station / Garage
+315,2025-05-28 09:45:00,40.672874,-73.870819,Gas Station / Garage,40.67284,-73.870727,Chinese Restaurant
+315,2025-05-28 10:15:00,40.67284,-73.870727,Chinese Restaurant,40.672896,-73.870721,Deli / Bodega
+315,2025-05-28 12:30:00,40.672896,-73.870721,Deli / Bodega,40.674373,-73.870912,Latin American Restaurant
+315,2025-05-28 13:00:00,40.674373,-73.870912,Latin American Restaurant,40.672876,-73.870698,Gas Station / Garage
+315,2025-05-28 15:00:00,40.672876,-73.870698,Gas Station / Garage,40.672843,-73.870664,Chinese Restaurant
+315,2025-05-28 17:00:00,40.672843,-73.870664,Chinese Restaurant,40.674149,-73.870853,Salon / Barbershop
+315,2025-05-28 18:30:00,40.674149,-73.870853,Salon / Barbershop,40.671026,-73.875476,Restaurant
+315,2025-05-28 20:00:00,40.671026,-73.875476,Restaurant,40.676513,-73.858191,Bar
+315,2025-05-28 22:00:00,40.676513,-73.858191,Bar,40.674934,-73.87131,Home (private)

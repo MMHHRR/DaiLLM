@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+751,2025-05-28 07:30:00,40.727612,-74.007306,Coffee Shop,40.677036,-73.972353,Gym / Fitness Center
+751,2025-05-28 09:00:00,40.677036,-73.972353,Gym / Fitness Center,40.681098,-73.97596,Vegetarian / Vegan Restaurant
+751,2025-05-28 10:30:00,40.681098,-73.97596,Vegetarian / Vegan Restaurant,40.723307,-74.000727,Electronics Store
+751,2025-05-28 12:00:00,40.723307,-74.000727,Electronics Store,40.726354,-74.001956,Thai Restaurant
+751,2025-05-28 13:30:00,40.726354,-74.001956,Thai Restaurant,40.729879,-74.002396,Park
+751,2025-05-28 15:00:00,40.729879,-74.002396,Park,40.720904,-74.000634,Gym / Fitness Center
+751,2025-05-28 17:00:00,40.720904,-74.000634,Gym / Fitness Center,40.681098,-73.97596,Vegetarian / Vegan Restaurant
+751,2025-05-28 19:00:00,40.681098,-73.97596,Vegetarian / Vegan Restaurant,40.666674,-73.988171,Bar
+751,2025-05-28 20:30:00,40.666674,-73.988171,Bar,40.73295,-74.003849,Bar
+751,2025-05-28 22:00:00,40.73295,-74.003849,Bar,40.727144,-73.988872,Music Venue

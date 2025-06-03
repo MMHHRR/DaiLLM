@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+180,2025-05-28 07:30:00,40.78396,-74.012385,Home (private),40.924018,-73.997675,Gym / Fitness Center
+180,2025-05-28 08:00:00,40.924018,-73.997675,Gym / Fitness Center,40.901212,-73.999261,Gas Station / Garage
+180,2025-05-28 09:30:00,40.901212,-73.999261,Gas Station / Garage,40.673348,-74.111023,Other Great Outdoors
+180,2025-05-28 10:00:00,40.673348,-74.111023,Other Great Outdoors,40.870127,-73.956966,Asian Restaurant
+180,2025-05-28 12:00:00,40.870127,-73.956966,Asian Restaurant,40.673348,-74.111023,Other Great Outdoors
+180,2025-05-28 13:30:00,40.673348,-74.111023,Other Great Outdoors,40.923993,-73.99764,Gym / Fitness Center
+180,2025-05-28 15:30:00,40.923993,-73.99764,Gym / Fitness Center,40.668042,-74.104156,American Restaurant
+180,2025-05-28 17:00:00,40.668042,-74.104156,American Restaurant,40.92405,-73.997474,Gym / Fitness Center
+180,2025-05-28 19:00:00,40.92405,-73.997474,Gym / Fitness Center,40.78396,-74.012385,Home (private)

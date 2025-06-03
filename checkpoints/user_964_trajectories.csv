@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+964,2025-05-28 09:00:00,40.785066,-73.812498,Home (private),40.78257,-73.836821,Department Store
+964,2025-05-28 10:30:00,40.78257,-73.836821,Department Store,40.738283,-73.793879,Fast Food Restaurant
+964,2025-05-28 12:00:00,40.738283,-73.793879,Fast Food Restaurant,40.78257,-73.836821,Department Store
+964,2025-05-28 13:00:00,40.78257,-73.836821,Department Store,40.784829,-73.806654,Playground
+964,2025-05-28 15:00:00,40.784829,-73.806654,Playground,40.709999,-73.864697,American Restaurant
+964,2025-05-28 16:30:00,40.709999,-73.864697,American Restaurant,40.78257,-73.836821,Department Store
+964,2025-05-28 18:00:00,40.78257,-73.836821,Department Store,40.766351,-73.783762,Dessert Shop
+964,2025-05-28 19:30:00,40.766351,-73.783762,Dessert Shop,40.785066,-73.812498,Home (private)
+964,2025-05-28 21:00:00,40.785066,-73.812498,Home (private),40.738283,-73.793879,Fast Food Restaurant
+964,2025-05-28 23:00:00,40.738283,-73.793879,Fast Food Restaurant,40.785066,-73.812498,Home (private)

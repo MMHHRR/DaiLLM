@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+2,2025-05-28 07:30:00,40.737194,-73.996536,Coffee Shop,40.646689,-73.913992,Gym / Fitness Center
+2,2025-05-28 08:00:00,40.646689,-73.913992,Gym / Fitness Center,40.64836,-73.900482,Office
+2,2025-05-28 09:00:00,40.64836,-73.900482,Office,40.60497,-73.942969,American Restaurant
+2,2025-05-28 12:00:00,40.60497,-73.942969,American Restaurant,40.758315,-73.977284,Department Store
+2,2025-05-28 13:00:00,40.758315,-73.977284,Department Store,40.740647,-73.99104,Coffee Shop
+2,2025-05-28 15:00:00,40.740647,-73.99104,Coffee Shop,40.646689,-73.913992,Gym / Fitness Center
+2,2025-05-28 17:00:00,40.646689,-73.913992,Gym / Fitness Center,40.601429,-74.1761,Italian Restaurant
+2,2025-05-28 19:00:00,40.601429,-74.1761,Italian Restaurant,40.624587,-74.142421,Bar
+2,2025-05-28 21:00:00,40.624587,-74.142421,Bar,40.625784,-74.082884,Home (private)

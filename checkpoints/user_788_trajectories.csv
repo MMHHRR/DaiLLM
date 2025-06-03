@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+788,2025-05-28 07:30:00,40.665212,-73.94186,Home (private),40.70819,-74.00648,Gym / Fitness Center
+788,2025-05-28 08:15:00,40.70819,-74.00648,Gym / Fitness Center,40.739035,-73.99325,College Academic Building
+788,2025-05-28 09:30:00,40.739035,-73.99325,College Academic Building,40.827449,-73.926229,American Restaurant
+788,2025-05-28 12:00:00,40.827449,-73.926229,American Restaurant,40.739035,-73.99325,College Academic Building
+788,2025-05-28 13:30:00,40.739035,-73.99325,College Academic Building,40.70819,-74.00648,Gym / Fitness Center
+788,2025-05-28 17:00:00,40.70819,-74.00648,Gym / Fitness Center,40.732346,-73.987987,Bar
+788,2025-05-28 18:30:00,40.732346,-73.987987,Bar,40.823747,-73.939877,Performing Arts Venue
+788,2025-05-28 20:00:00,40.823747,-73.939877,Performing Arts Venue,40.678235,-73.968571,Bar
+788,2025-05-28 22:30:00,40.678235,-73.968571,Bar,40.665212,-73.94186,Home (private)

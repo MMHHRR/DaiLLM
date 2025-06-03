@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+485,2025-05-28 09:30:00,40.709221,-74.00514,Residential Building (Apartment / Condo),40.733146,-73.981393,Coffee Shop
+485,2025-05-28 10:00:00,40.733146,-73.981393,Coffee Shop,40.735282,-73.990403,Park
+485,2025-05-28 12:00:00,40.735282,-73.990403,Park,40.730192,-73.984171,Mac & Cheese Joint
+485,2025-05-28 13:30:00,40.730192,-73.984171,Mac & Cheese Joint,40.783985,-73.952167,Cupcake Shop
+485,2025-05-28 15:00:00,40.783985,-73.952167,Cupcake Shop,40.718827,-73.98821,Fast Food Restaurant
+485,2025-05-28 17:00:00,40.718827,-73.98821,Fast Food Restaurant,40.71945,-73.987815,Bar
+485,2025-05-28 18:30:00,40.71945,-73.987815,Bar,40.785676,-73.984509,Beer Garden
+485,2025-05-28 20:00:00,40.785676,-73.984509,Beer Garden,40.775635,-73.953553,Bar
+485,2025-05-28 22:00:00,40.775635,-73.953553,Bar,40.709221,-74.00514,Residential Building (Apartment / Condo)

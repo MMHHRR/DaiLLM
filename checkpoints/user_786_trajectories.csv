@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+786,2025-05-28 08:00:00,40.753564,-73.97953,General College & University,40.733787,-73.993035,Coffee Shop
+786,2025-05-28 10:30:00,40.733787,-73.993035,Coffee Shop,40.75086,-73.977353,Deli / Bodega
+786,2025-05-28 12:00:00,40.75086,-73.977353,Deli / Bodega,40.753564,-73.97953,General College & University
+786,2025-05-28 13:00:00,40.753564,-73.97953,General College & University,40.82719,-73.921478,Garden
+786,2025-05-28 15:00:00,40.82719,-73.921478,Garden,40.752386,-73.980517,General College & University
+786,2025-05-28 16:00:00,40.752386,-73.980517,General College & University,40.731369,-73.994312,Thai Restaurant
+786,2025-05-28 17:30:00,40.731369,-73.994312,Thai Restaurant,40.730956,-73.985956,Movie Theater
+786,2025-05-28 19:00:00,40.730956,-73.985956,Movie Theater,40.82719,-73.921478,Garden
+786,2025-05-28 21:30:00,40.82719,-73.921478,Garden,40.752386,-73.980517,General College & University

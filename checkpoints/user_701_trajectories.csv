@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+701,2025-05-28 06:30:00,40.752548,-73.992995,Coffee Shop,40.677036,-73.972353,Gym / Fitness Center
+701,2025-05-28 07:15:00,40.677036,-73.972353,Gym / Fitness Center,40.768257,-73.982914,Office
+701,2025-05-28 08:30:00,40.768257,-73.982914,Office,40.759302,-73.991901,Mexican Restaurant
+701,2025-05-28 12:00:00,40.759302,-73.991901,Mexican Restaurant,40.752548,-73.992995,Coffee Shop
+701,2025-05-28 13:00:00,40.752548,-73.992995,Coffee Shop,40.728279,-73.992795,Gym / Fitness Center
+701,2025-05-28 17:00:00,40.728279,-73.992795,Gym / Fitness Center,40.736529,-73.997462,French Restaurant
+701,2025-05-28 19:30:00,40.736529,-73.997462,French Restaurant,40.67753,-73.969025,Bar
+701,2025-05-28 21:00:00,40.67753,-73.969025,Bar,40.745789,-73.993818,Bar

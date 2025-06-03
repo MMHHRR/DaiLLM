@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+546,2025-05-28 08:00:00,40.696173,-73.812498,Home (private),40.753646,-73.912109,Electronics Store
+546,2025-05-28 09:00:00,40.753646,-73.912109,Electronics Store,40.753353,-73.908428,Fast Food Restaurant
+546,2025-05-28 11:30:00,40.753353,-73.908428,Fast Food Restaurant,40.718399,-73.960203,Bar
+546,2025-05-28 12:00:00,40.718399,-73.960203,Bar,40.753646,-73.912109,Electronics Store
+546,2025-05-28 14:00:00,40.753646,-73.912109,Electronics Store,40.702322,-73.814293,Fast Food Restaurant
+546,2025-05-28 16:00:00,40.702322,-73.814293,Fast Food Restaurant,40.752649,-73.910857,Convenience Store
+546,2025-05-28 18:00:00,40.752649,-73.910857,Convenience Store,40.760444,-73.909003,Mexican Restaurant
+546,2025-05-28 20:00:00,40.760444,-73.909003,Mexican Restaurant,40.696173,-73.812498,Home (private)

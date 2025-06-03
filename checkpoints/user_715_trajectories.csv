@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+715,2025-05-28 08:00:00,40.740223,-73.982688,Bagel Shop,40.750546,-73.976485,Coffee Shop
+715,2025-05-28 09:00:00,40.750546,-73.976485,Coffee Shop,40.750469,-73.976377,American Restaurant
+715,2025-05-28 12:30:00,40.750469,-73.976377,American Restaurant,40.75231,-73.975419,Gym / Fitness Center
+715,2025-05-28 15:00:00,40.75231,-73.975419,Gym / Fitness Center,40.741797,-73.997271,American Restaurant
+715,2025-05-28 19:00:00,40.741797,-73.997271,American Restaurant,40.752426,-73.972235,Bar
+715,2025-05-28 21:30:00,40.752426,-73.972235,Bar,40.760878,-73.990818,Bar

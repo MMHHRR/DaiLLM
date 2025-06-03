@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+633,2025-05-28 08:00:00,40.710683,-74.004612,College Academic Building,40.712033,-74.006993,Coffee Shop
+633,2025-05-28 10:30:00,40.712033,-74.006993,Coffee Shop,40.707555,-74.007066,Italian Restaurant
+633,2025-05-28 12:00:00,40.707555,-74.007066,Italian Restaurant,40.711834,-74.006288,College Academic Building
+633,2025-05-28 13:30:00,40.711834,-74.006288,College Academic Building,40.710683,-74.004612,College Academic Building
+633,2025-05-28 16:00:00,40.710683,-74.004612,College Academic Building,40.711789,-74.007909,Deli / Bodega
+633,2025-05-28 18:00:00,40.711789,-74.007909,Deli / Bodega,40.739418,-74.00677,Bar
+633,2025-05-28 20:00:00,40.739418,-74.00677,Bar,40.714911,-74.015056,Movie Theater
+633,2025-05-28 22:00:00,40.714911,-74.015056,Movie Theater,40.739612,-74.006236,Bar
+633,2025-05-29 00:30:00,40.739612,-74.006236,Bar,40.740152,-74.007304,Bar

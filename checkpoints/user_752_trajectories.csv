@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+752,2025-05-28 08:00:00,40.859775,-74.129868,Home (private),40.862365,-74.196317,College Academic Building
+752,2025-05-28 10:00:00,40.862365,-74.196317,College Academic Building,40.872523,-74.194729,Food & Drink Shop
+752,2025-05-28 12:30:00,40.872523,-74.194729,Food & Drink Shop,40.862836,-74.19724,Student Center
+752,2025-05-28 13:15:00,40.862836,-74.19724,Student Center,40.866771,-74.20048,College Academic Building
+752,2025-05-28 14:30:00,40.866771,-74.20048,College Academic Building,40.860937,-74.196768,College Theater
+752,2025-05-28 16:00:00,40.860937,-74.196768,College Theater,40.825306,-74.138103,Bar
+752,2025-05-28 18:30:00,40.825306,-74.138103,Bar,40.860434,-74.197905,Food & Drink Shop
+752,2025-05-28 21:00:00,40.860434,-74.197905,Food & Drink Shop,40.870203,-74.183322,Café
+752,2025-05-28 22:30:00,40.870203,-74.183322,Café,40.859775,-74.129868,Home (private)

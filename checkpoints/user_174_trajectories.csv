@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+174,2025-05-28 08:30:00,40.619151,-74.035888,Home (private),40.620876,-74.03052,Student Center
+174,2025-05-28 09:00:00,40.620876,-74.03052,Student Center,40.616355,-74.031306,Library
+174,2025-05-28 10:30:00,40.616355,-74.031306,Library,40.620279,-74.032299,Food & Drink Shop
+174,2025-05-28 12:00:00,40.620279,-74.032299,Food & Drink Shop,40.620876,-74.03052,Student Center
+174,2025-05-28 13:00:00,40.620876,-74.03052,Student Center,40.62079,-74.032268,Coffee Shop
+174,2025-05-28 15:00:00,40.62079,-74.032268,Coffee Shop,40.618645,-74.033274,Drugstore / Pharmacy
+174,2025-05-28 16:30:00,40.618645,-74.033274,Drugstore / Pharmacy,40.622295,-74.027594,Fast Food Restaurant
+174,2025-05-28 18:00:00,40.622295,-74.027594,Fast Food Restaurant,40.620876,-74.03052,Student Center
+174,2025-05-28 19:00:00,40.620876,-74.03052,Student Center,40.621496,-74.031789,Bagel Shop
+174,2025-05-28 20:30:00,40.621496,-74.031789,Bagel Shop,40.619151,-74.035888,Home (private)

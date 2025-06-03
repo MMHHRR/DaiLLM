@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+97,2025-05-28 08:30:00,40.706858,-74.006087,Office,40.70652,-74.004762,Sandwich Place
+97,2025-05-28 12:00:00,40.70652,-74.004762,Sandwich Place,40.708339,-74.007924,Food & Drink Shop
+97,2025-05-28 12:30:00,40.708339,-74.007924,Food & Drink Shop,40.706858,-74.006087,Office
+97,2025-05-28 13:00:00,40.706858,-74.006087,Office,40.689442,-73.752894,Deli / Bodega
+97,2025-05-28 17:30:00,40.689442,-73.752894,Deli / Bodega,40.70652,-74.004762,Sandwich Place
+97,2025-05-28 18:00:00,40.70652,-74.004762,Sandwich Place,40.706508,-74.004549,General Entertainment
+97,2025-05-28 20:00:00,40.706508,-74.004549,General Entertainment,40.706858,-74.006087,Office

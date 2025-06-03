@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+429,2025-05-28 08:00:00,40.731226,-73.98888,Home (private),40.597722,-74.148543,College Academic Building
+429,2025-05-28 08:30:00,40.597722,-74.148543,College Academic Building,40.732958,-73.986404,Mediterranean Restaurant
+429,2025-05-28 12:00:00,40.732958,-73.986404,Mediterranean Restaurant,40.597722,-74.148543,College Academic Building
+429,2025-05-28 13:00:00,40.597722,-74.148543,College Academic Building,40.597722,-74.148543,College Academic Building
+429,2025-05-28 17:00:00,40.597722,-74.148543,College Academic Building,40.730972,-73.985514,Vegetarian / Vegan Restaurant
+429,2025-05-28 18:00:00,40.730972,-73.985514,Vegetarian / Vegan Restaurant,40.780866,-73.96687,Park
+429,2025-05-28 19:30:00,40.780866,-73.96687,Park,40.72515,-73.983046,Ice Cream Shop
+429,2025-05-28 21:00:00,40.72515,-73.983046,Ice Cream Shop,40.731226,-73.98888,Home (private)

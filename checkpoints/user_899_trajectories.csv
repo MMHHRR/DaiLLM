@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+899,2025-05-28 07:30:00,40.742721,-73.992762,Gym / Fitness Center,40.690049,-73.965145,Café
+899,2025-05-28 09:00:00,40.690049,-73.965145,Café,40.763647,-73.978441,Gym / Fitness Center
+899,2025-05-28 12:00:00,40.763647,-73.978441,Gym / Fitness Center,40.690049,-73.965145,Café
+899,2025-05-28 13:30:00,40.690049,-73.965145,Café,40.729182,-73.990597,Gym / Fitness Center
+899,2025-05-28 17:00:00,40.729182,-73.990597,Gym / Fitness Center,40.763647,-73.978441,Gym / Fitness Center
+899,2025-05-28 18:30:00,40.763647,-73.978441,Gym / Fitness Center,40.690049,-73.965145,Café

@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+399,2025-05-28 07:00:00,40.761642,-73.984188,Gym / Fitness Center,40.762502,-73.989256,Residential Building (Apartment / Condo)
+399,2025-05-28 08:30:00,40.762502,-73.989256,Residential Building (Apartment / Condo),40.743139,-74.007344,Japanese Restaurant
+399,2025-05-28 12:00:00,40.743139,-74.007344,Japanese Restaurant,40.71067,-74.00984,Office
+399,2025-05-28 13:30:00,40.71067,-74.00984,Office,40.754002,-73.98013,Gym / Fitness Center
+399,2025-05-28 17:00:00,40.754002,-73.98013,Gym / Fitness Center,40.719209,-73.996871,Malaysian Restaurant
+399,2025-05-28 19:00:00,40.719209,-73.996871,Malaysian Restaurant,40.744284,-74.006483,Bar
+399,2025-05-28 21:00:00,40.744284,-74.006483,Bar,40.762502,-73.989256,Residential Building (Apartment / Condo)

@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+843,2025-05-28 01:30:00,40.777287,-73.965371,Home (private),40.777287,-73.965371,Home (private)
+843,2025-05-28 08:00:00,40.777287,-73.965371,Home (private),40.777021,-73.949968,Coffee Shop
+843,2025-05-28 09:30:00,40.777021,-73.949968,Coffee Shop,40.779539,-73.955252,Electronics Store
+843,2025-05-28 10:00:00,40.779539,-73.955252,Electronics Store,40.755791,-73.978215,Mexican Restaurant
+843,2025-05-28 11:30:00,40.755791,-73.978215,Mexican Restaurant,40.777287,-73.965371,Home (private)
+843,2025-05-28 13:00:00,40.777287,-73.965371,Home (private),40.779599,-73.95597,Video Game Store
+843,2025-05-28 15:00:00,40.779599,-73.95597,Video Game Store,40.777021,-73.949968,Coffee Shop
+843,2025-05-28 16:30:00,40.777021,-73.949968,Coffee Shop,40.70931,-74.039907,American Restaurant
+843,2025-05-28 18:00:00,40.70931,-74.039907,American Restaurant,40.777287,-73.965371,Home (private)
+843,2025-05-28 20:00:00,40.777287,-73.965371,Home (private),40.772244,-73.955806,Bar

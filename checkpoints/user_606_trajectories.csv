@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+606,2025-05-28 08:30:00,40.72547,-73.996636,Office,40.725929,-73.996395,Mexican Restaurant
+606,2025-05-28 12:00:00,40.725929,-73.996395,Mexican Restaurant,40.72547,-73.996636,Office
+606,2025-05-28 13:00:00,40.72547,-73.996636,Office,40.722705,-73.998199,French Restaurant
+606,2025-05-28 17:30:00,40.722705,-73.998199,French Restaurant,40.72707,-73.991906,Bar
+606,2025-05-28 19:00:00,40.72707,-73.991906,Bar,40.779019,-73.953958,Movie Theater
+606,2025-05-28 21:30:00,40.779019,-73.953958,Movie Theater,40.72547,-73.996636,Office

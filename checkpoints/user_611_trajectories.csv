@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+611,2025-05-28 01:00:00,40.730641,-73.984251,Late-night Venue,40.746574,-73.995795,College Academic Building
+611,2025-05-28 08:00:00,40.746574,-73.995795,College Academic Building,40.729182,-73.990597,Gym / Fitness Center
+611,2025-05-28 10:30:00,40.729182,-73.990597,Gym / Fitness Center,40.729484,-73.986048,Sushi Restaurant
+611,2025-05-28 12:00:00,40.729484,-73.986048,Sushi Restaurant,40.746574,-73.995795,College Academic Building
+611,2025-05-28 13:00:00,40.746574,-73.995795,College Academic Building,40.733665,-73.987815,Food & Drink Shop
+611,2025-05-28 15:30:00,40.733665,-73.987815,Food & Drink Shop,40.729182,-73.990597,Gym / Fitness Center
+611,2025-05-28 17:00:00,40.729182,-73.990597,Gym / Fitness Center,40.728123,-73.982857,American Restaurant
+611,2025-05-28 19:00:00,40.728123,-73.982857,American Restaurant,40.731836,-73.985801,Bar
+611,2025-05-28 20:30:00,40.731836,-73.985801,Bar,40.763112,-73.984136,Music Venue

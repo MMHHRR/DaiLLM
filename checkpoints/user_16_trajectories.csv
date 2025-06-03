@@ -1,0 +1,12 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+16,2025-05-28 07:30:00,40.829984,-73.98888,Home,40.911956,-74.029763,Gym / Fitness Center
+16,2025-05-28 08:15:00,40.911956,-74.029763,Gym / Fitness Center,40.863842,-73.97511,Coffee Shop
+16,2025-05-28 09:30:00,40.863842,-73.97511,Coffee Shop,40.853284,-73.974506,Government Building
+16,2025-05-28 10:00:00,40.853284,-73.974506,Government Building,40.865632,-73.985244,Asian Restaurant
+16,2025-05-28 12:00:00,40.865632,-73.985244,Asian Restaurant,40.911956,-74.029763,Gym / Fitness Center
+16,2025-05-28 13:00:00,40.911956,-74.029763,Gym / Fitness Center,40.951057,-74.089866,Community College
+16,2025-05-28 14:30:00,40.951057,-74.089866,Community College,40.90401,-73.968415,Medical Center
+16,2025-05-28 16:00:00,40.90401,-73.968415,Medical Center,40.85413,-74.033182,Seafood Restaurant
+16,2025-05-28 17:30:00,40.85413,-74.033182,Seafood Restaurant,40.829984,-73.98888,Home
+16,2025-05-28 19:00:00,40.829984,-73.98888,Home,40.85413,-74.033182,Seafood Restaurant
+16,2025-05-28 20:00:00,40.85413,-74.033182,Seafood Restaurant,40.829984,-73.98888,Home

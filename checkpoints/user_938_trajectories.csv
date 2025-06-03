@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+938,2025-05-28 09:00:00,40.737707,-73.978569,College Academic Building,40.742016,-74.005163,Food & Drink Shop
+938,2025-05-28 12:30:00,40.742016,-74.005163,Food & Drink Shop,40.733649,-73.983972,Park
+938,2025-05-28 14:00:00,40.733649,-73.983972,Park,40.732648,-73.991155,Clothing Store
+938,2025-05-28 17:30:00,40.732648,-73.991155,Clothing Store,40.742944,-73.919992,Fast Food Restaurant
+938,2025-05-28 19:00:00,40.742944,-73.919992,Fast Food Restaurant,40.756457,-73.846064,Stadium
+938,2025-05-28 20:30:00,40.756457,-73.846064,Stadium,40.734411,-73.990817,Dessert Shop

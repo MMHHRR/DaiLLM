@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+207,2025-05-28 08:00:00,40.844945,-74.094631,Home (private),40.883668,-74.056263,Medical Center
+207,2025-05-28 08:30:00,40.883668,-74.056263,Medical Center,40.882447,-74.055936,School
+207,2025-05-28 09:30:00,40.882447,-74.055936,School,40.844945,-74.094631,Home (private)
+207,2025-05-28 12:00:00,40.844945,-74.094631,Home (private),40.883668,-74.056263,Medical Center
+207,2025-05-28 13:00:00,40.883668,-74.056263,Medical Center,40.882447,-74.055936,School
+207,2025-05-28 14:30:00,40.882447,-74.055936,School,40.844945,-74.094631,Home (private)
+207,2025-05-28 16:00:00,40.844945,-74.094631,Home (private),40.883668,-74.056263,Medical Center
+207,2025-05-28 19:00:00,40.883668,-74.056263,Medical Center,40.844945,-74.094631,Home (private)
+207,2025-05-28 20:00:00,40.844945,-74.094631,Home (private),40.88899,-74.055812,Residential Building (Apartment / Condo)

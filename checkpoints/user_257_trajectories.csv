@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+257,2025-05-28 08:00:00,40.767411,-73.965371,Home (private),40.751646,-73.99292,Coffee Shop
+257,2025-05-28 08:30:00,40.751646,-73.99292,Coffee Shop,40.742972,-74.006621,Office
+257,2025-05-28 09:00:00,40.742972,-74.006621,Office,40.766792,-73.962809,Mexican Restaurant
+257,2025-05-28 12:30:00,40.766792,-73.962809,Mexican Restaurant,40.742972,-74.006621,Office
+257,2025-05-28 13:30:00,40.742972,-74.006621,Office,40.770841,-73.95514,Gym / Fitness Center
+257,2025-05-28 17:30:00,40.770841,-73.95514,Gym / Fitness Center,40.727177,-74.000484,American Restaurant
+257,2025-05-28 19:00:00,40.727177,-74.000484,American Restaurant,40.783039,-73.980188,Comedy Club
+257,2025-05-28 21:00:00,40.783039,-73.980188,Comedy Club,40.767411,-73.965371,Home (private)

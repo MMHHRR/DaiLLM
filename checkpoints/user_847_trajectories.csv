@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+847,2025-05-28 07:30:00,40.624065,-74.000633,Home (private),40.726088,-74.00558,Office
+847,2025-05-28 08:00:00,40.726088,-74.00558,Office,40.728195,-74.005387,Mexican Restaurant
+847,2025-05-28 12:00:00,40.728195,-74.005387,Mexican Restaurant,40.726088,-74.00558,Office
+847,2025-05-28 13:00:00,40.726088,-74.00558,Office,40.759627,-73.974177,Gym / Fitness Center
+847,2025-05-28 17:00:00,40.759627,-73.974177,Gym / Fitness Center,40.725687,-74.005701,Coffee Shop
+847,2025-05-28 18:30:00,40.725687,-74.005701,Coffee Shop,40.624065,-74.000633,Home (private)

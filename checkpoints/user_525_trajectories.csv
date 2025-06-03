@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+525,2025-05-28 09:00:00,40.963241,-74.094631,Home (private),40.960621,-74.101695,College Academic Building
+525,2025-05-28 10:00:00,40.960621,-74.101695,College Academic Building,40.956405,-74.068815,Fast Food Restaurant
+525,2025-05-28 12:00:00,40.956405,-74.068815,Fast Food Restaurant,40.963241,-74.094631,Home (private)
+525,2025-05-28 13:00:00,40.963241,-74.094631,Home (private),40.959613,-74.103255,Playground
+525,2025-05-28 15:00:00,40.959613,-74.103255,Playground,40.955412,-74.068316,Gaming Cafe
+525,2025-05-28 16:30:00,40.955412,-74.068316,Gaming Cafe,40.963241,-74.094631,Home (private)
+525,2025-05-28 18:30:00,40.963241,-74.094631,Home (private),40.962935,-74.092494,Deli / Bodega
+525,2025-05-28 19:00:00,40.962935,-74.092494,Deli / Bodega,40.957854,-74.102572,Italian Restaurant
+525,2025-05-28 20:00:00,40.957854,-74.102572,Italian Restaurant,40.963241,-74.094631,Home (private)

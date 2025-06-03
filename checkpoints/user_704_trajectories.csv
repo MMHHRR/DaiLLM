@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+704,2025-05-28 07:00:00,40.729713,-74.188582,Home (private),40.732267,-74.063044,Train Station
+704,2025-05-28 08:00:00,40.732267,-74.063044,Train Station,40.728925,-74.065867,Community College
+704,2025-05-28 08:15:00,40.728925,-74.065867,Community College,40.730677,-74.065672,American Restaurant
+704,2025-05-28 12:00:00,40.730677,-74.065672,American Restaurant,40.732204,-74.062935,Drugstore / Pharmacy
+704,2025-05-28 13:00:00,40.732204,-74.062935,Drugstore / Pharmacy,40.73025,-74.064679,Gym / Fitness Center
+704,2025-05-28 14:00:00,40.73025,-74.064679,Gym / Fitness Center,40.917335,-74.075661,Mall
+704,2025-05-28 15:30:00,40.917335,-74.075661,Mall,40.732267,-74.063044,Train Station
+704,2025-05-28 17:00:00,40.732267,-74.063044,Train Station,40.730677,-74.065672,American Restaurant
+704,2025-05-28 17:30:00,40.730677,-74.065672,American Restaurant,40.760001,-73.996482,Bar
+704,2025-05-28 19:00:00,40.760001,-73.996482,Bar,40.729713,-74.188582,Home (private)

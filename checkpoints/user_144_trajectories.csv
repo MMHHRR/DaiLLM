@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+144,2025-05-28 08:00:00,40.772269,-73.930104,Home (private),40.766697,-73.921487,Subway
+144,2025-05-28 08:30:00,40.766697,-73.921487,Subway,40.770897,-73.989573,College Academic Building
+144,2025-05-28 09:00:00,40.770897,-73.989573,College Academic Building,40.75172,-73.992865,Fast Food Restaurant
+144,2025-05-28 11:00:00,40.75172,-73.992865,Fast Food Restaurant,40.770897,-73.989573,College Academic Building
+144,2025-05-28 12:00:00,40.770897,-73.989573,College Academic Building,40.766648,-73.920881,Coffee Shop
+144,2025-05-28 13:30:00,40.766648,-73.920881,Coffee Shop,40.770223,-73.988113,College Academic Building
+144,2025-05-28 15:00:00,40.770223,-73.988113,College Academic Building,40.766697,-73.921487,Subway
+144,2025-05-28 17:00:00,40.766697,-73.921487,Subway,40.828277,-73.926553,Stadium
+144,2025-05-28 18:00:00,40.828277,-73.926553,Stadium,40.766093,-73.983344,Fast Food Restaurant
+144,2025-05-28 20:30:00,40.766093,-73.983344,Fast Food Restaurant,40.772269,-73.930104,Home (private)

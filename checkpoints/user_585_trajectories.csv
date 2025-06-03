@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+585,2025-05-28 09:00:00,40.938558,-73.885129,Residential Building (Apartment / Condo),40.933422,-73.873143,Deli / Bodega
+585,2025-05-28 10:30:00,40.933422,-73.873143,Deli / Bodega,40.9647,-73.872003,Fast Food Restaurant
+585,2025-05-28 11:15:00,40.9647,-73.872003,Fast Food Restaurant,40.938634,-73.884956,Playground
+585,2025-05-28 12:00:00,40.938634,-73.884956,Playground,40.917768,-73.86441,Food
+585,2025-05-28 13:00:00,40.917768,-73.86441,Food,40.933141,-73.872565,Gas Station / Garage
+585,2025-05-28 14:30:00,40.933141,-73.872565,Gas Station / Garage,40.919027,-73.865369,Casino
+585,2025-05-28 16:00:00,40.919027,-73.865369,Casino,40.917768,-73.86441,Food
+585,2025-05-28 18:30:00,40.917768,-73.86441,Food,40.919027,-73.865369,Casino
+585,2025-05-28 20:00:00,40.919027,-73.865369,Casino,40.938558,-73.885129,Residential Building (Apartment / Condo)

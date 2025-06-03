@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+1055,2025-05-28 07:30:00,40.731763,-73.977921,Residential Building (Apartment / Condo),40.729023,-73.98145,Coffee Shop
+1055,2025-05-28 08:00:00,40.729023,-73.98145,Coffee Shop,40.725185,-73.996751,Office
+1055,2025-05-28 08:30:00,40.725185,-73.996751,Office,40.782804,-73.951759,Food & Drink Shop
+1055,2025-05-28 12:30:00,40.782804,-73.951759,Food & Drink Shop,40.725185,-73.996751,Office
+1055,2025-05-28 13:30:00,40.725185,-73.996751,Office,40.733391,-73.976084,Gym / Fitness Center
+1055,2025-05-28 17:00:00,40.733391,-73.976084,Gym / Fitness Center,40.728437,-73.981822,American Restaurant
+1055,2025-05-28 18:30:00,40.728437,-73.981822,American Restaurant,40.727486,-73.986322,Neighborhood
+1055,2025-05-28 20:00:00,40.727486,-73.986322,Neighborhood,40.733524,-74.004326,Clothing Store
+1055,2025-05-28 21:00:00,40.733524,-74.004326,Clothing Store,40.72958,-73.986914,Ice Cream Shop
+1055,2025-05-28 22:30:00,40.72958,-73.986914,Ice Cream Shop,40.729558,-73.977126,Home (private)

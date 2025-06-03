@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+133,2025-05-28 08:00:00,40.829479,-74.185202,Breakfast Spot,40.804086,-74.193229,Automotive Shop
+133,2025-05-28 09:00:00,40.804086,-74.193229,Automotive Shop,40.886914,-74.213419,Electronics Store
+133,2025-05-28 10:30:00,40.886914,-74.213419,Electronics Store,40.850802,-73.970546,Asian Restaurant
+133,2025-05-28 12:30:00,40.850802,-73.970546,Asian Restaurant,40.885551,-74.213591,Bookstore
+133,2025-05-28 14:00:00,40.885551,-74.213591,Bookstore,40.853877,-74.17295,American Restaurant
+133,2025-05-28 16:00:00,40.853877,-74.17295,American Restaurant,40.843503,-73.987545,Bar
+133,2025-05-28 18:00:00,40.843503,-73.987545,Bar,40.872523,-74.194729,Fast Food Restaurant

@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+465,2025-05-28 07:30:00,40.741673,-73.995763,Gym / Fitness Center,40.737099,-73.990398,Coffee Shop
+465,2025-05-28 08:30:00,40.737099,-73.990398,Coffee Shop,40.734311,-73.990991,Office
+465,2025-05-28 09:00:00,40.734311,-73.990991,Office,40.734481,-74.002934,American Restaurant
+465,2025-05-28 12:00:00,40.734481,-74.002934,American Restaurant,40.734311,-73.990991,Office
+465,2025-05-28 13:00:00,40.734311,-73.990991,Office,40.741499,-73.995482,Gym / Fitness Center
+465,2025-05-28 17:00:00,40.741499,-73.995482,Gym / Fitness Center,40.739187,-73.995785,Mediterranean Restaurant
+465,2025-05-28 18:30:00,40.739187,-73.995785,Mediterranean Restaurant,40.736137,-74.005923,Bar
+465,2025-05-28 20:00:00,40.736137,-74.005923,Bar,40.731986,-73.990203,Home

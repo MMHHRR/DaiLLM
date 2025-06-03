@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+930,2025-05-28 07:30:00,40.745804,-73.88307,Home (private),40.762959,-73.915591,Gym / Fitness Center
+930,2025-05-28 08:00:00,40.762959,-73.915591,Gym / Fitness Center,40.729958,-73.860792,Food & Drink Shop
+930,2025-05-28 09:00:00,40.729958,-73.860792,Food & Drink Shop,40.73021,-73.862509,Sandwich Place
+930,2025-05-28 12:30:00,40.73021,-73.862509,Sandwich Place,40.745804,-73.88307,Home (private)
+930,2025-05-28 13:30:00,40.745804,-73.88307,Home (private),40.762959,-73.915591,Gym / Fitness Center
+930,2025-05-28 17:00:00,40.762959,-73.915591,Gym / Fitness Center,40.734665,-73.874264,Japanese Restaurant
+930,2025-05-28 19:00:00,40.734665,-73.874264,Japanese Restaurant,40.746565,-73.882993,Food & Drink Shop
+930,2025-05-28 20:30:00,40.746565,-73.882993,Food & Drink Shop,40.745804,-73.88307,Home (private)

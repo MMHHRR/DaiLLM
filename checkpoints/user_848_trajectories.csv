@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+848,2025-05-28 07:30:00,40.69261,-73.991499,Gym / Fitness Center,40.72036,-73.996337,Café
+848,2025-05-28 09:00:00,40.72036,-73.996337,Café,40.674948,-73.98156,Italian Restaurant
+848,2025-05-28 12:30:00,40.674948,-73.98156,Italian Restaurant,40.731241,-73.988647,Convenience Store
+848,2025-05-28 14:00:00,40.731241,-73.988647,Convenience Store,40.72424,-73.997779,Gym / Fitness Center
+848,2025-05-28 16:00:00,40.72424,-73.997779,Gym / Fitness Center,40.724574,-73.995172,Spanish Restaurant
+848,2025-05-28 18:30:00,40.724574,-73.995172,Spanish Restaurant,40.690921,-73.995752,Bar
+848,2025-05-28 20:30:00,40.690921,-73.995752,Bar,40.731698,-73.989227,Music Venue

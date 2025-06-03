@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+156,2025-05-28 07:30:00,40.709072,-74.014792,Residential Building (Apartment / Condo),40.708265,-74.014546,Gym / Fitness Center
+156,2025-05-28 08:00:00,40.708265,-74.014546,Gym / Fitness Center,40.735125,-73.990099,Coffee Shop
+156,2025-05-28 09:00:00,40.735125,-73.990099,Coffee Shop,40.72721,-73.995017,Office
+156,2025-05-28 10:00:00,40.72721,-73.995017,Office,40.708303,-74.014419,American Restaurant
+156,2025-05-28 12:00:00,40.708303,-74.014419,American Restaurant,40.751374,-74.006127,Office
+156,2025-05-28 13:00:00,40.751374,-74.006127,Office,40.708265,-74.014546,Gym / Fitness Center
+156,2025-05-28 17:00:00,40.708265,-74.014546,Gym / Fitness Center,40.708169,-74.013369,Restaurant
+156,2025-05-28 18:30:00,40.708169,-74.013369,Restaurant,40.714869,-74.015389,Movie Theater
+156,2025-05-28 20:30:00,40.714869,-74.015389,Movie Theater,40.709072,-74.014792,Residential Building (Apartment / Condo)

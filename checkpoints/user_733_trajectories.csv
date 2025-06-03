@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+733,2025-05-28 08:30:00,40.760871,-73.98888,Home (private),40.771979,-73.987534,College Academic Building
+733,2025-05-28 09:00:00,40.771979,-73.987534,College Academic Building,40.736869,-73.991345,American Restaurant
+733,2025-05-28 12:00:00,40.736869,-73.991345,American Restaurant,40.771979,-73.987534,College Academic Building
+733,2025-05-28 13:30:00,40.771979,-73.987534,College Academic Building,40.761627,-73.990335,Coffee Shop
+733,2025-05-28 16:00:00,40.761627,-73.990335,Coffee Shop,40.735282,-73.990403,Park
+733,2025-05-28 17:00:00,40.735282,-73.990403,Park,40.759412,-73.991781,Diner
+733,2025-05-28 19:00:00,40.759412,-73.991781,Diner,40.769004,-73.98232,Coffee Shop
+733,2025-05-28 20:30:00,40.769004,-73.98232,Coffee Shop,40.760871,-73.98888,Home (private)

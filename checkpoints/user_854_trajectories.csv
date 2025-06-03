@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+854,2025-05-28 07:30:00,40.597704,-74.165099,Home (private),40.660511,-73.817298,Office
+854,2025-05-28 08:15:00,40.660511,-73.817298,Office,40.607893,-74.163508,Japanese Restaurant
+854,2025-05-28 12:00:00,40.607893,-74.163508,Japanese Restaurant,40.660511,-73.817298,Office
+854,2025-05-28 13:00:00,40.660511,-73.817298,Office,40.660511,-73.817298,Office
+854,2025-05-28 17:30:00,40.660511,-73.817298,Office,40.611722,-74.15903,American Restaurant
+854,2025-05-28 18:30:00,40.611722,-74.15903,American Restaurant,40.739398,-73.99321,General Entertainment
+854,2025-05-28 20:00:00,40.739398,-73.99321,General Entertainment,40.597704,-74.165099,Home (private)

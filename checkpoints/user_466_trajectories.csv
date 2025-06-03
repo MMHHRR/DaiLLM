@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+466,2025-05-28 07:30:00,40.758176,-73.970351,Gym / Fitness Center,40.748572,-73.992475,Café
+466,2025-05-28 09:00:00,40.748572,-73.992475,Café,40.755368,-73.96833,American Restaurant
+466,2025-05-28 12:30:00,40.755368,-73.96833,American Restaurant,40.759534,-73.961534,Department Store
+466,2025-05-28 14:00:00,40.759534,-73.961534,Department Store,40.758176,-73.970351,Gym / Fitness Center
+466,2025-05-28 16:00:00,40.758176,-73.970351,Gym / Fitness Center,40.751288,-73.97187,Italian Restaurant
+466,2025-05-28 19:30:00,40.751288,-73.97187,Italian Restaurant,40.756773,-73.967124,Bar
+466,2025-05-28 21:00:00,40.756773,-73.967124,Bar,40.735755,-74.000791,Bar

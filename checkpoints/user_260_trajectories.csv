@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+260,2025-05-28 07:00:00,40.784537,-73.979763,Gym / Fitness Center,40.738816,-73.993652,Office
+260,2025-05-28 08:30:00,40.738816,-73.993652,Office,40.734852,-73.991085,Food & Drink Shop
+260,2025-05-28 12:00:00,40.734852,-73.991085,Food & Drink Shop,40.738816,-73.993652,Office
+260,2025-05-28 13:00:00,40.738816,-73.993652,Office,40.784347,-73.979539,Gym / Fitness Center
+260,2025-05-28 18:00:00,40.784347,-73.979539,Gym / Fitness Center,40.75922,-73.9888,Mexican Restaurant
+260,2025-05-28 19:30:00,40.75922,-73.9888,Mexican Restaurant,40.735582,-74.00052,Bar
+260,2025-05-28 21:00:00,40.735582,-74.00052,Bar,40.736791,-73.995431,Home

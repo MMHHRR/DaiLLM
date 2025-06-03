@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+449,2025-05-28 08:30:00,40.717997,-73.959328,Coffee Shop,40.704733,-73.987738,General College & University
+449,2025-05-28 09:00:00,40.704733,-73.987738,General College & University,40.67335,-73.95708,Mexican Restaurant
+449,2025-05-28 12:00:00,40.67335,-73.95708,Mexican Restaurant,40.676851,-73.955708,Other Great Outdoors
+449,2025-05-28 13:30:00,40.676851,-73.955708,Other Great Outdoors,40.704733,-73.987738,General College & University
+449,2025-05-28 15:00:00,40.704733,-73.987738,General College & University,40.714047,-73.954921,Dessert Shop
+449,2025-05-28 17:00:00,40.714047,-73.954921,Dessert Shop,40.737798,-73.989692,American Restaurant
+449,2025-05-28 18:30:00,40.737798,-73.989692,American Restaurant,40.676851,-73.955708,Other Great Outdoors
+449,2025-05-28 20:00:00,40.676851,-73.955708,Other Great Outdoors,40.714838,-73.943462,Bar

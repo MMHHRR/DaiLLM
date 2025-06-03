@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+149,2025-05-28 06:30:00,40.755385,-73.922625,Gym / Fitness Center,40.755564,-73.922738,Bakery
+149,2025-05-28 08:00:00,40.755564,-73.922738,Bakery,40.755893,-73.920445,Deli / Bodega
+149,2025-05-28 10:30:00,40.755893,-73.920445,Deli / Bodega,40.755852,-73.919618,South American Restaurant
+149,2025-05-28 12:00:00,40.755852,-73.919618,South American Restaurant,40.755385,-73.922625,Gym / Fitness Center
+149,2025-05-28 14:00:00,40.755385,-73.922625,Gym / Fitness Center,40.755564,-73.922738,Bakery
+149,2025-05-28 15:30:00,40.755564,-73.922738,Bakery,40.755385,-73.922625,Gym / Fitness Center
+149,2025-05-28 18:00:00,40.755385,-73.922625,Gym / Fitness Center,40.757871,-73.920012,South American Restaurant
+149,2025-05-28 19:30:00,40.757871,-73.920012,South American Restaurant,40.755564,-73.922738,Bakery

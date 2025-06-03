@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+572,2025-05-28 12:00:00,40.778008,-73.954147,Gym / Fitness Center,40.776651,-73.952749,Mexican Restaurant
+572,2025-05-28 13:30:00,40.776651,-73.952749,Mexican Restaurant,40.758312,-73.970643,Café
+572,2025-05-28 15:00:00,40.758312,-73.970643,Café,40.781909,-73.948683,Bar
+572,2025-05-28 17:00:00,40.781909,-73.948683,Bar,40.775112,-73.95386,Italian Restaurant
+572,2025-05-28 19:00:00,40.775112,-73.95386,Italian Restaurant,40.769662,-73.957895,Bar
+572,2025-05-28 21:00:00,40.769662,-73.957895,Bar,40.774953,-73.953899,Ice Cream Shop

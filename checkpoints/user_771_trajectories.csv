@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+771,2025-05-28 06:30:00,40.679564,-73.984165,Gym / Fitness Center,40.744818,-73.995152,Food & Drink Shop
+771,2025-05-28 08:00:00,40.744818,-73.995152,Food & Drink Shop,40.732287,-73.99659,Vegetarian / Vegan Restaurant
+771,2025-05-28 12:30:00,40.732287,-73.99659,Vegetarian / Vegan Restaurant,40.741096,-73.992705,Gym / Fitness Center
+771,2025-05-28 14:00:00,40.741096,-73.992705,Gym / Fitness Center,40.743908,-73.995035,Sushi Restaurant
+771,2025-05-28 16:30:00,40.743908,-73.995035,Sushi Restaurant,40.681885,-73.976733,Spanish Restaurant
+771,2025-05-28 19:00:00,40.681885,-73.976733,Spanish Restaurant,40.756994,-73.989079,Movie Theater
+771,2025-05-28 21:30:00,40.756994,-73.989079,Movie Theater,40.77221,-73.928976,Bakery
+771,2025-05-28 23:50:00,40.77221,-73.928976,Bakery,40.743823,-74.006294,Bar

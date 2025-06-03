@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+936,2025-05-28 08:00:00,40.665212,-73.94186,Home (private),40.670018,-73.944211,General College & University
+936,2025-05-28 09:00:00,40.670018,-73.944211,General College & University,40.670039,-73.944317,Food & Drink Shop
+936,2025-05-28 12:00:00,40.670039,-73.944317,Food & Drink Shop,40.669116,-73.942838,Other Great Outdoors
+936,2025-05-28 13:00:00,40.669116,-73.942838,Other Great Outdoors,40.670018,-73.944211,General College & University
+936,2025-05-28 15:00:00,40.670018,-73.944211,General College & University,40.670039,-73.944317,Food & Drink Shop
+936,2025-05-28 17:30:00,40.670039,-73.944317,Food & Drink Shop,40.66436,-73.945939,Synagogue
+936,2025-05-28 18:30:00,40.66436,-73.945939,Synagogue,40.665212,-73.94186,Home (private)

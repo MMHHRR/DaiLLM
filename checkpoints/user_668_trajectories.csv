@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+668,2025-05-28 08:00:00,40.819655,-73.95009,University,40.822121,-73.953677,Fast Food Restaurant
+668,2025-05-28 12:30:00,40.822121,-73.953677,Fast Food Restaurant,40.663908,-73.970947,Park
+668,2025-05-28 14:00:00,40.663908,-73.970947,Park,40.758027,-73.982707,Indian Restaurant
+668,2025-05-28 15:30:00,40.758027,-73.982707,Indian Restaurant,40.755108,-73.986128,Café
+668,2025-05-28 18:00:00,40.755108,-73.986128,Café,40.756578,-73.991304,Bar
+668,2025-05-28 20:00:00,40.756578,-73.991304,Bar,40.822121,-73.953677,Fast Food Restaurant

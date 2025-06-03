@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+886,2025-05-28 08:00:00,40.72719,-73.986099,Coffee Shop,40.730034,-73.992332,Gym / Fitness Center
+886,2025-05-28 09:00:00,40.730034,-73.992332,Gym / Fitness Center,40.731226,-73.98888,Home (private)
+886,2025-05-28 10:30:00,40.731226,-73.98888,Home (private),40.726156,-73.983643,Breakfast Spot
+886,2025-05-28 12:00:00,40.726156,-73.983643,Breakfast Spot,40.72719,-73.986099,Coffee Shop
+886,2025-05-28 13:00:00,40.72719,-73.986099,Coffee Shop,40.761397,-73.976986,Art Museum
+886,2025-05-28 15:00:00,40.761397,-73.976986,Art Museum,40.730034,-73.992332,Gym / Fitness Center
+886,2025-05-28 17:00:00,40.730034,-73.992332,Gym / Fitness Center,40.725555,-73.986862,Thai Restaurant
+886,2025-05-28 19:00:00,40.725555,-73.986862,Thai Restaurant,40.725379,-73.983596,Bar
+886,2025-05-28 21:00:00,40.725379,-73.983596,Bar,40.731226,-73.98888,Home (private)

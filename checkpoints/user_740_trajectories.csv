@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+740,2025-05-28 07:30:00,40.714862,-74.082884,Home (private),40.726954,-74.046941,High School
+740,2025-05-28 08:00:00,40.726954,-74.046941,High School,40.720006,-74.094372,American Restaurant
+740,2025-05-28 12:00:00,40.720006,-74.094372,American Restaurant,40.723519,-74.039741,Food & Drink Shop
+740,2025-05-28 13:00:00,40.723519,-74.039741,Food & Drink Shop,40.726787,-74.031973,Asian Restaurant
+740,2025-05-28 14:30:00,40.726787,-74.031973,Asian Restaurant,40.702635,-74.050941,Park
+740,2025-05-28 16:00:00,40.702635,-74.050941,Park,40.714862,-74.082884,Home (private)
+740,2025-05-28 18:00:00,40.714862,-74.082884,Home (private),40.741828,-74.052322,Italian Restaurant
+740,2025-05-28 19:00:00,40.741828,-74.052322,Italian Restaurant,40.747536,-73.98622,Ice Cream Shop
+740,2025-05-28 20:30:00,40.747536,-73.98622,Ice Cream Shop,40.714862,-74.082884,Home (private)

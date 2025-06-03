@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+1070,2025-05-28 07:30:00,40.694842,-73.994272,Neighborhood,40.694673,-73.994082,Coffee Shop
+1070,2025-05-28 08:00:00,40.694673,-73.994082,Coffee Shop,40.697721,-73.99302,College Academic Building
+1070,2025-05-28 09:00:00,40.697721,-73.99302,College Academic Building,40.697868,-73.991644,Diner
+1070,2025-05-28 12:00:00,40.697868,-73.991644,Diner,40.697721,-73.99302,College Academic Building
+1070,2025-05-28 13:00:00,40.697721,-73.99302,College Academic Building,40.697803,-73.994145,Gym / Fitness Center
+1070,2025-05-28 15:30:00,40.697803,-73.994145,Gym / Fitness Center,40.694673,-73.994082,Coffee Shop
+1070,2025-05-28 17:30:00,40.694673,-73.994082,Coffee Shop,40.704273,-73.986759,Scenic Lookout
+1070,2025-05-28 19:00:00,40.704273,-73.986759,Scenic Lookout,40.702435,-73.987073,Bar
+1070,2025-05-28 20:30:00,40.702435,-73.987073,Bar,40.694842,-73.994272,Neighborhood

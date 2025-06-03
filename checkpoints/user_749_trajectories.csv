@@ -1,0 +1,12 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+749,2025-05-28 08:00:00,40.770854,-74.059387,Home (private),40.714428,-74.087361,Light Rail
+749,2025-05-28 08:30:00,40.714428,-74.087361,Light Rail,40.710336,-74.087853,College Academic Building
+749,2025-05-28 08:40:00,40.710336,-74.087853,College Academic Building,40.710315,-74.08782,Student Center
+749,2025-05-28 12:00:00,40.710315,-74.08782,Student Center,40.786214,-74.045604,Japanese Restaurant
+749,2025-05-28 13:00:00,40.786214,-74.045604,Japanese Restaurant,40.710124,-74.087246,College Academic Building
+749,2025-05-28 14:30:00,40.710124,-74.087246,College Academic Building,40.771046,-74.065758,Animal Shelter
+749,2025-05-28 16:00:00,40.771046,-74.065758,Animal Shelter,40.714428,-74.087361,Light Rail
+749,2025-05-28 17:30:00,40.714428,-74.087361,Light Rail,40.770854,-74.059387,Home (private)
+749,2025-05-28 18:00:00,40.770854,-74.059387,Home (private),40.798331,-74.06529,Sandwich Place
+749,2025-05-28 20:00:00,40.798331,-74.06529,Sandwich Place,40.785318,-74.04665,Movie Theater
+749,2025-05-28 21:30:00,40.785318,-74.04665,Movie Theater,40.770854,-74.059387,Home (private)

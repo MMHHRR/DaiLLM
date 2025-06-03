@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+85,2025-05-28 14:00:00,40.715982,-74.016502,Library,40.690018,-73.993416,Food & Drink Shop
+85,2025-05-28 15:30:00,40.690018,-73.993416,Food & Drink Shop,40.6911,-73.991603,Bagel Shop
+85,2025-05-28 16:30:00,40.6911,-73.991603,Bagel Shop,40.693249,-73.991379,Food & Drink Shop
+85,2025-05-28 17:30:00,40.693249,-73.991379,Food & Drink Shop,40.688427,-73.978792,Theater
+85,2025-05-28 19:00:00,40.688427,-73.978792,Theater,40.690194,-73.992068,Pizza Place
+85,2025-05-28 21:00:00,40.690194,-73.992068,Pizza Place,40.729658,-73.998515,Bar

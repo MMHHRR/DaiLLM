@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+397,2025-05-28 08:00:00,40.744823,-73.936456,Community College,40.76907,-73.954979,Deli / Bodega
+397,2025-05-28 12:00:00,40.76907,-73.954979,Deli / Bodega,40.749143,-73.937838,Subway
+397,2025-05-28 13:00:00,40.749143,-73.937838,Subway,40.762567,-73.7587,Medical Center
+397,2025-05-28 14:30:00,40.762567,-73.7587,Medical Center,40.744823,-73.936456,Community College
+397,2025-05-28 16:00:00,40.744823,-73.936456,Community College,40.777741,-73.954704,Fast Food Restaurant
+397,2025-05-28 18:00:00,40.777741,-73.954704,Fast Food Restaurant,40.717518,-73.77778,Beer Garden
+397,2025-05-28 20:00:00,40.717518,-73.77778,Beer Garden,40.749143,-73.937838,Subway

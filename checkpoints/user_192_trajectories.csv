@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+192,2025-05-28 08:30:00,40.740073,-73.995494,Café,40.721294,-73.983994,Breakfast Spot
+192,2025-05-28 09:30:00,40.721294,-73.983994,Breakfast Spot,40.738656,-73.993777,Mediterranean Restaurant
+192,2025-05-28 12:00:00,40.738656,-73.993777,Mediterranean Restaurant,40.778937,-73.962298,Art Museum
+192,2025-05-28 14:30:00,40.778937,-73.962298,Art Museum,40.72911,-73.984245,Ramen / Noodle House
+192,2025-05-28 17:00:00,40.72911,-73.984245,Ramen / Noodle House,40.726599,-73.995976,Bar
+192,2025-05-28 19:00:00,40.726599,-73.995976,Bar,40.719314,-73.985715,Japanese Restaurant
+192,2025-05-28 21:30:00,40.719314,-73.985715,Japanese Restaurant,40.740179,-74.005605,Bar

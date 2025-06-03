@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+341,2025-05-28 16:00:00,40.757362,-73.89483,Home (private),40.750248,-73.989916,Clothing Store
+341,2025-05-28 16:15:00,40.750248,-73.989916,Clothing Store,40.736527,-73.99056,Food & Drink Shop
+341,2025-05-28 17:00:00,40.736527,-73.99056,Food & Drink Shop,40.735282,-73.990403,Park
+341,2025-05-28 18:30:00,40.735282,-73.990403,Park,40.733178,-73.99116,Coffee Shop
+341,2025-05-28 19:15:00,40.733178,-73.99116,Coffee Shop,40.735582,-74.00052,Bar
+341,2025-05-28 20:00:00,40.735582,-74.00052,Bar,40.755363,-73.888114,Food & Drink Shop
+341,2025-05-28 22:00:00,40.755363,-73.888114,Food & Drink Shop,40.757362,-73.89483,Home (private)

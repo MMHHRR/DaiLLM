@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+409,2025-05-28 07:30:00,40.775171,-73.983768,Residential Building (Apartment / Condo),40.737841,-73.988498,Coffee Shop
+409,2025-05-28 08:00:00,40.737841,-73.988498,Coffee Shop,40.739618,-73.9922,Office
+409,2025-05-28 09:00:00,40.739618,-73.9922,Office,40.7842,-73.973783,Vegetarian / Vegan Restaurant
+409,2025-05-28 12:30:00,40.7842,-73.973783,Vegetarian / Vegan Restaurant,40.739618,-73.9922,Office
+409,2025-05-28 13:30:00,40.739618,-73.9922,Office,40.777711,-73.977347,Gym / Fitness Center
+409,2025-05-28 17:00:00,40.777711,-73.977347,Gym / Fitness Center,40.775512,-73.981869,Mediterranean Restaurant
+409,2025-05-28 18:30:00,40.775512,-73.981869,Mediterranean Restaurant,40.774867,-73.981795,Movie Theater
+409,2025-05-28 20:00:00,40.774867,-73.981795,Movie Theater,40.775171,-73.983768,Residential Building (Apartment / Condo)

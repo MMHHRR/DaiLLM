@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+674,2025-05-28 08:30:00,40.724285,-74.001964,Coffee Shop,40.729086,-73.996022,College Academic Building
+674,2025-05-28 10:00:00,40.729086,-73.996022,College Academic Building,40.722186,-73.997124,Vegetarian / Vegan Restaurant
+674,2025-05-28 12:30:00,40.722186,-73.997124,Vegetarian / Vegan Restaurant,40.720896,-74.010127,Coffee Shop
+674,2025-05-28 14:00:00,40.720896,-74.010127,Coffee Shop,40.741437,-73.993319,Spa / Massage
+674,2025-05-28 16:00:00,40.741437,-73.993319,Spa / Massage,40.730083,-74.000607,American Restaurant
+674,2025-05-28 18:00:00,40.730083,-74.000607,American Restaurant,40.730261,-73.990185,Bar
+674,2025-05-28 20:00:00,40.730261,-73.990185,Bar,40.733596,-74.003139,Music Venue

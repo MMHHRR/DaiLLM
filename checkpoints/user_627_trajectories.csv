@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+627,2025-05-28 10:00:00,40.7955,-74.024137,Home (private),40.906511,-74.031415,Department Store
+627,2025-05-28 11:30:00,40.906511,-74.031415,Department Store,40.812076,-73.986053,Cosmetics Shop
+627,2025-05-28 13:00:00,40.812076,-73.986053,Cosmetics Shop,40.840057,-73.981221,American Restaurant
+627,2025-05-28 14:30:00,40.840057,-73.981221,American Restaurant,40.867016,-73.997488,Other Great Outdoors
+627,2025-05-28 16:00:00,40.867016,-73.997488,Other Great Outdoors,40.797961,-74.020594,Bar
+627,2025-05-28 18:00:00,40.797961,-74.020594,Bar,40.788844,-74.044617,Steakhouse
+627,2025-05-28 20:00:00,40.788844,-74.044617,Steakhouse,40.7955,-74.024137,Home (private)

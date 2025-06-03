@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+792,2025-05-28 08:30:00,40.928713,-74.059387,Home (private),40.946098,-74.071498,Coffee Shop
+792,2025-05-28 09:00:00,40.946098,-74.071498,Coffee Shop,40.951965,-74.090252,College Academic Building
+792,2025-05-28 09:30:00,40.951965,-74.090252,College Academic Building,40.910145,-74.072808,Deli / Bodega
+792,2025-05-28 12:00:00,40.910145,-74.072808,Deli / Bodega,40.917923,-74.058366,Sandwich Place
+792,2025-05-28 12:30:00,40.917923,-74.058366,Sandwich Place,40.951965,-74.090252,College Academic Building
+792,2025-05-28 13:00:00,40.951965,-74.090252,College Academic Building,40.91922,-74.064814,Mexican Restaurant
+792,2025-05-28 16:00:00,40.91922,-74.064814,Mexican Restaurant,40.946098,-74.071498,Coffee Shop
+792,2025-05-28 17:30:00,40.946098,-74.071498,Coffee Shop,40.915329,-74.076701,Movie Theater
+792,2025-05-28 19:00:00,40.915329,-74.076701,Movie Theater,40.928713,-74.059387,Home (private)

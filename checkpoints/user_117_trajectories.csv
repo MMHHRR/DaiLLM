@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+117,2025-05-28 08:00:00,40.728982,-73.995838,University,40.730379,-73.995959,College Academic Building
+117,2025-05-28 12:30:00,40.730379,-73.995959,College Academic Building,40.714487,-73.998839,Chinese Restaurant
+117,2025-05-28 13:30:00,40.714487,-73.998839,Chinese Restaurant,40.730129,-73.997716,Student Center
+117,2025-05-28 15:00:00,40.730129,-73.997716,Student Center,40.726803,-73.996868,Gym / Fitness Center
+117,2025-05-28 17:00:00,40.726803,-73.996868,Gym / Fitness Center,40.633577,-74.006455,Bar
+117,2025-05-28 19:00:00,40.633577,-74.006455,Bar,40.719698,-73.987696,American Restaurant
+117,2025-05-28 21:30:00,40.719698,-73.987696,American Restaurant,40.691722,-73.984406,Hotel

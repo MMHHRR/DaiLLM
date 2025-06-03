@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+447,2025-05-28 08:30:00,40.839139,-74.15647,Gym / Fitness Center,40.710421,-74.007762,Coffee Shop
+447,2025-05-28 09:30:00,40.710421,-74.007762,Coffee Shop,40.824649,-74.135603,Department Store
+447,2025-05-28 10:15:00,40.824649,-74.135603,Department Store,40.803325,-74.146335,Fast Food Restaurant
+447,2025-05-28 12:00:00,40.803325,-74.146335,Fast Food Restaurant,40.839139,-74.15647,Gym / Fitness Center
+447,2025-05-28 13:00:00,40.839139,-74.15647,Gym / Fitness Center,40.780094,-74.16505,Bus Station
+447,2025-05-28 14:30:00,40.780094,-74.16505,Bus Station,40.709626,-74.006391,Mexican Restaurant
+447,2025-05-28 15:00:00,40.709626,-74.006391,Mexican Restaurant,40.839139,-74.15647,Gym / Fitness Center
+447,2025-05-28 17:00:00,40.839139,-74.15647,Gym / Fitness Center,40.707921,-74.006076,Korean Restaurant
+447,2025-05-28 18:30:00,40.707921,-74.006076,Korean Restaurant,40.710421,-74.007762,Coffee Shop

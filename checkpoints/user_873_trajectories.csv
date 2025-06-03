@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+873,2025-05-28 07:30:00,40.602672,-74.129868,Home (private),40.62527,-74.156203,Gym / Fitness Center
+873,2025-05-28 08:00:00,40.62527,-74.156203,Gym / Fitness Center,40.624377,-74.148583,Breakfast Spot
+873,2025-05-28 09:30:00,40.624377,-74.148583,Breakfast Spot,40.620956,-74.090767,Cafe
+873,2025-05-28 10:30:00,40.620956,-74.090767,Cafe,40.611785,-74.15868,Sushi Restaurant
+873,2025-05-28 12:00:00,40.611785,-74.15868,Sushi Restaurant,40.584757,-74.085102,Medical Center
+873,2025-05-28 13:30:00,40.584757,-74.085102,Medical Center,40.62527,-74.156203,Gym / Fitness Center
+873,2025-05-28 15:00:00,40.62527,-74.156203,Gym / Fitness Center,40.613957,-74.157574,Vietnamese Restaurant
+873,2025-05-28 17:00:00,40.613957,-74.157574,Vietnamese Restaurant,40.611785,-74.15868,Sushi Restaurant
+873,2025-05-28 19:00:00,40.611785,-74.15868,Sushi Restaurant,40.6311,-74.027756,Bar
+873,2025-05-28 21:00:00,40.6311,-74.027756,Bar,40.602672,-74.129868,Home (private)

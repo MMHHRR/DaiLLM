@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+221,2025-05-28 08:30:00,40.834227,-73.889337,Office,40.976222,-73.945331,Italian Restaurant
+221,2025-05-28 12:00:00,40.976222,-73.945331,Italian Restaurant,40.834227,-73.889337,Office
+221,2025-05-28 13:00:00,40.834227,-73.889337,Office,40.972154,-73.960905,Coffee Shop
+221,2025-05-28 17:00:00,40.972154,-73.960905,Coffee Shop,40.826414,-73.921243,American Restaurant
+221,2025-05-28 18:00:00,40.826414,-73.921243,American Restaurant,40.915523,-74.057379,Department Store
+221,2025-05-28 19:30:00,40.915523,-74.057379,Department Store,40.833322,-73.894316,Deli / Bodega
+221,2025-05-28 20:30:00,40.833322,-73.894316,Deli / Bodega,40.874925,-73.907926,Home

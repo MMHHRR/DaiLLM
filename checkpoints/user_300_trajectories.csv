@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+300,2025-05-28 07:30:00,40.851383,-74.000633,Home (private),40.926105,-74.099257,Breakfast Spot
+300,2025-05-28 08:00:00,40.926105,-74.099257,Breakfast Spot,40.889509,-74.04032,Community College
+300,2025-05-28 09:00:00,40.889509,-74.04032,Community College,40.848164,-73.997662,Other Great Outdoors
+300,2025-05-28 12:00:00,40.848164,-73.997662,Other Great Outdoors,40.808125,-73.998735,Italian Restaurant
+300,2025-05-28 13:30:00,40.808125,-73.998735,Italian Restaurant,40.912448,-73.998075,Music Store
+300,2025-05-28 15:00:00,40.912448,-73.998075,Music Store,40.870507,-73.956937,Gym / Fitness Center
+300,2025-05-28 17:00:00,40.870507,-73.956937,Gym / Fitness Center,40.848164,-73.997662,Other Great Outdoors
+300,2025-05-28 18:30:00,40.848164,-73.997662,Other Great Outdoors,40.855758,-74.187662,Bar
+300,2025-05-28 20:00:00,40.855758,-74.187662,Bar,40.933143,-74.11995,Convention Center
+300,2025-05-28 22:00:00,40.933143,-74.11995,Convention Center,40.851383,-74.000633,Home (private)

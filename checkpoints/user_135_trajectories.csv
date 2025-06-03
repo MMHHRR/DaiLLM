@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+135,2025-05-28 08:00:00,40.740874,-73.987563,Residential Building (Apartment / Condo),40.708515,-74.007282,Office
+135,2025-05-28 09:00:00,40.708515,-74.007282,Office,40.710227,-74.007091,American Restaurant
+135,2025-05-28 12:30:00,40.710227,-74.007091,American Restaurant,40.708515,-74.007282,Office
+135,2025-05-28 13:30:00,40.708515,-74.007282,Office,40.708515,-74.007282,Office
+135,2025-05-28 17:00:00,40.708515,-74.007282,Office,40.741348,-73.996567,Japanese Restaurant
+135,2025-05-28 19:00:00,40.741348,-73.996567,Japanese Restaurant,40.731698,-73.989227,Music Venue
+135,2025-05-28 21:00:00,40.731698,-73.989227,Music Venue,40.719162,-73.997743,Bar
+135,2025-05-28 23:00:00,40.719162,-73.997743,Bar,40.740874,-73.987563,Residential Building (Apartment / Condo)

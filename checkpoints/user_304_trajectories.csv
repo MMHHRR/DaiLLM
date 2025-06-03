@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+304,2025-05-28 08:00:00,40.74781,-73.989165,Coffee Shop,40.719617,-73.843575,Clothing Store
+304,2025-05-28 10:30:00,40.719617,-73.843575,Clothing Store,40.742944,-73.919992,Fast Food Restaurant
+304,2025-05-28 12:00:00,40.742944,-73.919992,Fast Food Restaurant,40.6914,-73.987224,Drugstore / Pharmacy
+304,2025-05-28 13:30:00,40.6914,-73.987224,Drugstore / Pharmacy,40.720402,-73.844452,Coffee Shop
+304,2025-05-28 15:00:00,40.720402,-73.844452,Coffee Shop,40.748547,-73.98837,Jewelry Store
+304,2025-05-28 18:00:00,40.748547,-73.98837,Jewelry Store,40.745748,-73.919997,Spanish Restaurant
+304,2025-05-28 19:30:00,40.745748,-73.919997,Spanish Restaurant,40.763755,-73.914578,Bar
+304,2025-05-28 21:00:00,40.763755,-73.914578,Bar,40.749695,-73.976483,Bar

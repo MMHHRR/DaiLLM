@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+189,2025-05-28 09:00:00,40.797262,-74.176841,Home (private),40.740917,-74.175138,University
+189,2025-05-28 10:00:00,40.740917,-74.175138,University,40.862487,-73.987287,Korean Restaurant
+189,2025-05-28 12:00:00,40.862487,-73.987287,Korean Restaurant,40.823269,-74.156119,Coffee Shop
+189,2025-05-28 13:00:00,40.823269,-74.156119,Coffee Shop,40.742539,-74.178449,College Academic Building
+189,2025-05-28 14:00:00,40.742539,-74.178449,College Academic Building,40.839139,-74.15647,Gym / Fitness Center
+189,2025-05-28 16:00:00,40.839139,-74.15647,Gym / Fitness Center,40.803813,-74.19446,Diner
+189,2025-05-28 17:30:00,40.803813,-74.19446,Diner,40.749541,-73.986611,Clothing Store
+189,2025-05-28 19:00:00,40.749541,-73.986611,Clothing Store,40.740917,-74.175138,University
+189,2025-05-28 20:00:00,40.740917,-74.175138,University,40.797262,-74.176841,Home (private)

@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+675,2025-05-28 08:00:00,40.772298,-73.949633,Coffee Shop,40.779373,-73.955071,College Academic Building
+675,2025-05-28 09:30:00,40.779373,-73.955071,College Academic Building,40.777871,-73.954761,Mexican Restaurant
+675,2025-05-28 12:00:00,40.777871,-73.954761,Mexican Restaurant,40.774183,-73.959635,Coffee Shop
+675,2025-05-28 13:30:00,40.774183,-73.959635,Coffee Shop,40.746243,-73.992837,Gym / Fitness Center
+675,2025-05-28 15:00:00,40.746243,-73.992837,Gym / Fitness Center,40.745495,-73.990931,Coffee Shop
+675,2025-05-28 17:00:00,40.745495,-73.990931,Coffee Shop,40.775188,-73.980647,French Restaurant
+675,2025-05-28 19:00:00,40.775188,-73.980647,French Restaurant,40.728543,-73.984699,Bar

@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+72,2025-05-28 08:00:00,40.66276,-73.983017,Gym / Fitness Center,40.689649,-73.992413,Food & Drink Shop
+72,2025-05-28 09:30:00,40.689649,-73.992413,Food & Drink Shop,40.66276,-73.983017,Gym / Fitness Center
+72,2025-05-28 10:30:00,40.66276,-73.983017,Gym / Fitness Center,40.684499,-73.991911,Food & Drink Shop
+72,2025-05-28 12:00:00,40.684499,-73.991911,Food & Drink Shop,40.737743,-73.978317,Medical Center
+72,2025-05-28 13:00:00,40.737743,-73.978317,Medical Center,40.664119,-73.983953,Salon / Barbershop
+72,2025-05-28 14:00:00,40.664119,-73.983953,Salon / Barbershop,40.66276,-73.983017,Gym / Fitness Center
+72,2025-05-28 15:00:00,40.66276,-73.983017,Gym / Fitness Center,40.689649,-73.992413,Food & Drink Shop
+72,2025-05-28 16:30:00,40.689649,-73.992413,Food & Drink Shop,40.667799,-73.980762,Spa / Massage
+72,2025-05-28 18:00:00,40.667799,-73.980762,Spa / Massage,40.66276,-73.983017,Gym / Fitness Center

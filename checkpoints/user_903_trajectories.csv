@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+903,2025-05-28 07:30:00,40.749323,-73.977126,Home (private),40.740092,-73.98607,Gym / Fitness Center
+903,2025-05-28 08:00:00,40.740092,-73.98607,Gym / Fitness Center,40.756283,-73.993422,Office
+903,2025-05-28 09:00:00,40.756283,-73.993422,Office,40.742309,-73.983391,Indian Restaurant
+903,2025-05-28 12:00:00,40.742309,-73.983391,Indian Restaurant,40.756283,-73.993422,Office
+903,2025-05-28 13:00:00,40.756283,-73.993422,Office,40.72411,-73.980818,Bar
+903,2025-05-28 17:30:00,40.72411,-73.980818,Bar,40.733891,-73.992957,Ramen / Noodle House
+903,2025-05-28 19:30:00,40.733891,-73.992957,Ramen / Noodle House,40.749323,-73.977126,Home (private)

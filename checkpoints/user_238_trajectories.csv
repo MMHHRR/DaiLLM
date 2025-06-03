@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+238,2025-05-28 08:00:00,40.671756,-73.918346,Home (private),40.767529,-73.989766,Coffee Shop
+238,2025-05-28 09:30:00,40.767529,-73.989766,Coffee Shop,40.669116,-73.942838,Park
+238,2025-05-28 10:00:00,40.669116,-73.942838,Park,40.675955,-73.923797,French Restaurant
+238,2025-05-28 12:00:00,40.675955,-73.923797,French Restaurant,40.669116,-73.942838,Other Great Outdoors
+238,2025-05-28 14:00:00,40.669116,-73.942838,Other Great Outdoors,40.768251,-73.989571,General Entertainment
+238,2025-05-28 16:00:00,40.768251,-73.989571,General Entertainment,40.675955,-73.923797,French Restaurant
+238,2025-05-28 19:00:00,40.675955,-73.923797,French Restaurant,40.671756,-73.918346,Home (private)

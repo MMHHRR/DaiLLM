@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+224,2025-05-28 08:00:00,40.76529,-73.819848,Coffee Shop,40.750037,-73.976486,Office
+224,2025-05-28 09:00:00,40.750037,-73.976486,Office,40.763734,-73.82826,Japanese Restaurant
+224,2025-05-28 12:30:00,40.763734,-73.82826,Japanese Restaurant,40.750037,-73.976486,Office
+224,2025-05-28 13:30:00,40.750037,-73.976486,Office,40.757149,-73.836522,Food & Drink Shop
+224,2025-05-28 17:00:00,40.757149,-73.836522,Food & Drink Shop,40.734616,-73.868912,American Restaurant
+224,2025-05-28 18:00:00,40.734616,-73.868912,American Restaurant,40.759558,-73.829249,Dim Sum Restaurant
+224,2025-05-28 20:00:00,40.759558,-73.829249,Dim Sum Restaurant,40.76529,-73.819848,Coffee Shop
+224,2025-05-28 21:30:00,40.76529,-73.819848,Coffee Shop,40.740575,-73.899858,Gas Station / Garage
+224,2025-05-28 22:30:00,40.740575,-73.899858,Gas Station / Garage,,,Home

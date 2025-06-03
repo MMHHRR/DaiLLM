@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+23,2025-05-28 07:30:00,40.813431,-73.94186,Home (private),40.808451,-73.945118,Gym / Fitness Center
+23,2025-05-28 08:15:00,40.808451,-73.945118,Gym / Fitness Center,40.75131,-73.983793,Café
+23,2025-05-28 09:45:00,40.75131,-73.983793,Café,40.703659,-73.986765,Office
+23,2025-05-28 10:30:00,40.703659,-73.986765,Office,40.748027,-73.939751,Deli / Bodega
+23,2025-05-28 12:30:00,40.748027,-73.939751,Deli / Bodega,40.808534,-73.945124,American Restaurant
+23,2025-05-28 13:30:00,40.808534,-73.945124,American Restaurant,40.804593,-73.94358,Park
+23,2025-05-28 15:00:00,40.804593,-73.94358,Park,40.808451,-73.945118,Gym / Fitness Center
+23,2025-05-28 16:30:00,40.808451,-73.945118,Gym / Fitness Center,40.751238,-73.983557,Bar
+23,2025-05-28 18:30:00,40.751238,-73.983557,Bar,40.80346,-73.948654,Southern / Soul Food Restaurant
+23,2025-05-28 20:00:00,40.80346,-73.948654,Southern / Soul Food Restaurant,40.813431,-73.94186,Home (private)

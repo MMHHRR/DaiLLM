@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+892,2025-05-28 08:30:00,40.886056,-74.147668,Office,40.885226,-74.154959,Deli / Bodega
+892,2025-05-28 12:00:00,40.885226,-74.154959,Deli / Bodega,40.886056,-74.147668,Office
+892,2025-05-28 13:00:00,40.886056,-74.147668,Office,40.870743,-74.182302,American Restaurant
+892,2025-05-28 16:00:00,40.870743,-74.182302,American Restaurant,40.726805,-73.957422,Bar
+892,2025-05-28 18:30:00,40.726805,-73.957422,Bar,40.94618,-74.147407,Italian Restaurant
+892,2025-05-28 20:30:00,40.94618,-74.147407,Italian Restaurant,40.739398,-73.99321,General Entertainment

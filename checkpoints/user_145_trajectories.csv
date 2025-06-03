@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+145,2025-05-28 07:00:00,40.817302,-73.935732,Gym / Fitness Center,40.805816,-73.954394,Food & Drink Shop
+145,2025-05-28 08:30:00,40.805816,-73.954394,Food & Drink Shop,40.803562,-73.94186,Home (private)
+145,2025-05-28 09:30:00,40.803562,-73.94186,Home (private),40.73891,-73.991413,Restaurant
+145,2025-05-28 12:00:00,40.73891,-73.991413,Restaurant,40.722555,-73.999408,Gym / Fitness Center
+145,2025-05-28 14:00:00,40.722555,-73.999408,Gym / Fitness Center,40.742656,-73.989015,Food Truck
+145,2025-05-28 15:30:00,40.742656,-73.989015,Food Truck,40.739398,-73.99321,General Entertainment
+145,2025-05-28 16:30:00,40.739398,-73.99321,General Entertainment,40.743114,-73.989175,Bar
+145,2025-05-28 19:00:00,40.743114,-73.989175,Bar,40.803562,-73.94186,Home (private)

@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+198,2025-05-28 07:30:00,40.75406,-73.980251,Gym / Fitness Center,40.714932,-74.011438,Café
+198,2025-05-28 09:00:00,40.714932,-74.011438,Café,40.713982,-74.005955,Sporting Goods Shop
+198,2025-05-28 10:30:00,40.713982,-74.005955,Sporting Goods Shop,40.716072,-74.008905,Latin American Restaurant
+198,2025-05-28 12:00:00,40.716072,-74.008905,Latin American Restaurant,40.754263,-73.980316,Gym / Fitness Center
+198,2025-05-28 13:30:00,40.754263,-73.980316,Gym / Fitness Center,40.762377,-73.974621,Bar
+198,2025-05-28 15:30:00,40.762377,-73.974621,Bar,40.716836,-74.008111,American Restaurant
+198,2025-05-28 18:00:00,40.716836,-74.008111,American Restaurant,40.71582,-74.00887,Bar
+198,2025-05-28 20:00:00,40.71582,-74.00887,Bar,40.719652,-73.999672,Hotel

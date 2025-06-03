@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+834,2025-05-28 08:00:00,40.869662,-74.200323,Home (private),40.870365,-74.198956,College Academic Building
+834,2025-05-28 09:00:00,40.870365,-74.198956,College Academic Building,40.882274,-74.212174,Food & Drink Shop
+834,2025-05-28 12:00:00,40.882274,-74.212174,Food & Drink Shop,40.870365,-74.198956,College Academic Building
+834,2025-05-28 13:00:00,40.870365,-74.198956,College Academic Building,40.834873,-74.226206,Gym / Fitness Center
+834,2025-05-28 16:00:00,40.834873,-74.226206,Gym / Fitness Center,40.834873,-74.225148,Bar
+834,2025-05-28 17:30:00,40.834873,-74.225148,Bar,40.834873,-74.225148,Bar
+834,2025-05-28 19:00:00,40.834873,-74.225148,Bar,40.869662,-74.200323,Home (private)

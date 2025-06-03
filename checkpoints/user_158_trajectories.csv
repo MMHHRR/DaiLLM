@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+158,2025-05-28 08:30:00,40.750991,-73.98888,Home (private),40.746983,-73.985055,Office
+158,2025-05-28 09:00:00,40.746983,-73.985055,Office,40.747399,-73.983637,Mediterranean Restaurant
+158,2025-05-28 12:30:00,40.747399,-73.983637,Mediterranean Restaurant,40.746983,-73.985055,Office
+158,2025-05-28 13:30:00,40.746983,-73.985055,Office,40.718721,-74.039912,Gym / Fitness Center
+158,2025-05-28 17:00:00,40.718721,-74.039912,Gym / Fitness Center,40.718226,-74.04382,American Restaurant
+158,2025-05-28 18:30:00,40.718226,-74.04382,American Restaurant,40.756427,-73.98894,Arts & Entertainment
+158,2025-05-28 20:00:00,40.756427,-73.98894,Arts & Entertainment,40.750991,-73.98888,Home (private)

@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+141,2025-05-28 08:30:00,40.69387,-73.987452,Coffee Shop,40.726048,-73.790902,Office
+141,2025-05-28 09:00:00,40.726048,-73.790902,Office,40.806202,-73.94149,Vegetarian / Vegan Restaurant
+141,2025-05-28 12:30:00,40.806202,-73.94149,Vegetarian / Vegan Restaurant,40.708722,-73.747019,Building
+141,2025-05-28 14:00:00,40.708722,-73.747019,Building,40.769662,-73.957895,Bar
+141,2025-05-28 18:00:00,40.769662,-73.957895,Bar,40.75922,-73.9888,Mexican Restaurant
+141,2025-05-28 20:00:00,40.75922,-73.9888,Mexican Restaurant,40.835502,-73.861127,Coffee Shop

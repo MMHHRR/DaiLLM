@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+599,2025-05-28 07:30:00,40.715155,-73.960375,Gym / Fitness Center,40.708556,-73.958416,Food & Drink Shop
+599,2025-05-28 08:30:00,40.708556,-73.958416,Food & Drink Shop,40.75458,-73.994094,Office
+599,2025-05-28 09:00:00,40.75458,-73.994094,Office,40.753378,-73.992751,Sandwich Place
+599,2025-05-28 12:00:00,40.753378,-73.992751,Sandwich Place,40.75458,-73.994094,Office
+599,2025-05-28 13:00:00,40.75458,-73.994094,Office,40.715155,-73.960375,Gym / Fitness Center
+599,2025-05-28 17:30:00,40.715155,-73.960375,Gym / Fitness Center,40.714718,-73.949522,Southern / Soul Food Restaurant
+599,2025-05-28 19:00:00,40.714718,-73.949522,Southern / Soul Food Restaurant,40.714122,-73.949033,Bar
+599,2025-05-28 21:00:00,40.714122,-73.949033,Bar,40.708556,-73.958416,Food & Drink Shop

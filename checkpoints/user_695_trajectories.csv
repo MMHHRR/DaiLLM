@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+695,2025-05-28 08:30:00,40.821624,-73.930104,Home (private),40.807406,-73.95863,College Academic Building
+695,2025-05-28 09:00:00,40.807406,-73.95863,College Academic Building,40.800867,-73.965464,Burrito Place
+695,2025-05-28 12:30:00,40.800867,-73.965464,Burrito Place,40.807151,-73.963687,Student Center
+695,2025-05-28 13:30:00,40.807151,-73.963687,Student Center,40.807406,-73.95863,College Academic Building
+695,2025-05-28 16:00:00,40.807406,-73.95863,College Academic Building,40.804548,-73.966401,Coffee Shop
+695,2025-05-28 18:00:00,40.804548,-73.966401,Coffee Shop,40.806479,-73.965093,Cuban Restaurant
+695,2025-05-28 19:30:00,40.806479,-73.965093,Cuban Restaurant,40.805097,-73.966071,Bar
+695,2025-05-28 21:30:00,40.805097,-73.966071,Bar,40.821624,-73.930104,Home (private)

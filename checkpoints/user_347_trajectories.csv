@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+347,2025-05-28 07:00:00,40.946753,-74.047638,Home (private),40.949577,-74.067387,Gym / Fitness Center
+347,2025-05-28 08:00:00,40.949577,-74.067387,Gym / Fitness Center,40.945826,-74.050922,Coffee Shop
+347,2025-05-28 09:30:00,40.945826,-74.050922,Coffee Shop,40.936052,-74.0375,Park
+347,2025-05-28 10:30:00,40.936052,-74.0375,Park,40.905052,-74.031507,American Restaurant
+347,2025-05-28 12:00:00,40.905052,-74.031507,American Restaurant,40.957604,-74.069052,Sporting Goods Shop
+347,2025-05-28 13:30:00,40.957604,-74.069052,Sporting Goods Shop,40.774087,-74.165142,Other Great Outdoors
+347,2025-05-28 15:00:00,40.774087,-74.165142,Other Great Outdoors,40.949577,-74.067387,Gym / Fitness Center
+347,2025-05-28 17:00:00,40.949577,-74.067387,Gym / Fitness Center,40.900425,-74.036229,Pizza Place
+347,2025-05-28 19:00:00,40.900425,-74.036229,Pizza Place,40.936052,-74.0375,Park
+347,2025-05-28 20:30:00,40.936052,-74.0375,Park,40.946753,-74.047638,Home (private)

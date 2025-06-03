@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+21,2025-05-28 07:00:00,40.760203,-73.962923,Gym / Fitness Center,40.759523,-73.96313,Coffee Shop
+21,2025-05-28 08:30:00,40.759523,-73.96313,Coffee Shop,40.719943,-74.008566,Chinese Restaurant
+21,2025-05-28 12:30:00,40.719943,-74.008566,Chinese Restaurant,40.760203,-73.962923,Gym / Fitness Center
+21,2025-05-28 14:00:00,40.760203,-73.962923,Gym / Fitness Center,40.759154,-73.962321,Sushi Restaurant
+21,2025-05-28 18:00:00,40.759154,-73.962321,Sushi Restaurant,40.762539,-73.9719,Gym / Fitness Center
+21,2025-05-28 20:00:00,40.762539,-73.9719,Gym / Fitness Center,40.759154,-73.962321,Sushi Restaurant
+21,2025-05-28 22:00:00,40.759154,-73.962321,Sushi Restaurant,40.719943,-74.008566,Chinese Restaurant

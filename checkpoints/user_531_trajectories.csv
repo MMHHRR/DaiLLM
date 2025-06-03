@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+531,2025-05-28 08:00:00,40.935081,-73.965371,Home (private),40.957706,-73.959721,School
+531,2025-05-28 09:00:00,40.957706,-73.959721,School,40.941034,-73.960651,Food & Drink Shop
+531,2025-05-28 12:00:00,40.941034,-73.960651,Food & Drink Shop,40.935081,-73.965371,Home (private)
+531,2025-05-28 13:00:00,40.935081,-73.965371,Home (private),40.883711,-74.010833,Medical Center
+531,2025-05-28 15:00:00,40.883711,-74.010833,Medical Center,40.942167,-73.961684,Seafood Restaurant
+531,2025-05-28 16:30:00,40.942167,-73.961684,Seafood Restaurant,40.935081,-73.965371,Home (private)
+531,2025-05-28 18:00:00,40.935081,-73.965371,Home (private),40.941984,-73.961695,Bagel Shop
+531,2025-05-28 19:00:00,40.941984,-73.961695,Bagel Shop,40.942047,-73.964226,Convenience Store
+531,2025-05-28 20:00:00,40.942047,-73.964226,Convenience Store,40.935081,-73.965371,Home (private)

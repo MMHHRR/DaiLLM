@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+102,2025-05-28 09:00:00,40.68454,-73.977737,Coffee Shop,40.727924,-74.005341,Office
+102,2025-05-28 10:00:00,40.727924,-74.005341,Office,40.686415,-73.954635,African Restaurant
+102,2025-05-28 12:30:00,40.686415,-73.954635,African Restaurant,40.677823,-73.968826,Cosmetics Shop
+102,2025-05-28 14:00:00,40.677823,-73.968826,Cosmetics Shop,40.684309,-73.976532,Department Store
+102,2025-05-28 15:30:00,40.684309,-73.976532,Department Store,40.681875,-73.934877,Southern / Soul Food Restaurant
+102,2025-05-28 17:00:00,40.681875,-73.934877,Southern / Soul Food Restaurant,40.711042,-73.965363,Bar
+102,2025-05-28 19:00:00,40.711042,-73.965363,Bar,40.734174,-74.00273,Music Venue
+102,2025-05-28 21:00:00,40.734174,-74.00273,Music Venue,40.68328,-73.943901,Fried Chicken Joint

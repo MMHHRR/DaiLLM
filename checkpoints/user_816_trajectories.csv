@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+816,2025-05-28 08:00:00,40.935081,-73.965371,Home (private),40.951057,-74.089866,Community College
+816,2025-05-28 08:30:00,40.951057,-74.089866,Community College,40.896528,-73.974213,Sandwich Place
+816,2025-05-28 12:30:00,40.896528,-73.974213,Sandwich Place,40.951495,-74.088664,College Academic Building
+816,2025-05-28 13:00:00,40.951495,-74.088664,College Academic Building,40.95118,-74.089259,Student Center
+816,2025-05-28 16:00:00,40.95118,-74.089259,Student Center,40.896528,-73.974213,Sandwich Place
+816,2025-05-28 17:30:00,40.896528,-73.974213,Sandwich Place,40.935081,-73.965371,Home (private)
+816,2025-05-28 18:00:00,40.935081,-73.965371,Home (private),40.925562,-73.964816,Diner
+816,2025-05-28 20:00:00,40.925562,-73.964816,Diner,40.935081,-73.965371,Home (private)

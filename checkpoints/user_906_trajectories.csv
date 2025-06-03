@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+906,2025-05-28 08:30:00,40.73289,-73.99,Gym / Fitness Center,40.735248,-73.991138,Coffee Shop
+906,2025-05-28 09:30:00,40.735248,-73.991138,Coffee Shop,40.750614,-73.988564,Department Store
+906,2025-05-28 12:30:00,40.750614,-73.988564,Department Store,40.738407,-73.985657,Italian Restaurant
+906,2025-05-28 13:30:00,40.738407,-73.985657,Italian Restaurant,40.646717,-74.021115,Medical Center
+906,2025-05-28 15:00:00,40.646717,-74.021115,Medical Center,40.726187,-73.986112,Seafood Restaurant
+906,2025-05-28 18:00:00,40.726187,-73.986112,Seafood Restaurant,40.744278,-73.991848,Bar
+906,2025-05-28 20:00:00,40.744278,-73.991848,Bar,40.734167,-73.990487,Movie Theater
+906,2025-05-28 22:00:00,40.734167,-73.990487,Movie Theater,40.759448,-73.99131,Bar

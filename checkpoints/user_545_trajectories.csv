@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+545,2025-05-28 08:00:00,40.679939,-73.921099,College Academic Building,40.815466,-73.958545,Café
+545,2025-05-28 10:30:00,40.815466,-73.958545,Café,40.685066,-73.920795,Southern / Soul Food Restaurant
+545,2025-05-28 12:00:00,40.685066,-73.920795,Southern / Soul Food Restaurant,40.679939,-73.921099,College Academic Building
+545,2025-05-28 13:30:00,40.679939,-73.921099,College Academic Building,40.679854,-73.840445,Burger Joint
+545,2025-05-28 15:00:00,40.679854,-73.840445,Burger Joint,40.681541,-73.922695,Fried Chicken Joint
+545,2025-05-28 17:30:00,40.681541,-73.922695,Fried Chicken Joint,40.679602,-73.921599,Cuban Restaurant
+545,2025-05-28 19:00:00,40.679602,-73.921599,Cuban Restaurant,40.681654,-73.919078,Other Nightlife
+545,2025-05-28 21:00:00,40.681654,-73.919078,Other Nightlife,40.681541,-73.922695,Fried Chicken Joint
+545,2025-05-28 23:00:00,40.681541,-73.922695,Fried Chicken Joint,40.68269,-73.931737,Neighborhood

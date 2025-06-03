@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+754,2025-05-28 07:30:00,40.833165,-73.94186,Home (private),40.831283,-73.941393,Subway
+754,2025-05-28 08:00:00,40.831283,-73.941393,Subway,40.770792,-73.985925,College Academic Building
+754,2025-05-28 08:30:00,40.770792,-73.985925,College Academic Building,40.770958,-73.984314,Law School
+754,2025-05-28 12:00:00,40.770958,-73.984314,Law School,40.770706,-73.984441,Event Space
+754,2025-05-28 13:30:00,40.770706,-73.984441,Event Space,40.834294,-73.944446,Fast Food Restaurant
+754,2025-05-28 15:00:00,40.834294,-73.944446,Fast Food Restaurant,40.770792,-73.985925,College Academic Building
+754,2025-05-28 16:00:00,40.770792,-73.985925,College Academic Building,40.833165,-73.94186,Home (private)

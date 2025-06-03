@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+1058,2025-05-28 07:30:00,40.877199,-73.836025,Home (private),40.752806,-73.977175,Train Station
+1058,2025-05-28 08:15:00,40.752806,-73.977175,Train Station,40.75327,-73.989824,Office
+1058,2025-05-28 08:30:00,40.75327,-73.989824,Office,40.752286,-73.991723,Latin American Restaurant
+1058,2025-05-28 12:00:00,40.752286,-73.991723,Latin American Restaurant,40.75327,-73.989824,Office
+1058,2025-05-28 13:00:00,40.75327,-73.989824,Office,40.74455,-73.981261,Gym / Fitness Center
+1058,2025-05-28 17:30:00,40.74455,-73.981261,Gym / Fitness Center,40.739619,-74.006403,Bar
+1058,2025-05-28 18:30:00,40.739619,-74.006403,Bar,40.752286,-73.991723,Latin American Restaurant
+1058,2025-05-28 20:00:00,40.752286,-73.991723,Latin American Restaurant,40.877199,-73.836025,Home (private)

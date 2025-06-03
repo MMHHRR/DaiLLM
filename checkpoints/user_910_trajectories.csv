@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+910,2025-05-28 10:00:00,40.59323,-73.89164,Park,40.584303,-74.094344,Laundry Service
+910,2025-05-28 11:30:00,40.584303,-74.094344,Laundry Service,40.619543,-73.917979,Italian Restaurant
+910,2025-05-28 12:00:00,40.619543,-73.917979,Italian Restaurant,40.59323,-73.89164,Park
+910,2025-05-28 13:30:00,40.59323,-73.89164,Park,40.596945,-73.985324,Sandwich Place
+910,2025-05-28 15:00:00,40.596945,-73.985324,Sandwich Place,40.59323,-73.89164,Park
+910,2025-05-28 16:30:00,40.59323,-73.89164,Park,40.569559,-74.109891,American Restaurant

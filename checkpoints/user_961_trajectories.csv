@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+961,2025-05-28 07:30:00,40.848046,-73.977126,Home (private),40.937296,-73.960662,Office
+961,2025-05-28 08:00:00,40.937296,-73.960662,Office,40.969046,-73.954103,Korean Restaurant
+961,2025-05-28 12:30:00,40.969046,-73.954103,Korean Restaurant,40.937296,-73.960662,Office
+961,2025-05-28 13:30:00,40.937296,-73.960662,Office,40.971054,-73.954848,Athletic & Sport
+961,2025-05-28 17:00:00,40.971054,-73.954848,Athletic & Sport,40.943189,-73.962177,Middle Eastern Restaurant
+961,2025-05-28 18:30:00,40.943189,-73.962177,Middle Eastern Restaurant,40.848046,-73.977126,Home (private)

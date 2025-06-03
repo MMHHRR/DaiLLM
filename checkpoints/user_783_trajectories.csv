@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+783,2025-05-28 07:30:00,40.738949,-73.989828,Gym / Fitness Center,40.740647,-73.99104,Coffee Shop
+783,2025-05-28 09:00:00,40.740647,-73.99104,Coffee Shop,40.738949,-73.989828,Gym / Fitness Center
+783,2025-05-28 12:30:00,40.738949,-73.989828,Gym / Fitness Center,40.740101,-73.992068,Spa / Massage
+783,2025-05-28 14:00:00,40.740101,-73.992068,Spa / Massage,40.739602,-73.991069,Clothing Store
+783,2025-05-28 16:00:00,40.739602,-73.991069,Clothing Store,40.740647,-73.99104,Coffee Shop
+783,2025-05-28 18:00:00,40.740647,-73.99104,Coffee Shop,40.760878,-73.986547,Bar
+783,2025-05-28 20:00:00,40.760878,-73.986547,Bar,40.740787,-73.993319,Bar

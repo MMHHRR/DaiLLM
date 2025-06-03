@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+265,2025-05-28 07:30:00,40.745882,-73.997686,Gym / Fitness Center,40.802926,-73.967636,Food
+265,2025-05-28 09:00:00,40.802926,-73.967636,Food,40.753271,-73.982277,Library
+265,2025-05-28 10:30:00,40.753271,-73.982277,Library,40.76401,-73.970511,General College & University
+265,2025-05-28 12:00:00,40.76401,-73.970511,General College & University,40.732928,-74.002983,Mexican Restaurant
+265,2025-05-28 13:30:00,40.732928,-74.002983,Mexican Restaurant,40.745882,-73.997686,Gym / Fitness Center
+265,2025-05-28 15:00:00,40.745882,-73.997686,Gym / Fitness Center,40.73549,-74.00056,Tapas Restaurant
+265,2025-05-28 16:30:00,40.73549,-74.00056,Tapas Restaurant,40.725769,-73.997307,Movie Theater
+265,2025-05-28 19:00:00,40.725769,-73.997307,Movie Theater,40.737216,-73.989348,Bar

@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+150,2025-05-28 08:00:00,40.773496,-73.98195,Breakfast Spot,40.758752,-73.987277,Theater
+150,2025-05-28 09:30:00,40.758752,-73.987277,Theater,40.764964,-73.980572,American Restaurant
+150,2025-05-28 12:00:00,40.764964,-73.980572,American Restaurant,40.780533,-73.952701,American Restaurant
+150,2025-05-28 14:00:00,40.780533,-73.952701,American Restaurant,40.72307,-74.007952,General Entertainment
+150,2025-05-28 16:00:00,40.72307,-74.007952,General Entertainment,40.773083,-73.982813,Concert Hall
+150,2025-05-28 18:00:00,40.773083,-73.982813,Concert Hall,40.763259,-73.979821,Movie Theater
+150,2025-05-28 21:00:00,40.763259,-73.979821,Movie Theater,40.767222,-73.984268,Bar

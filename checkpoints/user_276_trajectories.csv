@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+276,2025-05-28 08:30:00,40.749978,-73.98153,Office,40.751101,-73.981301,Deli / Bodega
+276,2025-05-28 12:00:00,40.751101,-73.981301,Deli / Bodega,40.749947,-73.981515,Italian Restaurant
+276,2025-05-28 13:00:00,40.749947,-73.981515,Italian Restaurant,40.749978,-73.98153,Office
+276,2025-05-28 17:00:00,40.749978,-73.98153,Office,40.751223,-73.98174,Deli / Bodega
+276,2025-05-28 19:30:00,40.751223,-73.98174,Deli / Bodega,40.740728,-74.008611,Bar
+276,2025-05-28 21:00:00,40.740728,-74.008611,Bar,40.742828,-74.003832,Deli / Bodega

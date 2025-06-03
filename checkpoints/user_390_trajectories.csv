@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+390,2025-05-28 09:00:00,40.750946,-74.005634,Office,40.748395,-74.00176,Gym / Fitness Center
+390,2025-05-28 12:30:00,40.748395,-74.00176,Gym / Fitness Center,40.756035,-73.846235,American Restaurant
+390,2025-05-28 14:00:00,40.756035,-73.846235,American Restaurant,40.750946,-74.005634,Office
+390,2025-05-28 15:30:00,40.750946,-74.005634,Office,40.704436,-74.010124,Bar
+390,2025-05-28 17:30:00,40.704436,-74.010124,Bar,40.707555,-74.007066,Italian Restaurant
+390,2025-05-28 19:00:00,40.707555,-74.007066,Italian Restaurant,40.708226,-74.004974,Bar
+390,2025-05-28 21:00:00,40.708226,-74.004974,Bar,40.676419,-73.958917,Residential Building (Apartment / Condo)

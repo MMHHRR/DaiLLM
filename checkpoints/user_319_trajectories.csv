@@ -1,0 +1,13 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+319,2025-05-28 07:30:00,40.627294,-73.953616,Home (private),40.66748,-74.21549,Train Station
+319,2025-05-28 08:00:00,40.66748,-74.21549,Train Station,40.639041,-73.997941,Medical Center
+319,2025-05-28 08:15:00,40.639041,-73.997941,Medical Center,40.626571,-73.976969,Food & Drink Shop
+319,2025-05-28 11:00:00,40.626571,-73.976969,Food & Drink Shop,40.750795,-73.993576,Train Station
+319,2025-05-28 12:00:00,40.750795,-73.993576,Train Station,40.609878,-74.120122,Outdoors & Recreation
+319,2025-05-28 12:30:00,40.609878,-74.120122,Outdoors & Recreation,40.626571,-73.976969,Food & Drink Shop
+319,2025-05-28 14:00:00,40.626571,-73.976969,Food & Drink Shop,40.750795,-73.993576,Train Station
+319,2025-05-28 16:30:00,40.750795,-73.993576,Train Station,40.639041,-73.997941,Medical Center
+319,2025-05-28 17:00:00,40.639041,-73.997941,Medical Center,40.627294,-73.953616,Home (private)
+319,2025-05-28 19:00:00,40.627294,-73.953616,Home (private),40.609878,-74.120122,Outdoors & Recreation
+319,2025-05-28 20:00:00,40.609878,-74.120122,Outdoors & Recreation,40.626571,-73.976969,Food & Drink Shop
+319,2025-05-28 21:30:00,40.626571,-73.976969,Food & Drink Shop,40.627294,-73.953616,Home (private)

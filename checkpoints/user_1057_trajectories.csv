@@ -1,0 +1,12 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+1057,2025-05-28 07:00:00,40.767237,-73.89483,Home (private),40.756189,-73.922552,Gym / Fitness Center
+1057,2025-05-28 08:00:00,40.756189,-73.922552,Gym / Fitness Center,40.774117,-73.873954,Coffee Shop
+1057,2025-05-28 09:30:00,40.774117,-73.873954,Coffee Shop,40.767237,-73.89483,Home (private)
+1057,2025-05-28 10:00:00,40.767237,-73.89483,Home (private),40.75743,-73.974443,Mexican Restaurant
+1057,2025-05-28 12:30:00,40.75743,-73.974443,Mexican Restaurant,40.763919,-73.97314,Electronics Store
+1057,2025-05-28 14:00:00,40.763919,-73.97314,Electronics Store,40.76081,-73.975602,Clothing Store
+1057,2025-05-28 15:30:00,40.76081,-73.975602,Clothing Store,40.756189,-73.922552,Gym / Fitness Center
+1057,2025-05-28 17:00:00,40.756189,-73.922552,Gym / Fitness Center,40.755596,-73.922753,American Restaurant
+1057,2025-05-28 18:30:00,40.755596,-73.922753,American Restaurant,40.767237,-73.89483,Home (private)
+1057,2025-05-28 20:00:00,40.767237,-73.89483,Home (private),40.756067,-73.88059,Bar
+1057,2025-05-28 21:30:00,40.756067,-73.88059,Bar,40.767237,-73.89483,Home (private)

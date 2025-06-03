@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+324,2025-05-28 00:45:00,40.731698,-73.989227,Music Venue,40.739892,-73.989554,Office
+324,2025-05-28 08:30:00,40.739892,-73.989554,Office,40.741035,-73.883555,Food & Drink Shop
+324,2025-05-28 12:30:00,40.741035,-73.883555,Food & Drink Shop,40.75485,-73.988005,Bookstore
+324,2025-05-28 14:00:00,40.75485,-73.988005,Bookstore,40.739892,-73.989554,Office
+324,2025-05-28 17:30:00,40.739892,-73.989554,Office,40.730746,-73.997089,General Entertainment
+324,2025-05-28 19:00:00,40.730746,-73.997089,General Entertainment,40.728163,-73.988016,Sushi Restaurant
+324,2025-05-28 21:30:00,40.728163,-73.988016,Sushi Restaurant,40.750606,-73.985324,Bar

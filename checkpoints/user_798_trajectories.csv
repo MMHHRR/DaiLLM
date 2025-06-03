@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+798,2025-05-28 06:30:00,40.874001,-73.909209,Gym / Fitness Center,40.875914,-73.907958,Neighborhood
+798,2025-05-28 08:00:00,40.875914,-73.907958,Neighborhood,40.861968,-73.925085,Latin American Restaurant
+798,2025-05-28 12:00:00,40.861968,-73.925085,Latin American Restaurant,40.645741,-73.773794,Café
+798,2025-05-28 13:30:00,40.645741,-73.773794,Café,40.861047,-73.920881,Bar
+798,2025-05-28 15:00:00,40.861047,-73.920881,Bar,40.877548,-73.906126,Latin American Restaurant
+798,2025-05-28 18:00:00,40.877548,-73.906126,Latin American Restaurant,40.862018,-73.925207,Bar
+798,2025-05-28 20:00:00,40.862018,-73.925207,Bar,40.875914,-73.907958,Neighborhood

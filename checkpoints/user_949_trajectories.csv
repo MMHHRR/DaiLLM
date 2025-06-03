@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+949,2025-05-28 07:30:00,40.679564,-73.984165,Gym / Fitness Center,40.676851,-73.980102,Food & Drink Shop
+949,2025-05-28 09:00:00,40.676851,-73.980102,Food & Drink Shop,40.663908,-73.970947,Park
+949,2025-05-28 10:30:00,40.663908,-73.970947,Park,40.677357,-73.998025,Italian Restaurant
+949,2025-05-28 12:00:00,40.677357,-73.998025,Italian Restaurant,40.80822,-73.962154,University
+949,2025-05-28 13:30:00,40.80822,-73.962154,University,40.739465,-74.002656,Coffee Shop
+949,2025-05-28 15:00:00,40.739465,-74.002656,Coffee Shop,40.679564,-73.984165,Gym / Fitness Center
+949,2025-05-28 18:00:00,40.679564,-73.984165,Gym / Fitness Center,40.663289,-73.984549,Gastropub
+949,2025-05-28 19:30:00,40.663289,-73.984549,Gastropub,40.686574,-73.990616,Bar

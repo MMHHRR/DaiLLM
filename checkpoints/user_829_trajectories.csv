@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+829,2025-05-28 08:00:00,40.682622,-73.718364,Home (private),40.684198,-73.722027,African Restaurant
+829,2025-05-28 12:00:00,40.684198,-73.722027,African Restaurant,40.631276,-73.885008,Park
+829,2025-05-28 12:30:00,40.631276,-73.885008,Park,40.682622,-73.718364,Home (private)
+829,2025-05-28 14:00:00,40.682622,-73.718364,Home (private),40.683525,-73.725338,Deli / Bodega
+829,2025-05-28 18:00:00,40.683525,-73.725338,Deli / Bodega,40.684198,-73.722027,African Restaurant
+829,2025-05-28 19:00:00,40.684198,-73.722027,African Restaurant,40.682622,-73.718364,Home (private)
+829,2025-05-28 20:00:00,40.682622,-73.718364,Home (private),40.781763,-73.825511,Playground
+829,2025-05-28 21:30:00,40.781763,-73.825511,Playground,40.682622,-73.718364,Home (private)

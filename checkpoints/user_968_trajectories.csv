@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+968,2025-05-28 08:00:00,40.871616,-73.90255,Residential Building (Apartment / Condo),40.874486,-73.909589,Subway
+968,2025-05-28 08:30:00,40.874486,-73.909589,Subway,40.751621,-73.990009,Office
+968,2025-05-28 09:00:00,40.751621,-73.990009,Office,40.8684,-73.901333,American Restaurant
+968,2025-05-28 12:00:00,40.8684,-73.901333,American Restaurant,40.751621,-73.990009,Office
+968,2025-05-28 13:00:00,40.751621,-73.990009,Office,40.868352,-73.901384,Coffee Shop
+968,2025-05-28 17:00:00,40.868352,-73.901384,Coffee Shop,40.751517,-73.990283,Deli / Bodega
+968,2025-05-28 18:00:00,40.751517,-73.990283,Deli / Bodega,40.869241,-73.90325,Latin American Restaurant
+968,2025-05-28 19:00:00,40.869241,-73.90325,Latin American Restaurant,40.871616,-73.90255,Residential Building (Apartment / Condo)

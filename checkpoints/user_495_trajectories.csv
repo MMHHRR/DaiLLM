@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+495,2025-05-28 07:30:00,40.781586,-74.036034,Residential Building (Apartment / Condo),40.781532,-74.032385,Café
+495,2025-05-28 08:00:00,40.781532,-74.032385,Café,40.768257,-73.982914,Office
+495,2025-05-28 09:00:00,40.768257,-73.982914,Office,40.799143,-73.963004,Deli / Bodega
+495,2025-05-28 12:00:00,40.799143,-73.963004,Deli / Bodega,40.771426,-73.973501,Park
+495,2025-05-28 13:00:00,40.771426,-73.973501,Park,40.734359,-73.990817,Gym / Fitness Center
+495,2025-05-28 15:00:00,40.734359,-73.990817,Gym / Fitness Center,40.787226,-74.046446,Coffee Shop
+495,2025-05-28 17:00:00,40.787226,-74.046446,Coffee Shop,40.776577,-73.979144,Burger Joint
+495,2025-05-28 19:00:00,40.776577,-73.979144,Burger Joint,40.781586,-74.036034,Residential Building (Apartment / Condo)

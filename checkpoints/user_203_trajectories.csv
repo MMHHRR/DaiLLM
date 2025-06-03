@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+203,2025-05-28 07:30:00,40.760871,-73.98888,Home (private),40.763647,-73.978441,Gym / Fitness Center
+203,2025-05-28 08:00:00,40.763647,-73.978441,Gym / Fitness Center,40.746819,-73.944205,Food & Drink Shop
+203,2025-05-28 09:00:00,40.746819,-73.944205,Food & Drink Shop,40.75828,-73.969253,American Restaurant
+203,2025-05-28 12:15:00,40.75828,-73.969253,American Restaurant,40.763647,-73.978441,Gym / Fitness Center
+203,2025-05-28 13:30:00,40.763647,-73.978441,Gym / Fitness Center,40.746819,-73.944205,Food & Drink Shop
+203,2025-05-28 15:00:00,40.746819,-73.944205,Food & Drink Shop,40.762829,-73.993118,Mexican Restaurant
+203,2025-05-28 18:30:00,40.762829,-73.993118,Mexican Restaurant,40.764417,-73.983023,Bar
+203,2025-05-28 20:00:00,40.764417,-73.983023,Bar,40.746858,-73.943913,Food & Drink Shop
+203,2025-05-28 22:30:00,40.746858,-73.943913,Food & Drink Shop,40.760871,-73.98888,Home (private)

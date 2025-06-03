@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+38,2025-05-28 01:00:00,40.872399,-73.87131,Home (private),40.872399,-73.87131,Home (private)
+38,2025-05-28 08:00:00,40.872399,-73.87131,Home (private),40.764895,-73.916954,Bagel Shop
+38,2025-05-28 09:00:00,40.764895,-73.916954,Bagel Shop,40.820057,-73.950307,College Academic Building
+38,2025-05-28 09:30:00,40.820057,-73.950307,College Academic Building,40.766257,-73.919939,Food & Drink Shop
+38,2025-05-28 12:00:00,40.766257,-73.919939,Food & Drink Shop,40.762959,-73.915591,Gym / Fitness Center
+38,2025-05-28 14:00:00,40.762959,-73.915591,Gym / Fitness Center,40.820057,-73.950307,College Academic Building
+38,2025-05-28 15:30:00,40.820057,-73.950307,College Academic Building,40.759459,-73.919749,Mexican Restaurant
+38,2025-05-28 18:00:00,40.759459,-73.919749,Mexican Restaurant,40.744279,-73.995839,Bar
+38,2025-05-28 20:00:00,40.744279,-73.995839,Bar,40.731846,-74.003031,Music Venue

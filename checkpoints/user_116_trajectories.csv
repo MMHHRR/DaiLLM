@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+116,2025-05-28 07:30:00,40.718036,-73.951036,Residential Building (Apartment / Condo),40.738933,-73.992373,Office
+116,2025-05-28 08:00:00,40.738933,-73.992373,Office,40.736527,-73.99056,Food & Drink Shop
+116,2025-05-28 12:00:00,40.736527,-73.99056,Food & Drink Shop,40.738933,-73.992373,Office
+116,2025-05-28 13:00:00,40.738933,-73.992373,Office,40.717751,-73.951863,Gym / Fitness Center
+116,2025-05-28 15:30:00,40.717751,-73.951863,Gym / Fitness Center,40.738933,-73.992373,Office
+116,2025-05-28 17:00:00,40.738933,-73.992373,Office,40.737145,-73.990206,Mexican Restaurant
+116,2025-05-28 19:00:00,40.737145,-73.990206,Mexican Restaurant,40.718036,-73.951036,Residential Building (Apartment / Condo)

@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+53,2025-05-28 06:30:00,40.881088,-74.071136,Home (private),40.862842,-74.055621,Gym / Fitness Center
+53,2025-05-28 07:00:00,40.862842,-74.055621,Gym / Fitness Center,40.881088,-74.071136,Home (private)
+53,2025-05-28 08:00:00,40.881088,-74.071136,Home (private),40.861981,-74.047905,Automotive Shop
+53,2025-05-28 09:00:00,40.861981,-74.047905,Automotive Shop,40.881088,-74.071136,Home (private)
+53,2025-05-28 11:00:00,40.881088,-74.071136,Home (private),40.936564,-74.030963,Sushi Restaurant
+53,2025-05-28 13:00:00,40.936564,-74.030963,Sushi Restaurant,40.881088,-74.071136,Home (private)
+53,2025-05-28 14:30:00,40.881088,-74.071136,Home (private),40.862842,-74.055621,Gym / Fitness Center
+53,2025-05-28 16:30:00,40.862842,-74.055621,Gym / Fitness Center,40.881088,-74.071136,Home (private)
+53,2025-05-28 18:00:00,40.881088,-74.071136,Home (private),40.919158,-74.085732,Burger Joint
+53,2025-05-28 19:30:00,40.919158,-74.085732,Burger Joint,40.881088,-74.071136,Home (private)

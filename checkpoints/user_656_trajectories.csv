@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+656,2025-05-28 12:30:00,40.793967,-74.153356,Home (private),40.65934,-74.169385,Coffee Shop
+656,2025-05-28 13:30:00,40.65934,-74.169385,Coffee Shop,40.738328,-74.179132,College Academic Building
+656,2025-05-28 14:00:00,40.738328,-74.179132,College Academic Building,40.660556,-74.171741,Mall
+656,2025-05-28 16:00:00,40.660556,-74.171741,Mall,40.65947,-74.171105,Clothing Store
+656,2025-05-28 18:00:00,40.65947,-74.171105,Clothing Store,40.735983,-74.171859,Fast Food Restaurant
+656,2025-05-28 19:30:00,40.735983,-74.171859,Fast Food Restaurant,40.659306,-74.168766,Movie Theater
+656,2025-05-28 21:00:00,40.659306,-74.168766,Movie Theater,40.793967,-74.153356,Home (private)

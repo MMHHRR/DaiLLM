@@ -1,0 +1,12 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+934,2025-05-28 08:00:00,40.884145,-73.953616,Home (private),40.779437,-73.977244,Drugstore / Pharmacy
+934,2025-05-28 08:30:00,40.779437,-73.977244,Drugstore / Pharmacy,40.856078,-73.967578,Bagel Shop
+934,2025-05-28 09:00:00,40.856078,-73.967578,Bagel Shop,40.779472,-73.977697,Bar
+934,2025-05-28 10:00:00,40.779472,-73.977697,Bar,40.868112,-73.96659,Molecular Gastronomy Restaurant
+934,2025-05-28 11:30:00,40.868112,-73.96659,Molecular Gastronomy Restaurant,40.868138,-73.966478,River
+934,2025-05-28 13:30:00,40.868138,-73.966478,River,40.779437,-73.977244,Drugstore / Pharmacy
+934,2025-05-28 15:30:00,40.779437,-73.977244,Drugstore / Pharmacy,40.868112,-73.96659,Molecular Gastronomy Restaurant
+934,2025-05-28 17:00:00,40.868112,-73.96659,Molecular Gastronomy Restaurant,40.779472,-73.977697,Bar
+934,2025-05-28 19:00:00,40.779472,-73.977697,Bar,40.868112,-73.96659,Molecular Gastronomy Restaurant
+934,2025-05-28 21:00:00,40.868112,-73.96659,Molecular Gastronomy Restaurant,40.780056,-73.980555,Pizza Place
+934,2025-05-28 23:00:00,40.780056,-73.980555,Pizza Place,40.884145,-73.953616,Home (private)

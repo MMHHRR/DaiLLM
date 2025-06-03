@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+568,2025-05-28 07:30:00,40.767411,-73.965371,Home (private),40.752806,-73.977175,Train Station
+568,2025-05-28 08:00:00,40.752806,-73.977175,Train Station,40.75134,-73.975338,Office
+568,2025-05-28 08:15:00,40.75134,-73.975338,Office,40.756035,-73.972836,American Restaurant
+568,2025-05-28 12:00:00,40.756035,-73.972836,American Restaurant,40.75134,-73.975338,Office
+568,2025-05-28 13:00:00,40.75134,-73.975338,Office,40.765678,-73.963589,Gym / Fitness Center
+568,2025-05-28 17:30:00,40.765678,-73.963589,Gym / Fitness Center,40.716851,-73.999851,Vietnamese Restaurant
+568,2025-05-28 18:30:00,40.716851,-73.999851,Vietnamese Restaurant,40.744215,-73.988538,Bar
+568,2025-05-28 20:00:00,40.744215,-73.988538,Bar,40.767411,-73.965371,Home (private)

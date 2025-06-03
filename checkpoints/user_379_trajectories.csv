@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+379,2025-05-28 08:30:00,40.763268,-73.978897,Office,40.910592,-73.782819,Southern / Soul Food Restaurant
+379,2025-05-28 12:00:00,40.910592,-73.782819,Southern / Soul Food Restaurant,40.763268,-73.978897,Office
+379,2025-05-28 13:00:00,40.763268,-73.978897,Office,40.73027,-73.863606,Bar
+379,2025-05-28 17:30:00,40.73027,-73.863606,Bar,40.734167,-73.990487,Movie Theater
+379,2025-05-28 19:00:00,40.734167,-73.990487,Movie Theater,40.760744,-73.982541,Food & Drink Shop
+379,2025-05-28 21:30:00,40.760744,-73.982541,Food & Drink Shop,40.763268,-73.978897,Office

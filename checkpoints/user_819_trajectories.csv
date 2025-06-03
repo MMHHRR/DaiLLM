@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+819,2025-05-28 05:30:00,40.702575,-73.818998,Gym / Fitness Center,40.632175,-73.918346,Home (private)
+819,2025-05-28 06:30:00,40.632175,-73.918346,Home (private),40.731779,-73.982406,Drugstore / Pharmacy
+819,2025-05-28 07:00:00,40.731779,-73.982406,Drugstore / Pharmacy,40.632319,-73.918269,Bus Station
+819,2025-05-28 07:30:00,40.632319,-73.918269,Bus Station,40.640411,-73.905667,Government Building
+819,2025-05-28 08:00:00,40.640411,-73.905667,Government Building,40.629404,-73.918612,Restaurant
+819,2025-05-28 12:00:00,40.629404,-73.918612,Restaurant,40.633559,-73.92037,Other Great Outdoors
+819,2025-05-28 13:00:00,40.633559,-73.92037,Other Great Outdoors,40.632175,-73.918346,Home (private)
+819,2025-05-28 17:00:00,40.632175,-73.918346,Home (private),40.629404,-73.918612,Restaurant
+819,2025-05-28 18:00:00,40.629404,-73.918612,Restaurant,40.640606,-73.905764,Bus Station
+819,2025-05-28 20:00:00,40.640606,-73.905764,Bus Station,40.632175,-73.918346,Home (private)

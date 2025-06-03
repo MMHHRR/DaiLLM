@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+84,2025-05-28 07:30:00,40.669002,-73.986171,Gym / Fitness Center,40.753126,-73.973794,Office
+84,2025-05-28 09:00:00,40.753126,-73.973794,Office,40.752741,-73.973308,German Restaurant
+84,2025-05-28 12:30:00,40.752741,-73.973308,German Restaurant,40.753126,-73.973794,Office
+84,2025-05-28 14:00:00,40.753126,-73.973794,Office,40.753072,-73.973467,Convention Center
+84,2025-05-28 17:30:00,40.753072,-73.973467,Convention Center,40.752752,-73.973054,Bar
+84,2025-05-28 19:00:00,40.752752,-73.973054,Bar,40.752741,-73.973308,German Restaurant
+84,2025-05-28 21:00:00,40.752741,-73.973308,German Restaurant,40.675788,-73.995815,Other Nightlife

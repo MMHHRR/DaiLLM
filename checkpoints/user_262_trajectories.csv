@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+262,2025-05-28 08:00:00,40.890424,-73.859549,Home (private),40.894164,-73.860746,Medical Center
+262,2025-05-28 09:00:00,40.894164,-73.860746,Medical Center,40.896369,-73.85536,Convenience Store
+262,2025-05-28 10:30:00,40.896369,-73.85536,Convenience Store,40.895535,-73.877957,Neighborhood
+262,2025-05-28 11:00:00,40.895535,-73.877957,Neighborhood,40.888054,-73.860431,Caribbean Restaurant
+262,2025-05-28 12:30:00,40.888054,-73.860431,Caribbean Restaurant,40.879923,-73.835184,Outdoors & Recreation
+262,2025-05-28 13:30:00,40.879923,-73.835184,Outdoors & Recreation,40.89822,-73.867414,Neighborhood
+262,2025-05-28 15:00:00,40.89822,-73.867414,Neighborhood,40.888054,-73.860431,Caribbean Restaurant
+262,2025-05-28 17:00:00,40.888054,-73.860431,Caribbean Restaurant,40.890424,-73.859549,Home (private)
+262,2025-05-28 18:00:00,40.890424,-73.859549,Home (private),40.879923,-73.834764,Outdoors & Recreation
+262,2025-05-28 21:00:00,40.879923,-73.834764,Outdoors & Recreation,40.890424,-73.859549,Home (private)

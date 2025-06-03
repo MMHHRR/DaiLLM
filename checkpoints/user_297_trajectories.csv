@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+297,2025-05-28 09:00:00,40.75753,-73.96706,Gym / Fitness Center,40.759451,-73.970069,Coffee Shop
+297,2025-05-28 10:30:00,40.759451,-73.970069,Coffee Shop,40.75828,-73.969253,American Restaurant
+297,2025-05-28 12:00:00,40.75828,-73.969253,American Restaurant,40.765935,-73.987023,Bar
+297,2025-05-28 13:30:00,40.765935,-73.987023,Bar,40.75753,-73.96706,Gym / Fitness Center
+297,2025-05-28 15:00:00,40.75753,-73.96706,Gym / Fitness Center,40.75828,-73.969253,American Restaurant
+297,2025-05-28 18:00:00,40.75828,-73.969253,American Restaurant,40.754279,-73.999293,Beer Garden
+297,2025-05-28 20:00:00,40.754279,-73.999293,Beer Garden,40.755547,-73.968565,Bar

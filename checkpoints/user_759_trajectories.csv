@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+759,2025-05-28 08:00:00,40.729684,-73.999758,Coffee Shop,40.754734,-73.98438,Office
+759,2025-05-28 09:00:00,40.754734,-73.98438,Office,40.730083,-74.000607,American Restaurant
+759,2025-05-28 12:30:00,40.730083,-74.000607,American Restaurant,40.728633,-73.990758,College Academic Building
+759,2025-05-28 14:00:00,40.728633,-73.990758,College Academic Building,40.728803,-73.988159,Ramen / Noodle House
+759,2025-05-28 17:00:00,40.728803,-73.988159,Ramen / Noodle House,40.739871,-74.006988,Bar
+759,2025-05-28 19:00:00,40.739871,-74.006988,Bar,40.72686,-73.999802,Mexican Restaurant
+759,2025-05-28 21:00:00,40.72686,-73.999802,Mexican Restaurant,40.717536,-73.96305,Music Venue

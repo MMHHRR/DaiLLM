@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+620,2025-05-28 08:30:00,40.846184,-73.89483,Home (private),40.858466,-73.888476,School
+620,2025-05-28 09:00:00,40.858466,-73.888476,School,40.846442,-73.89334,Fast Food Restaurant
+620,2025-05-28 12:00:00,40.846442,-73.89334,Fast Food Restaurant,40.85065,-73.895705,Outdoors & Recreation
+620,2025-05-28 13:00:00,40.85065,-73.895705,Outdoors & Recreation,40.865812,-73.837831,Spanish Restaurant
+620,2025-05-28 15:30:00,40.865812,-73.837831,Spanish Restaurant,40.85065,-73.895705,Outdoors & Recreation
+620,2025-05-28 17:00:00,40.85065,-73.895705,Outdoors & Recreation,40.845145,-73.895416,Park
+620,2025-05-28 19:00:00,40.845145,-73.895416,Park,40.846184,-73.89483,Home (private)

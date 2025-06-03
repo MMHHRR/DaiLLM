@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+1027,2025-05-28 08:30:00,40.727033,-74.005762,Coffee Shop,40.762545,-73.968847,Office
+1027,2025-05-28 09:00:00,40.762545,-73.968847,Office,40.719494,-74.004121,Italian Restaurant
+1027,2025-05-28 12:30:00,40.719494,-74.004121,Italian Restaurant,40.724056,-74.001328,Bookstore
+1027,2025-05-28 13:30:00,40.724056,-74.001328,Bookstore,40.739825,-73.998759,Medical Center
+1027,2025-05-28 15:00:00,40.739825,-73.998759,Medical Center,40.726803,-73.996868,Gym / Fitness Center
+1027,2025-05-28 17:00:00,40.726803,-73.996868,Gym / Fitness Center,40.719756,-74.006145,French Restaurant
+1027,2025-05-28 19:00:00,40.719756,-74.006145,French Restaurant,40.726355,-74.005762,Bar

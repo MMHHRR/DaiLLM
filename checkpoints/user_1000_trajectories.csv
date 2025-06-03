@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+1000,2025-05-28 08:00:00,40.699023,-73.810015,Train Station,40.739398,-73.99321,General Entertainment
+1000,2025-05-28 08:30:00,40.739398,-73.99321,General Entertainment,40.828277,-73.926553,Stadium
+1000,2025-05-28 12:00:00,40.828277,-73.926553,Stadium,40.750795,-73.993576,Train Station
+1000,2025-05-28 14:00:00,40.750795,-73.993576,Train Station,40.756974,-73.988774,Movie Theater
+1000,2025-05-28 15:30:00,40.756974,-73.988774,Movie Theater,40.699023,-73.810015,Train Station
+1000,2025-05-28 18:00:00,40.699023,-73.810015,Train Station,40.828277,-73.926553,Stadium
+1000,2025-05-28 19:00:00,40.828277,-73.926553,Stadium,40.750795,-73.993576,Train Station

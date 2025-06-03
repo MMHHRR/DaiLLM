@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+735,2025-05-28 09:00:00,40.627439,-74.094631,Home (private),40.663101,-74.107172,Electronics Store
+735,2025-05-28 09:15:00,40.663101,-74.107172,Electronics Store,40.612105,-74.09979,Food & Drink Shop
+735,2025-05-28 09:45:00,40.612105,-74.09979,Food & Drink Shop,40.626372,-74.09203,Other Great Outdoors
+735,2025-05-28 10:15:00,40.626372,-74.09203,Other Great Outdoors,40.627439,-74.094631,Home (private)
+735,2025-05-28 12:00:00,40.627439,-74.094631,Home (private),40.663101,-74.107172,Electronics Store
+735,2025-05-28 15:00:00,40.663101,-74.107172,Electronics Store,40.626351,-74.092208,Other Great Outdoors
+735,2025-05-28 16:30:00,40.626351,-74.092208,Other Great Outdoors,40.739058,-73.99472,Bar
+735,2025-05-28 18:00:00,40.739058,-73.99472,Bar,40.662718,-74.10628,American Restaurant
+735,2025-05-28 20:00:00,40.662718,-74.10628,American Restaurant,40.626372,-74.09203,Other Great Outdoors
+735,2025-05-28 21:30:00,40.626372,-74.09203,Other Great Outdoors,40.627439,-74.094631,Home (private)

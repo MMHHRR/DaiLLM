@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+952,2025-05-28 08:30:00,40.776884,-73.824262,Home (private),40.722904,-73.79474,College Academic Building
+952,2025-05-28 09:00:00,40.722904,-73.79474,College Academic Building,40.722321,-73.796526,Café
+952,2025-05-28 12:00:00,40.722321,-73.796526,Café,40.722904,-73.79474,College Academic Building
+952,2025-05-28 13:00:00,40.722904,-73.79474,College Academic Building,40.775279,-73.816499,Garden
+952,2025-05-28 15:30:00,40.775279,-73.816499,Garden,40.725963,-73.791244,Asian Restaurant
+952,2025-05-28 17:00:00,40.725963,-73.791244,Asian Restaurant,40.747062,-74.005194,Park
+952,2025-05-28 19:00:00,40.747062,-74.005194,Park,40.785838,-73.727145,Mexican Restaurant
+952,2025-05-28 20:30:00,40.785838,-73.727145,Mexican Restaurant,40.776884,-73.824262,Home (private)

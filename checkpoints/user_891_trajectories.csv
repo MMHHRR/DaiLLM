@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+891,2025-05-28 08:00:00,40.846375,-73.965371,Home (private),40.88302,-74.075875,Government Building
+891,2025-05-28 09:00:00,40.88302,-74.075875,Government Building,40.876985,-74.066863,Food & Drink Shop
+891,2025-05-28 12:30:00,40.876985,-74.066863,Food & Drink Shop,40.88302,-74.075875,Government Building
+891,2025-05-28 13:30:00,40.88302,-74.075875,Government Building,40.846375,-73.965371,Home (private)
+891,2025-05-28 17:00:00,40.846375,-73.965371,Home (private),40.888277,-74.020444,Bar
+891,2025-05-28 18:30:00,40.888277,-74.020444,Bar,40.846375,-73.965371,Home (private)

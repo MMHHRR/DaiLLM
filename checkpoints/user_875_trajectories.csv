@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+875,2025-05-28 07:00:00,40.756326,-73.971849,Residential Building (Apartment / Condo),40.75231,-73.975419,Gym / Fitness Center
+875,2025-05-28 08:00:00,40.75231,-73.975419,Gym / Fitness Center,40.74157,-73.987385,Office
+875,2025-05-28 09:00:00,40.74157,-73.987385,Office,40.754391,-73.973077,Ramen / Noodle House
+875,2025-05-28 12:00:00,40.754391,-73.973077,Ramen / Noodle House,40.74157,-73.987385,Office
+875,2025-05-28 13:00:00,40.74157,-73.987385,Office,40.75231,-73.975419,Gym / Fitness Center
+875,2025-05-28 17:00:00,40.75231,-73.975419,Gym / Fitness Center,40.739736,-73.98754,Italian Restaurant
+875,2025-05-28 18:30:00,40.739736,-73.98754,Italian Restaurant,40.774686,-73.982065,Movie Theater
+875,2025-05-28 20:30:00,40.774686,-73.982065,Movie Theater,40.756326,-73.971849,Residential Building (Apartment / Condo)

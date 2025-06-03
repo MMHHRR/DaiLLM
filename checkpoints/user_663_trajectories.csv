@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+663,2025-05-28 07:30:00,40.746107,-74.024137,Home (private),40.746477,-74.031715,Bus Station
+663,2025-05-28 07:45:00,40.746477,-74.031715,Bus Station,40.773502,-73.981026,Office
+663,2025-05-28 08:00:00,40.773502,-73.981026,Office,40.74861,-74.027488,American Restaurant
+663,2025-05-28 12:00:00,40.74861,-74.027488,American Restaurant,40.773502,-73.981026,Office
+663,2025-05-28 13:00:00,40.773502,-73.981026,Office,40.743467,-74.028936,Gym / Fitness Center
+663,2025-05-28 17:00:00,40.743467,-74.028936,Gym / Fitness Center,40.746107,-74.024137,Home (private)
+663,2025-05-28 18:30:00,40.746107,-74.024137,Home (private),40.744788,-74.028754,Coffee Shop
+663,2025-05-28 19:30:00,40.744788,-74.028754,Coffee Shop,40.746107,-74.024137,Home (private)

@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+796,2025-05-28 09:00:00,40.850728,-73.788969,Home (private),40.852513,-73.789345,Deli / Bodega
+796,2025-05-28 09:30:00,40.852513,-73.789345,Deli / Bodega,40.851184,-73.788438,Spa / Massage
+796,2025-05-28 10:00:00,40.851184,-73.788438,Spa / Massage,40.848684,-73.787012,Other Great Outdoors
+796,2025-05-28 11:30:00,40.848684,-73.787012,Other Great Outdoors,40.850728,-73.788969,Home (private)
+796,2025-05-28 13:00:00,40.850728,-73.788969,Home (private),40.856709,-73.79135,Seafood Restaurant
+796,2025-05-28 16:00:00,40.856709,-73.79135,Seafood Restaurant,40.852661,-73.78941,Bar
+796,2025-05-28 18:00:00,40.852661,-73.78941,Bar,40.854165,-73.791138,Seafood Restaurant
+796,2025-05-28 20:30:00,40.854165,-73.791138,Seafood Restaurant,40.886036,-73.823278,Bowling Alley
+796,2025-05-28 22:00:00,40.886036,-73.823278,Bowling Alley,40.850728,-73.788969,Home (private)

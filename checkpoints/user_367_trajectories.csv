@@ -1,0 +1,5 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+367,2025-05-28 00:00:00,40.763666,-73.992504,Bar,40.747901,-73.986891,Korean Restaurant
+367,2025-05-28 18:00:00,40.747901,-73.986891,Korean Restaurant,40.740512,-74.005892,Bar
+367,2025-05-28 19:30:00,40.740512,-74.005892,Bar,40.735438,-74.00322,Italian Restaurant
+367,2025-05-28 21:00:00,40.735438,-74.00322,Italian Restaurant,40.734167,-73.990487,Movie Theater

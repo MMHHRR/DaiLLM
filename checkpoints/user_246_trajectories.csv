@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+246,2025-05-28 07:30:00,40.760871,-73.98888,Home (private),40.760813,-73.972278,Gym / Fitness Center
+246,2025-05-28 08:00:00,40.760813,-73.972278,Gym / Fitness Center,40.759769,-73.961557,Food & Drink Shop
+246,2025-05-28 09:00:00,40.759769,-73.961557,Food & Drink Shop,40.762507,-73.969949,Office
+246,2025-05-28 10:00:00,40.762507,-73.969949,Office,40.759769,-73.961557,Food & Drink Shop
+246,2025-05-28 12:30:00,40.759769,-73.961557,Food & Drink Shop,40.760813,-73.972278,Gym / Fitness Center
+246,2025-05-28 17:00:00,40.760813,-73.972278,Gym / Fitness Center,40.759183,-73.962177,Bar
+246,2025-05-28 18:30:00,40.759183,-73.962177,Bar,40.759769,-73.961557,Food & Drink Shop
+246,2025-05-28 20:00:00,40.759769,-73.961557,Food & Drink Shop,40.760871,-73.98888,Home (private)

@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+432,2025-05-28 08:30:00,40.851218,-73.930104,Home (private),40.743565,-73.982162,College Academic Building
+432,2025-05-28 09:00:00,40.743565,-73.982162,College Academic Building,40.85085,-73.929352,Student Center
+432,2025-05-28 11:00:00,40.85085,-73.929352,Student Center,40.745107,-73.97835,Pizza Place
+432,2025-05-28 12:30:00,40.745107,-73.97835,Pizza Place,40.745812,-73.980044,College Academic Building
+432,2025-05-28 13:30:00,40.745812,-73.980044,College Academic Building,40.745544,-73.980285,General College & University
+432,2025-05-28 15:00:00,40.745544,-73.980285,General College & University,40.746701,-73.979562,College Academic Building
+432,2025-05-28 17:00:00,40.746701,-73.979562,College Academic Building,40.751646,-73.99292,Coffee Shop
+432,2025-05-28 18:30:00,40.751646,-73.99292,Coffee Shop,40.747506,-73.982254,College Academic Building
+432,2025-05-28 20:00:00,40.747506,-73.982254,College Academic Building,40.851218,-73.930104,Home (private)
+432,2025-05-28 21:30:00,40.851218,-73.930104,Home (private),40.745544,-73.980285,General College & University

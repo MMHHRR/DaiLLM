@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+105,2025-05-28 08:30:00,40.920391,-74.000633,Home (private),40.951057,-74.089866,Community College
+105,2025-05-28 09:00:00,40.951057,-74.089866,Community College,40.950295,-74.087205,College Academic Building
+105,2025-05-28 12:00:00,40.950295,-74.087205,College Academic Building,40.828164,-74.139004,American Restaurant
+105,2025-05-28 13:30:00,40.828164,-74.139004,American Restaurant,40.826609,-74.139122,Paper / Office Supplies Store
+105,2025-05-28 15:00:00,40.826609,-74.139122,Paper / Office Supplies Store,40.951057,-74.089866,Community College
+105,2025-05-28 16:00:00,40.951057,-74.089866,Community College,40.916489,-74.076428,Pizza Place
+105,2025-05-28 18:00:00,40.916489,-74.076428,Pizza Place,40.916468,-74.075854,Video Game Store
+105,2025-05-28 20:00:00,40.916468,-74.075854,Video Game Store,40.924479,-73.996851,Bar
+105,2025-05-28 21:30:00,40.924479,-73.996851,Bar,40.920391,-74.000633,Home (private)

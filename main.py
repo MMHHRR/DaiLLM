@@ -6,6 +6,22 @@ import openai
 from dotenv import load_dotenv
 from typing import List, Dict, Tuple
 import json
+import multiprocessing as mp
+from pathlib import Path
+import time
+from tqdm import tqdm
+import logging
+from concurrent.futures import ProcessPoolExecutor, as_completed
+
+# Set up logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('trajectory_generation.log'),
+        logging.StreamHandler()
+    ]
+)
 
 # Load environment variables
 load_dotenv()
@@ -211,109 +227,185 @@ class Discriminator:
             print(f"Problematic content: {content}")
             raise ValueError(f"Failed to parse evaluation result: {str(e)}")
 
+class TrajectoryProcessor:
+    def __init__(self, checkpoint_dir: str, output_dir: str):
+        self.checkpoint_dir = Path(checkpoint_dir)
+        self.output_dir = Path(output_dir)
+        self.output_dir.mkdir(exist_ok=True)
+        self.checkpoint_dir.mkdir(exist_ok=True)
+        
+    def process_user(self, user_id: int, user_data: pd.DataFrame) -> Dict:
+        """Process trajectory generation for a single user"""
+        try:
+            profiler = Profiler()
+            generator = Generator()
+            discriminator = Discriminator()
+            
+            POI_data = user_data[['venueCategory', 'latitude', 'longitude']].copy()
+            
+            # Analyze user characteristics
+            long_term_profile = profiler.analyze_long_term_profile(user_data)
+            short_term_pattern = profiler.analyze_short_term_pattern(user_data)
+            
+            # Generate and evaluate trajectory
+            max_attempts = 3
+            attempt = 0
+            best_score = 0.0
+            best_trajectory = None
+            
+            while attempt < max_attempts:
+                feedback_prompt = None
+                if attempt > 0:
+                    feedback_prompt = f"""
+                    Previous generated trajectory: {current_trajectory.to_string()}
+                    Previous evaluation score: {score}
+                    Previous feedback to consider: {feedback}
+                    """
+                
+                current_trajectory = generator.generate_trajectory(
+                    long_term_profile, 
+                    short_term_pattern, 
+                    POI_data,
+                    feedback_prompt=feedback_prompt
+                )
+                
+                score, feedback = discriminator.evaluate_trajectory(current_trajectory, user_data)
+                
+                if score > best_score:
+                    best_score = score
+                    best_trajectory = current_trajectory
+                
+                if score >= 0.8:
+                    break
+                    
+                attempt += 1
+            
+            if best_trajectory is not None:
+                best_trajectory['userId'] = user_id
+                best_trajectory = best_trajectory.sort_values('timestamp')
+                
+                od_data = []
+                for i in range(len(best_trajectory) - 1):
+                    current = best_trajectory.iloc[i]
+                    next_point = best_trajectory.iloc[i + 1]
+                    
+                    od_pair = {
+                        'userId': user_id,
+                        'timestamp': current['timestamp'],
+                        'origin_lat': current['latitude'],
+                        'origin_lon': current['longitude'],
+                        'origin_category': current['venue_category'],
+                        'destination_lat': next_point['latitude'],
+                        'destination_lon': next_point['longitude'],
+                        'destination_category': next_point['venue_category']
+                    }
+                    od_data.append(od_pair)
+                
+                # Save individual user results
+                user_results = pd.DataFrame(od_data)
+                user_scores = pd.DataFrame([{'userId': user_id, 'score': best_score}])
+                
+                # Save to temporary files
+                user_results.to_csv(self.checkpoint_dir / f'user_{user_id}_trajectories.csv', index=False)
+                user_scores.to_csv(self.checkpoint_dir / f'user_{user_id}_scores.csv', index=False)
+                
+                return {
+                    'user_id': user_id,
+                    'status': 'success',
+                    'score': best_score,
+                    'num_trajectories': len(od_data)
+                }
+            
+            return {
+                'user_id': user_id,
+                'status': 'failed',
+                'score': 0.0,
+                'num_trajectories': 0
+            }
+            
+        except Exception as e:
+            logging.error(f"Error processing user {user_id}: {str(e)}")
+            return {
+                'user_id': user_id,
+                'status': 'error',
+                'error': str(e),
+                'score': 0.0,
+                'num_trajectories': 0
+            }
+    
+    def merge_results(self):
+        """Merge all temporary result files"""
+        # Merge trajectory data
+        trajectory_files = list(self.checkpoint_dir.glob('*_trajectories.csv'))
+        if trajectory_files:
+            trajectories = pd.concat([pd.read_csv(f) for f in trajectory_files])
+            trajectories.to_csv(self.output_dir / 'generated_trajectories.csv', index=False)
+        
+        # Merge score data
+        score_files = list(self.checkpoint_dir.glob('*_scores.csv'))
+        if score_files:
+            scores = pd.concat([pd.read_csv(f) for f in score_files])
+            scores.to_csv(self.output_dir / 'generation_scores.csv', index=False)
+
 def main():
-    print("Loading data...")
+    # Create necessary directories
+    checkpoint_dir = 'checkpoints'
+    output_dir = 'output'
+    Path(checkpoint_dir).mkdir(exist_ok=True)
+    Path(output_dir).mkdir(exist_ok=True)
+    
+    logging.info("Loading data...")
     data = pd.read_csv(r'D:\A_Research\A_doing_research\20250526_LLM_causal_inference\dataset\dataset_TSMC2014_NYC.csv')
     data = data.drop(['venueId', 'venueCategoryId'], axis=1)
     data['utcTimestamp'] = pd.to_datetime(data['utcTimestamp'])
     
-    profiler = Profiler()
-    generator = Generator()
-    discriminator = Discriminator()
-    
     unique_users = data['userId'].unique()
-    print(f"Found {len(unique_users)} users")
+    logging.info(f"Found {len(unique_users)} users")
     
-    all_results = []
-    all_scores = []
+    # Set up parallel processing
+    num_processes = mp.cpu_count() - 1  # Reserve one CPU core
+    logging.info(f"Using {num_processes} processes for parallel processing")
     
-    for idx, user_id in enumerate(unique_users):
-        if idx >= 1083:  ##number people of simulating 
-            break
-        print(f"\nProcessing user {user_id}...")
-        user_data = data[data['userId'] == user_id].copy()
-        POI_data = user_data[['venueCategory', 'latitude', 'longitude']].copy()
-        
-        # 4.1 Analyze user features
-        long_term_profile = profiler.analyze_long_term_profile(user_data)
-        short_term_pattern = profiler.analyze_short_term_pattern(user_data)
-        
-        # 4.2 Generate and evaluate trajectory
-        max_attempts = 3
-        attempt = 0
-        best_score = 0.0
-        best_trajectory = None
-        
-        while attempt < max_attempts:
-            # Generate trajectory
-            feedback_prompt = None
-            if attempt > 0:
-                feedback_prompt = f"""
-                Previous generated trajectory: {current_trajectory.to_string()}
-                Previous evaluation score: {score}
-                Previous feedback to consider: {feedback}
-                """
-            
-            current_trajectory = generator.generate_trajectory(
-                long_term_profile, 
-                short_term_pattern, 
-                # user_data,
-                POI_data,
-                feedback_prompt=feedback_prompt
-            )
-            
-            # Evaluate trajectory
-            score, feedback = discriminator.evaluate_trajectory(current_trajectory, user_data)
-            print(f"Attempt {attempt + 1}, Score: {score}")
-            
-            # Update best result if current score is higher
-            if score > best_score:
-                best_score = score
-                best_trajectory = current_trajectory
-            
-            if score >= 0.8:
-                break
-                
-            attempt += 1
-        
-        # 4.3 Convert to OD data and save results
-        if best_trajectory is not None:
-            best_trajectory['userId'] = user_id
-            
-            best_trajectory = best_trajectory.sort_values('timestamp')
-            
-            od_data = []
-            for i in range(len(best_trajectory) - 1):
-                current = best_trajectory.iloc[i]
-                next_point = best_trajectory.iloc[i + 1]
-                
-                od_pair = {
-                    'userId': user_id,
-                    'timestamp': current['timestamp'],
-                    'origin_lat': current['latitude'],
-                    'origin_lon': current['longitude'],
-                    'origin_category': current['venue_category'],
-                    'destination_lat': next_point['latitude'],
-                    'destination_lon': next_point['longitude'],
-                    'destination_category': next_point['venue_category']
-                }
-                od_data.append(od_pair)
-            
-            all_results.extend(od_data)
-            all_scores.append({'userId': user_id, 'score': best_score})
+    # Process users in batches
+    batch_size = 50
+    total_batches = (len(unique_users) + batch_size - 1) // batch_size
     
-    if all_results:
-        final_results = pd.DataFrame(all_results)
-        scores_df = pd.DataFrame(all_scores)
+    processor = TrajectoryProcessor(checkpoint_dir, output_dir)
+    
+    for batch_idx in range(total_batches):
+        start_idx = batch_idx * batch_size
+        end_idx = min((batch_idx + 1) * batch_size, len(unique_users))
+        batch_users = unique_users[start_idx:end_idx]
         
-        final_results.to_csv('generated_trajectories.csv', index=False)
-        scores_df.to_csv('generation_scores.csv', index=False)
+        logging.info(f"Processing batch {batch_idx + 1}/{total_batches} (users {start_idx}-{end_idx})")
         
-        print("\nGeneration completed!")
-        print(f"Results saved to generated_trajectories.csv")
-        print(f"Scores saved to generation_scores.csv")
-    else:
-        print("No trajectories were successfully generated")
+        with ProcessPoolExecutor(max_workers=num_processes) as executor:
+            futures = []
+            for user_id in batch_users:
+                user_data = data[data['userId'] == user_id].copy()
+                future = executor.submit(processor.process_user, user_id, user_data)
+                futures.append(future)
+            
+            # Use tqdm to show progress
+            for future in tqdm(as_completed(futures), total=len(futures)):
+                try:
+                    result = future.result()
+                    if result['status'] == 'success':
+                        logging.info(f"Successfully processed user {result['user_id']} with score {result['score']:.2f}")
+                    else:
+                        logging.warning(f"Failed to process user {result['user_id']}: {result.get('error', 'Unknown error')}")
+                except Exception as e:
+                    logging.error(f"Error in future: {str(e)}")
+        
+        # Merge results after each batch
+        processor.merge_results()
+        logging.info(f"Completed batch {batch_idx + 1}/{total_batches}")
+    
+    # Final merge of all results
+    processor.merge_results()
+    logging.info("Generation completed!")
+    logging.info(f"Results saved to {output_dir}/generated_trajectories.csv")
+    logging.info(f"Scores saved to {output_dir}/generation_scores.csv")
 
 if __name__ == "__main__":
     main() 

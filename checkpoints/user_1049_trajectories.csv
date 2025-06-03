@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+1049,2025-05-28 07:30:00,40.728005,-73.993485,Gym / Fitness Center,40.730096,-73.992499,Coffee Shop
+1049,2025-05-28 09:00:00,40.730096,-73.992499,Coffee Shop,40.738462,-73.993993,Office
+1049,2025-05-28 12:30:00,40.738462,-73.993993,Office,40.729895,-73.992114,Sandwich Place
+1049,2025-05-28 17:00:00,40.729895,-73.992114,Sandwich Place,40.728005,-73.993485,Gym / Fitness Center
+1049,2025-05-28 18:30:00,40.728005,-73.993485,Gym / Fitness Center,40.725837,-73.994806,Mexican Restaurant
+1049,2025-05-28 20:00:00,40.725837,-73.994806,Mexican Restaurant,40.730887,-74.001079,Bar
+1049,2025-05-28 21:30:00,40.730887,-74.001079,Bar,40.730096,-73.992499,Coffee Shop

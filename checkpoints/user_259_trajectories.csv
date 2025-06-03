@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+259,2025-05-28 00:30:00,40.909117,-74.200323,Home (private),40.909117,-74.200323,Home (private)
+259,2025-05-28 07:00:00,40.909117,-74.200323,Home (private),40.864866,-74.065236,Gym / Fitness Center
+259,2025-05-28 07:30:00,40.864866,-74.065236,Gym / Fitness Center,40.860759,-74.198828,University
+259,2025-05-28 08:30:00,40.860759,-74.198828,University,40.915718,-74.073044,American Restaurant
+259,2025-05-28 12:00:00,40.915718,-74.073044,American Restaurant,40.915523,-74.057379,Department Store
+259,2025-05-28 13:30:00,40.915523,-74.057379,Department Store,40.909117,-74.200323,Home (private)
+259,2025-05-28 15:00:00,40.909117,-74.200323,Home (private),40.864945,-74.065213,Gym / Fitness Center
+259,2025-05-28 17:00:00,40.864945,-74.065213,Gym / Fitness Center,40.909117,-74.200323,Home (private)
+259,2025-05-28 19:00:00,40.909117,-74.200323,Home (private),40.910667,-74.035971,Bar
+259,2025-05-28 20:30:00,40.910667,-74.035971,Bar,40.915718,-74.073044,American Restaurant

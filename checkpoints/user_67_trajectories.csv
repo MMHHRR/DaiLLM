@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+67,2025-05-28 04:00:00,40.8555,-73.846235,Medical Center,40.856429,-73.846825,Bakery
+67,2025-05-28 04:30:00,40.856429,-73.846825,Bakery,40.857091,-73.913741,College Academic Building
+67,2025-05-28 06:00:00,40.857091,-73.913741,College Academic Building,40.8555,-73.846235,Medical Center
+67,2025-05-28 12:00:00,40.8555,-73.846235,Medical Center,40.856751,-73.846797,Bakery
+67,2025-05-28 12:30:00,40.856751,-73.846797,Bakery,40.857159,-73.91177,Community College
+67,2025-05-28 15:00:00,40.857159,-73.91177,Community College,40.8555,-73.846235,Medical Center
+67,2025-05-28 17:30:00,40.8555,-73.846235,Medical Center,40.856751,-73.846797,Bakery
+67,2025-05-28 18:00:00,40.856751,-73.846797,Bakery,40.8555,-73.846235,Medical Center
+67,2025-05-28 19:00:00,40.8555,-73.846235,Medical Center,40.856751,-73.846797,Bakery

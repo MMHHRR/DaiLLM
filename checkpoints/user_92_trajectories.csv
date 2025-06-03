@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+92,2025-05-28 08:30:00,40.752659,-74.000633,Home (private),40.80389,-73.969019,College Academic Building
+92,2025-05-28 09:00:00,40.80389,-73.969019,College Academic Building,40.768739,-73.981852,American Restaurant
+92,2025-05-28 12:00:00,40.768739,-73.981852,American Restaurant,40.80389,-73.969019,College Academic Building
+92,2025-05-28 13:00:00,40.80389,-73.969019,College Academic Building,40.703578,-74.01618,Park
+92,2025-05-28 15:30:00,40.703578,-74.01618,Park,40.762309,-73.973866,Coffee Shop
+92,2025-05-28 17:00:00,40.762309,-73.973866,Coffee Shop,40.766766,-73.937774,Art Museum
+92,2025-05-28 18:00:00,40.766766,-73.937774,Art Museum,40.741408,-73.988438,Burger Joint
+92,2025-05-28 20:00:00,40.741408,-73.988438,Burger Joint,40.79918,-73.973473,Park
+92,2025-05-28 21:30:00,40.79918,-73.973473,Park,40.752659,-74.000633,Home (private)

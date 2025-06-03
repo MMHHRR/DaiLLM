@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+1046,2025-05-28 08:30:00,40.868018,-74.188582,Home (private),40.918782,-74.169276,College Academic Building
+1046,2025-05-28 09:00:00,40.918782,-74.169276,College Academic Building,40.822946,-74.219678,Deli / Bodega
+1046,2025-05-28 12:30:00,40.822946,-74.219678,Deli / Bodega,40.908966,-74.204136,Drugstore / Pharmacy
+1046,2025-05-28 13:30:00,40.908966,-74.204136,Drugstore / Pharmacy,40.90777,-74.206222,Gym / Fitness Center
+1046,2025-05-28 14:00:00,40.90777,-74.206222,Gym / Fitness Center,40.917733,-74.143812,Medical Center
+1046,2025-05-28 15:30:00,40.917733,-74.143812,Medical Center,40.882274,-74.212174,Food & Drink Shop
+1046,2025-05-28 17:00:00,40.882274,-74.212174,Food & Drink Shop,40.868423,-74.19069,Steakhouse
+1046,2025-05-28 19:00:00,40.868423,-74.19069,Steakhouse,40.882288,-74.180367,Bar
+1046,2025-05-28 21:00:00,40.882288,-74.180367,Bar,40.868018,-74.188582,Home (private)

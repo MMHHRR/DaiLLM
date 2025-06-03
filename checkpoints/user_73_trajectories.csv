@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+73,2025-05-28 08:00:00,40.824623,-73.941347,Residential Building (Apartment / Condo),40.854907,-73.90528,School
+73,2025-05-28 08:30:00,40.854907,-73.90528,School,40.854206,-73.907258,Fast Food Restaurant
+73,2025-05-28 12:00:00,40.854206,-73.907258,Fast Food Restaurant,40.854907,-73.90528,School
+73,2025-05-28 13:00:00,40.854907,-73.90528,School,40.82667,-73.940949,Park
+73,2025-05-28 15:30:00,40.82667,-73.940949,Park,40.853776,-73.907561,Fast Food Restaurant
+73,2025-05-28 17:00:00,40.853776,-73.907561,Fast Food Restaurant,40.824623,-73.941347,Residential Building (Apartment / Condo)
+73,2025-05-28 18:00:00,40.824623,-73.941347,Residential Building (Apartment / Condo),40.731359,-73.988642,Bar
+73,2025-05-28 20:00:00,40.731359,-73.988642,Bar,40.824623,-73.941347,Residential Building (Apartment / Condo)

@@ -1,0 +1,12 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+855,2025-05-28 09:00:00,40.835116,-74.165099,Home (private),40.841205,-74.159024,Donut Shop
+855,2025-05-28 09:30:00,40.841205,-74.159024,Donut Shop,40.829917,-74.141064,Sporting Goods Shop
+855,2025-05-28 10:00:00,40.829917,-74.141064,Sporting Goods Shop,40.809265,-74.213373,Gym / Fitness Center
+855,2025-05-28 10:30:00,40.809265,-74.213373,Gym / Fitness Center,40.825087,-74.153649,American Restaurant
+855,2025-05-28 12:00:00,40.825087,-74.153649,American Restaurant,40.812237,-74.145297,Coffee Shop
+855,2025-05-28 13:00:00,40.812237,-74.145297,Coffee Shop,40.829917,-74.141064,Sporting Goods Shop
+855,2025-05-28 15:00:00,40.829917,-74.141064,Sporting Goods Shop,40.841205,-74.159024,Donut Shop
+855,2025-05-28 17:00:00,40.841205,-74.159024,Donut Shop,40.809265,-74.213373,Gym / Fitness Center
+855,2025-05-28 19:00:00,40.809265,-74.213373,Gym / Fitness Center,40.829917,-74.141064,Sporting Goods Shop
+855,2025-05-28 20:30:00,40.829917,-74.141064,Sporting Goods Shop,40.841205,-74.159024,Donut Shop
+855,2025-05-28 21:30:00,40.841205,-74.159024,Donut Shop,40.835116,-74.165099,Home (private)

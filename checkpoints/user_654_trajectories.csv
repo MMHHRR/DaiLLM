@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+654,2025-05-28 07:30:00,40.767532,-74.035888,Home (private),40.770012,-74.036728,High School
+654,2025-05-28 08:00:00,40.770012,-74.036728,High School,40.770012,-74.036728,High School
+654,2025-05-28 15:00:00,40.770012,-74.036728,High School,40.774093,-74.037759,Fast Food Restaurant
+654,2025-05-28 15:30:00,40.774093,-74.037759,Fast Food Restaurant,40.775407,-74.031887,Fast Food Restaurant
+654,2025-05-28 16:00:00,40.775407,-74.031887,Fast Food Restaurant,40.767532,-74.035888,Home (private)
+654,2025-05-28 17:00:00,40.767532,-74.035888,Home (private),40.774093,-74.037759,Fast Food Restaurant
+654,2025-05-28 18:30:00,40.774093,-74.037759,Fast Food Restaurant,40.774733,-74.035231,Movie Theater
+654,2025-05-28 20:00:00,40.774733,-74.035231,Movie Theater,40.767532,-74.035888,Home (private)

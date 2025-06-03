@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+966,2025-05-28 08:30:00,40.74697,-73.98138,Coffee Shop,40.746565,-73.982024,Arts & Entertainment
+966,2025-05-28 10:00:00,40.746565,-73.982024,Arts & Entertainment,40.730148,-74.003107,Record Shop
+966,2025-05-28 12:00:00,40.730148,-74.003107,Record Shop,40.74697,-73.98138,Coffee Shop
+966,2025-05-28 13:30:00,40.74697,-73.98138,Coffee Shop,40.75485,-73.988005,Bookstore
+966,2025-05-28 15:00:00,40.75485,-73.988005,Bookstore,40.746565,-73.982024,Arts & Entertainment
+966,2025-05-28 17:00:00,40.746565,-73.982024,Arts & Entertainment,40.74697,-73.98138,Coffee Shop
+966,2025-05-28 18:30:00,40.74697,-73.98138,Coffee Shop,40.743037,-74.005731,Music Venue
+966,2025-05-28 20:00:00,40.743037,-74.005731,Music Venue,40.741902,-73.982574,Bar

@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+551,2025-05-28 07:30:00,40.611449,-73.938379,Gym / Fitness Center,40.771536,-73.981975,Coffee Shop
+551,2025-05-28 09:00:00,40.771536,-73.981975,Coffee Shop,40.782995,-73.95891,Art Museum
+551,2025-05-28 10:30:00,40.782995,-73.95891,Art Museum,40.728465,-73.992119,American Restaurant
+551,2025-05-28 12:00:00,40.728465,-73.992119,American Restaurant,40.703011,-73.994863,Park
+551,2025-05-28 13:30:00,40.703011,-73.994863,Park,40.753716,-73.980947,Clothing Store
+551,2025-05-28 15:00:00,40.753716,-73.980947,Clothing Store,40.724836,-73.999336,Gym / Fitness Center
+551,2025-05-28 17:00:00,40.724836,-73.999336,Gym / Fitness Center,40.761937,-73.985422,Steakhouse
+551,2025-05-28 19:00:00,40.761937,-73.985422,Steakhouse,40.703668,-73.99391,Movie Theater

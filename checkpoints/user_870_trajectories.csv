@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+870,2025-05-28 08:00:00,40.716003,-74.19347,Residential Building (Apartment / Condo),40.716122,-74.193344,Office
+870,2025-05-28 09:00:00,40.716122,-74.193344,Office,40.751428,-74.178002,Miscellaneous Shop
+870,2025-05-28 12:30:00,40.751428,-74.178002,Miscellaneous Shop,40.7292,-74.194324,Park
+870,2025-05-28 13:00:00,40.7292,-74.194324,Park,40.716122,-74.193344,Office
+870,2025-05-28 14:00:00,40.716122,-74.193344,Office,40.715092,-74.191859,Donut Shop
+870,2025-05-28 17:00:00,40.715092,-74.191859,Donut Shop,40.764232,-74.216812,Other Great Outdoors
+870,2025-05-28 18:00:00,40.764232,-74.216812,Other Great Outdoors,40.724827,-74.201057,Movie Theater
+870,2025-05-28 20:00:00,40.724827,-74.201057,Movie Theater,40.716003,-74.19347,Residential Building (Apartment / Condo)

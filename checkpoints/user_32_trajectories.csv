@@ -1,0 +1,6 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+32,2025-05-28 08:00:00,40.745399,-73.98013,Office,40.746152,-73.982202,Sandwich Place
+32,2025-05-28 12:30:00,40.746152,-73.982202,Sandwich Place,40.742942,-73.982933,Indian Restaurant
+32,2025-05-28 13:15:00,40.742942,-73.982933,Indian Restaurant,40.744709,-73.981043,Gym / Fitness Center
+32,2025-05-28 17:30:00,40.744709,-73.981043,Gym / Fitness Center,40.745245,-73.982692,Mexican Restaurant
+32,2025-05-28 19:00:00,40.745245,-73.982692,Mexican Restaurant,40.628972,-74.080093,Café

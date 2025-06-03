@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+251,2025-05-28 07:00:00,40.741096,-73.992705,Gym / Fitness Center,40.741989,-74.005117,Food & Drink Shop
+251,2025-05-28 08:30:00,40.741989,-74.005117,Food & Drink Shop,40.744425,-73.996492,Gym / Fitness Center
+251,2025-05-28 09:00:00,40.744425,-73.996492,Gym / Fitness Center,40.74069,-73.991155,American Restaurant
+251,2025-05-28 12:30:00,40.74069,-73.991155,American Restaurant,40.742721,-73.992762,Gym / Fitness Center
+251,2025-05-28 13:30:00,40.742721,-73.992762,Gym / Fitness Center,40.740758,-73.98735,Italian Restaurant
+251,2025-05-28 17:00:00,40.740758,-73.98735,Italian Restaurant,40.736219,-74.008303,Bar
+251,2025-05-28 18:30:00,40.736219,-74.008303,Bar,40.732461,-73.987893,Bar
+251,2025-05-28 20:00:00,40.732461,-73.987893,Bar,40.743624,-73.985856,American Restaurant

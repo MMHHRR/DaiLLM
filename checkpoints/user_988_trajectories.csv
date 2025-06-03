@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+988,2025-05-28 06:30:00,40.934622,-73.901296,Gym / Fitness Center,40.934609,-73.901303,Residential Building (Apartment / Condo)
+988,2025-05-28 07:30:00,40.934609,-73.901303,Residential Building (Apartment / Condo),40.752414,-73.975321,Office
+988,2025-05-28 08:30:00,40.752414,-73.975321,Office,40.752289,-73.974213,Sandwich Place
+988,2025-05-28 12:00:00,40.752289,-73.974213,Sandwich Place,40.752414,-73.975321,Office
+988,2025-05-28 13:00:00,40.752414,-73.975321,Office,40.752414,-73.975321,Office
+988,2025-05-28 17:00:00,40.752414,-73.975321,Office,40.935454,-73.901992,Park
+988,2025-05-28 18:00:00,40.935454,-73.901992,Park,40.761528,-74.000237,American Restaurant
+988,2025-05-28 19:30:00,40.761528,-74.000237,American Restaurant,40.934622,-73.901296,Gym / Fitness Center
+988,2025-05-28 21:00:00,40.934622,-73.901296,Gym / Fitness Center,40.934609,-73.901303,Residential Building (Apartment / Condo)

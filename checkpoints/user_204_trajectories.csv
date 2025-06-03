@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+204,2025-05-28 08:30:00,40.704316,-74.013381,Coffee Shop,40.631167,-73.952215,University
+204,2025-05-28 09:00:00,40.631167,-73.952215,University,40.631379,-73.951442,College Academic Building
+204,2025-05-28 12:00:00,40.631379,-73.951442,College Academic Building,40.5903,-73.799829,Food & Drink Shop
+204,2025-05-28 13:00:00,40.5903,-73.799829,Food & Drink Shop,40.733159,-73.871539,Park
+204,2025-05-28 14:00:00,40.733159,-73.871539,Park,40.632195,-73.948331,Coffee Shop
+204,2025-05-28 16:00:00,40.632195,-73.948331,Coffee Shop,40.631379,-73.951442,College Academic Building
+204,2025-05-28 18:00:00,40.631379,-73.951442,College Academic Building,40.63247,-73.950348,Student Center
+204,2025-05-28 20:00:00,40.63247,-73.950348,Student Center,40.679037,-73.86382,Pizza Place
+204,2025-05-28 21:30:00,40.679037,-73.86382,Pizza Place,40.713904,-74.008962,Coffee Shop

@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+980,2025-05-28 09:00:00,40.745902,-73.988142,Coffee Shop,40.745885,-73.988601,Clothing Store
+980,2025-05-28 10:30:00,40.745885,-73.988601,Clothing Store,40.714008,-73.950686,Ramen / Noodle House
+980,2025-05-28 12:00:00,40.714008,-73.950686,Ramen / Noodle House,40.727404,-73.951754,Tattoo Parlor
+980,2025-05-28 13:30:00,40.727404,-73.951754,Tattoo Parlor,40.737746,-74.008058,Art Gallery
+980,2025-05-28 15:00:00,40.737746,-74.008058,Art Gallery,40.705142,-73.933284,Middle Eastern Restaurant
+980,2025-05-28 17:00:00,40.705142,-73.933284,Middle Eastern Restaurant,40.723063,-73.950691,Bar
+980,2025-05-28 19:00:00,40.723063,-73.950691,Bar,40.769815,-73.992475,Concert Hall
+980,2025-05-28 21:00:00,40.769815,-73.992475,Concert Hall,40.730144,-73.980719,Late Night Bar

@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+8,2025-05-28 07:30:00,40.781333,-73.97965,Gym / Fitness Center,40.750943,-74.006196,Office
+8,2025-05-28 08:30:00,40.750943,-74.006196,Office,40.728895,-73.984521,Asian Restaurant
+8,2025-05-28 12:00:00,40.728895,-73.984521,Asian Restaurant,40.750943,-74.006196,Office
+8,2025-05-28 13:00:00,40.750943,-74.006196,Office,40.781333,-73.97965,Gym / Fitness Center
+8,2025-05-28 17:30:00,40.781333,-73.97965,Gym / Fitness Center,40.779266,-73.977439,Italian Restaurant
+8,2025-05-28 19:30:00,40.779266,-73.977439,Italian Restaurant,40.726355,-74.005762,Bar

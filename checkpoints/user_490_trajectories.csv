@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+490,2025-05-28 07:30:00,40.759118,-73.982587,Coffee Shop,40.961655,-74.074931,Gym / Fitness Center
+490,2025-05-28 08:15:00,40.961655,-74.074931,Gym / Fitness Center,40.760802,-73.983493,Coffee Shop
+490,2025-05-28 09:30:00,40.760802,-73.983493,Coffee Shop,40.759227,-73.982834,Mexican Restaurant
+490,2025-05-28 12:00:00,40.759227,-73.982834,Mexican Restaurant,40.753728,-73.983688,Park
+490,2025-05-28 13:30:00,40.753728,-73.983688,Park,40.760802,-73.983493,Coffee Shop
+490,2025-05-28 15:00:00,40.760802,-73.983493,Coffee Shop,40.961655,-74.074931,Gym / Fitness Center
+490,2025-05-28 17:00:00,40.961655,-74.074931,Gym / Fitness Center,40.915828,-74.076319,American Restaurant
+490,2025-05-28 19:00:00,40.915828,-74.076319,American Restaurant,40.915329,-74.076701,Movie Theater
+490,2025-05-28 21:00:00,40.915329,-74.076701,Movie Theater,40.759118,-73.982587,Coffee Shop

@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+756,2025-05-28 08:00:00,40.752698,-73.990036,Office,40.75171,-73.990295,Coffee Shop
+756,2025-05-28 10:30:00,40.75171,-73.990295,Coffee Shop,40.745522,-73.978018,American Restaurant
+756,2025-05-28 12:00:00,40.745522,-73.978018,American Restaurant,40.752698,-73.990036,Office
+756,2025-05-28 13:00:00,40.752698,-73.990036,Office,40.734588,-73.99873,Gym / Fitness Center
+756,2025-05-28 15:30:00,40.734588,-73.99873,Gym / Fitness Center,40.753726,-73.988642,Coffee Shop
+756,2025-05-28 17:00:00,40.753726,-73.988642,Coffee Shop,40.764085,-73.9705,Asian Restaurant
+756,2025-05-28 19:00:00,40.764085,-73.9705,Asian Restaurant,40.762763,-73.97174,Bar

@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+40,2025-05-28 08:00:00,40.770282,-73.735549,College Academic Building,40.763281,-73.809124,Food & Drink Shop
+40,2025-05-28 10:30:00,40.763281,-73.809124,Food & Drink Shop,40.741183,-73.88123,Thai Restaurant
+40,2025-05-28 12:00:00,40.741183,-73.88123,Thai Restaurant,40.746964,-73.807697,Park
+40,2025-05-28 13:30:00,40.746964,-73.807697,Park,40.760075,-73.826976,Bakery
+40,2025-05-28 15:00:00,40.760075,-73.826976,Bakery,40.753222,-73.914576,Music Store
+40,2025-05-28 16:00:00,40.753222,-73.914576,Music Store,40.746212,-73.896168,Filipino Restaurant
+40,2025-05-28 18:00:00,40.746212,-73.896168,Filipino Restaurant,40.761136,-73.804201,Deli / Bodega
+40,2025-05-28 20:00:00,40.761136,-73.804201,Deli / Bodega,40.763281,-73.809124,Food & Drink Shop

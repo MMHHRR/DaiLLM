@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+617,2025-05-28 07:30:00,40.828315,-73.977126,Home (private),40.811357,-73.98144,Gym / Fitness Center
+617,2025-05-28 08:30:00,40.811357,-73.98144,Gym / Fitness Center,40.828315,-73.977126,Home (private)
+617,2025-05-28 09:30:00,40.828315,-73.977126,Home (private),40.821913,-73.978254,College Academic Building
+617,2025-05-28 12:00:00,40.821913,-73.978254,College Academic Building,40.833745,-73.970926,Park
+617,2025-05-28 15:00:00,40.833745,-73.970926,Park,40.823052,-73.976021,Burger Joint
+617,2025-05-28 17:00:00,40.823052,-73.976021,Burger Joint,40.828315,-73.977126,Home (private)
+617,2025-05-28 18:00:00,40.828315,-73.977126,Home (private),40.823052,-73.976021,Burger Joint
+617,2025-05-28 19:00:00,40.823052,-73.976021,Burger Joint,40.828315,-73.977126,Home (private)

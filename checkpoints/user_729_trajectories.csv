@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+729,2025-05-28 07:30:00,40.92769,-73.996429,Gym / Fitness Center,40.879528,-73.991493,Office
+729,2025-05-28 09:00:00,40.879528,-73.991493,Office,40.937151,-73.995881,Food & Drink Shop
+729,2025-05-28 12:30:00,40.937151,-73.995881,Food & Drink Shop,40.879528,-73.991493,Office
+729,2025-05-28 13:30:00,40.879528,-73.991493,Office,40.92769,-73.996429,Gym / Fitness Center
+729,2025-05-28 17:00:00,40.92769,-73.996429,Gym / Fitness Center,40.881073,-73.983169,Italian Restaurant
+729,2025-05-28 19:00:00,40.881073,-73.983169,Italian Restaurant,40.928573,-73.98888,Home (private)

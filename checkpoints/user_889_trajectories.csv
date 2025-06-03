@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+889,2025-05-28 08:00:00,40.925232,-73.965371,Home (private),40.896906,-74.03017,University
+889,2025-05-28 09:00:00,40.896906,-74.03017,University,40.89749,-74.033346,College Academic Building
+889,2025-05-28 12:00:00,40.89749,-74.033346,College Academic Building,40.951584,-74.088557,Student Center
+889,2025-05-28 13:30:00,40.951584,-74.088557,Student Center,40.902665,-74.005789,Other Great Outdoors
+889,2025-05-28 15:00:00,40.902665,-74.005789,Other Great Outdoors,40.924312,-73.996888,Neighborhood
+889,2025-05-28 17:00:00,40.924312,-73.996888,Neighborhood,40.870536,-74.014104,Ice Cream Shop
+889,2025-05-28 18:00:00,40.870536,-74.014104,Ice Cream Shop,40.935941,-73.995097,Fast Food Restaurant
+889,2025-05-28 19:00:00,40.935941,-73.995097,Fast Food Restaurant,40.925232,-73.965371,Home (private)

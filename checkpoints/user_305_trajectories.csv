@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+305,2025-05-28 08:00:00,40.758567,-73.984785,Office,40.821929,-73.929963,American Restaurant
+305,2025-05-28 12:00:00,40.821929,-73.929963,American Restaurant,40.758567,-73.984785,Office
+305,2025-05-28 13:00:00,40.758567,-73.984785,Office,40.75957,-73.994995,Bar
+305,2025-05-28 17:00:00,40.75957,-73.994995,Bar,40.836653,-73.925772,Church
+305,2025-05-28 19:00:00,40.836653,-73.925772,Church,40.762708,-73.989606,Mexican Restaurant
+305,2025-05-28 20:30:00,40.762708,-73.989606,Mexican Restaurant,40.841355,-73.930104,Home (private)

@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+216,2025-05-28 08:30:00,40.739548,-74.047638,Home (private),40.732153,-74.035889,Department Store
+216,2025-05-28 09:00:00,40.732153,-74.035889,Department Store,40.739548,-74.047638,Home (private)
+216,2025-05-28 10:30:00,40.739548,-74.047638,Home (private),40.72854,-74.046551,American Restaurant
+216,2025-05-28 12:00:00,40.72854,-74.046551,American Restaurant,40.742545,-74.049109,Recreational Space
+216,2025-05-28 13:30:00,40.742545,-74.049109,Recreational Space,40.710568,-74.011068,Department Store
+216,2025-05-28 15:00:00,40.710568,-74.011068,Department Store,40.72854,-74.046551,American Restaurant
+216,2025-05-28 17:30:00,40.72854,-74.046551,American Restaurant,40.756912,-73.98747,Theater
+216,2025-05-28 19:00:00,40.756912,-73.98747,Theater,40.74939,-73.982862,Bar
+216,2025-05-28 21:30:00,40.74939,-73.982862,Bar,40.739548,-74.047638,Home (private)

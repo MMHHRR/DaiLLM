@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+1076,2025-05-28 07:30:00,40.742721,-73.992762,Gym / Fitness Center,40.740348,-73.992406,Café
+1076,2025-05-28 09:00:00,40.740348,-73.992406,Café,40.735336,-73.991511,Clothing Store
+1076,2025-05-28 10:00:00,40.735336,-73.991511,Clothing Store,40.744998,-73.988601,American Restaurant
+1076,2025-05-28 12:30:00,40.744998,-73.988601,American Restaurant,40.74174,-73.99365,Food & Drink Shop
+1076,2025-05-28 14:00:00,40.74174,-73.99365,Food & Drink Shop,40.742721,-73.992762,Gym / Fitness Center
+1076,2025-05-28 17:00:00,40.742721,-73.992762,Gym / Fitness Center,40.744525,-73.990908,Bar
+1076,2025-05-28 19:00:00,40.744525,-73.990908,Bar,40.73883,-73.989847,American Restaurant
+1076,2025-05-28 21:00:00,40.73883,-73.989847,American Restaurant,40.734316,-73.999819,Bar

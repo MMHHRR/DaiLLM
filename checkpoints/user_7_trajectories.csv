@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+7,2025-05-28 09:00:00,40.81009,-73.943267,Coffee Shop,40.793368,-73.948298,School
+7,2025-05-28 10:00:00,40.793368,-73.948298,School,40.80927,-73.949071,Gym / Fitness Center
+7,2025-05-28 12:00:00,40.80927,-73.949071,Gym / Fitness Center,40.777871,-73.954761,Mexican Restaurant
+7,2025-05-28 13:30:00,40.777871,-73.954761,Mexican Restaurant,40.742816,-74.000406,Coffee Shop
+7,2025-05-28 15:00:00,40.742816,-74.000406,Coffee Shop,40.724592,-73.997147,Clothing Store
+7,2025-05-28 17:00:00,40.724592,-73.997147,Clothing Store,40.78845,-73.948873,Burger Joint
+7,2025-05-28 19:00:00,40.78845,-73.948873,Burger Joint,40.81009,-73.943267,Coffee Shop

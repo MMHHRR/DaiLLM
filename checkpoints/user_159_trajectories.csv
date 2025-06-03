@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+159,2025-05-28 07:30:00,40.746107,-74.024137,Home (private),40.742238,-74.004848,Office
+159,2025-05-28 08:00:00,40.742238,-74.004848,Office,40.919966,-74.066606,American Restaurant
+159,2025-05-28 12:00:00,40.919966,-74.066606,American Restaurant,40.742238,-74.004848,Office
+159,2025-05-28 13:00:00,40.742238,-74.004848,Office,40.740558,-74.00778,Beer Garden
+159,2025-05-28 17:30:00,40.740558,-74.00778,Beer Garden,40.904691,-74.082699,Park
+159,2025-05-28 19:00:00,40.904691,-74.082699,Park,40.746107,-74.024137,Home (private)

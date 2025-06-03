@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+242,2025-05-28 08:30:00,40.72524,-73.721302,Deli / Bodega,40.722104,-73.716953,Train Station
+242,2025-05-28 09:00:00,40.722104,-73.716953,Train Station,40.736933,-73.709552,Fast Food Restaurant
+242,2025-05-28 12:00:00,40.736933,-73.709552,Fast Food Restaurant,40.727271,-73.713309,Pipeline / Office Supplies Store
+242,2025-05-28 13:00:00,40.727271,-73.713309,Pipeline / Office Supplies Store,40.728752,-73.704568,Drugstore / Pharmacy
+242,2025-05-28 15:00:00,40.728752,-73.704568,Drugstore / Pharmacy,40.741437,-73.880954,Vietnamese Restaurant
+242,2025-05-28 17:00:00,40.741437,-73.880954,Vietnamese Restaurant,40.75474,-73.739641,Mall
+242,2025-05-28 18:00:00,40.75474,-73.739641,Mall,40.760576,-73.769713,Burger Joint
+242,2025-05-28 20:00:00,40.760576,-73.769713,Burger Joint,40.71869,-73.989313,Bar
+242,2025-05-28 21:30:00,40.71869,-73.989313,Bar,40.72524,-73.721302,Deli / Bodega

@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+957,2025-05-28 08:00:00,40.868054,-73.892208,Residential Building (Apartment / Condo),40.854324,-73.867781,Gym / Fitness Center
+957,2025-05-28 08:30:00,40.854324,-73.867781,Gym / Fitness Center,40.764797,-73.983253,Sandwich Place
+957,2025-05-28 09:30:00,40.764797,-73.983253,Sandwich Place,40.764314,-73.982529,Electronics Store
+957,2025-05-28 10:15:00,40.764314,-73.982529,Electronics Store,40.740659,-73.998266,American Restaurant
+957,2025-05-28 13:00:00,40.740659,-73.998266,American Restaurant,40.825375,-73.950921,Salon / Barbershop
+957,2025-05-28 14:30:00,40.825375,-73.950921,Salon / Barbershop,40.854324,-73.867781,Gym / Fitness Center
+957,2025-05-28 17:00:00,40.854324,-73.867781,Gym / Fitness Center,40.765513,-73.983563,Bar
+957,2025-05-28 19:00:00,40.765513,-73.983563,Bar,40.738114,-74.001967,Mexican Restaurant
+957,2025-05-28 21:00:00,40.738114,-74.001967,Mexican Restaurant,40.752201,-74.002472,Bar
+957,2025-05-28 23:00:00,40.752201,-74.002472,Bar,40.868054,-73.892208,Residential Building (Apartment / Condo)

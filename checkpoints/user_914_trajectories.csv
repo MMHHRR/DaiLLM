@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+914,2025-05-28 08:00:00,40.82453,-73.812498,Home (private),40.82798,-73.818889,Medical Center
+914,2025-05-28 09:00:00,40.82798,-73.818889,Medical Center,40.826379,-73.82214,Donut Shop
+914,2025-05-28 10:30:00,40.826379,-73.82214,Donut Shop,40.822968,-73.819606,Neighborhood
+914,2025-05-28 11:30:00,40.822968,-73.819606,Neighborhood,40.82678,-73.822611,Sandwich Place
+914,2025-05-28 12:30:00,40.82678,-73.822611,Sandwich Place,40.82453,-73.812498,Home (private)
+914,2025-05-28 13:00:00,40.82453,-73.812498,Home (private),40.901225,-73.817176,Department Store
+914,2025-05-28 17:30:00,40.901225,-73.817176,Department Store,40.827558,-73.823662,Fast Food Restaurant
+914,2025-05-28 18:30:00,40.827558,-73.823662,Fast Food Restaurant,40.82453,-73.812498,Home (private)
+914,2025-05-28 19:00:00,40.82453,-73.812498,Home (private),40.82798,-73.818889,Medical Center
+914,2025-05-28 20:30:00,40.82798,-73.818889,Medical Center,40.82453,-73.812498,Home (private)

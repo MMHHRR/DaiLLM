@@ -1,0 +1,7 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+123,2025-05-28 08:00:00,40.743303,-73.918264,Coffee Shop,40.750523,-73.93994,Government Building
+123,2025-05-28 09:00:00,40.750523,-73.93994,Government Building,40.754471,-73.963228,Hotel
+123,2025-05-28 17:30:00,40.754471,-73.963228,Hotel,40.756264,-73.9674,Bar
+123,2025-05-28 19:00:00,40.756264,-73.9674,Bar,40.743753,-73.922221,Mediterranean Restaurant
+123,2025-05-28 20:30:00,40.743753,-73.922221,Mediterranean Restaurant,40.740264,-74.001565,Bar
+123,2025-05-28 22:00:00,40.740264,-74.001565,Bar,40.754471,-73.963228,Hotel

@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+916,2025-05-28 08:00:00,40.659798,-74.115797,Residential Building (Apartment / Condo),40.712671,-74.011931,Train Station
+916,2025-05-28 08:30:00,40.712671,-74.011931,Train Station,40.695413,-73.987322,University
+916,2025-05-28 09:00:00,40.695413,-73.987322,University,40.667326,-74.104457,Food & Drink Shop
+916,2025-05-28 12:30:00,40.667326,-74.104457,Food & Drink Shop,40.69867,-73.987098,College Academic Building
+916,2025-05-28 13:30:00,40.69867,-73.987098,College Academic Building,40.680615,-74.114361,Park
+916,2025-05-28 15:00:00,40.680615,-74.114361,Park,40.726966,-74.038324,Mall
+916,2025-05-28 16:00:00,40.726966,-74.038324,Mall,40.683781,-74.09998,Convenience Store
+916,2025-05-28 18:00:00,40.683781,-74.09998,Convenience Store,40.832732,-74.095357,Diner
+916,2025-05-28 19:00:00,40.832732,-74.095357,Diner,40.659798,-74.115797,Residential Building (Apartment / Condo)

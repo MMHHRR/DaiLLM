@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+779,2025-05-28 07:30:00,40.782438,-74.141613,Home (private),40.865801,-74.158944,Bagel Shop
+779,2025-05-28 08:30:00,40.865801,-74.158944,Bagel Shop,40.891089,-74.213109,Medical Center
+779,2025-05-28 09:15:00,40.891089,-74.213109,Medical Center,40.862535,-74.144008,Medical Center
+779,2025-05-28 12:00:00,40.862535,-74.144008,Medical Center,40.787416,-74.134419,Pizza Place
+779,2025-05-28 13:00:00,40.787416,-74.134419,Pizza Place,40.862842,-74.055621,Gym / Fitness Center
+779,2025-05-28 14:00:00,40.862842,-74.055621,Gym / Fitness Center,40.817804,-73.857286,Other Great Outdoors
+779,2025-05-28 15:30:00,40.817804,-73.857286,Other Great Outdoors,40.788137,-74.13162,Government Building
+779,2025-05-28 17:00:00,40.788137,-74.13162,Government Building,40.794539,-74.11938,Medical Center
+779,2025-05-28 19:00:00,40.794539,-74.11938,Medical Center,40.782438,-74.141613,Home (private)

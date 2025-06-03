@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+3,2025-05-28 00:30:00,40.741552,-73.982092,Residential Building (Apartment / Condo),40.741552,-73.982092,Residential Building (Apartment / Condo)
+3,2025-05-28 07:30:00,40.741552,-73.982092,Residential Building (Apartment / Condo),40.749049,-73.991563,Office
+3,2025-05-28 08:00:00,40.749049,-73.991563,Office,40.745837,-73.987993,American Restaurant
+3,2025-05-28 12:30:00,40.745837,-73.987993,American Restaurant,40.749049,-73.991563,Office
+3,2025-05-28 13:30:00,40.749049,-73.991563,Office,40.771131,-73.967343,Art Museum
+3,2025-05-28 18:00:00,40.771131,-73.967343,Art Museum,40.740193,-73.989571,Italian Restaurant
+3,2025-05-28 20:00:00,40.740193,-73.989571,Italian Restaurant,40.722364,-73.994336,Bar
+3,2025-05-28 21:30:00,40.722364,-73.994336,Bar,40.725163,-73.99216,American Restaurant

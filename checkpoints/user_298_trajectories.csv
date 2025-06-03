@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+298,2025-05-28 07:30:00,40.738224,-73.995713,Gym / Fitness Center,40.785053,-73.979235,Coffee Shop
+298,2025-05-28 09:00:00,40.785053,-73.979235,Coffee Shop,40.672566,-73.968844,Library
+298,2025-05-28 10:00:00,40.672566,-73.968844,Library,40.667963,-73.980848,Sandwich Place
+298,2025-05-28 12:30:00,40.667963,-73.980848,Sandwich Place,40.774254,-73.9442,Park
+298,2025-05-28 13:30:00,40.774254,-73.9442,Park,40.73289,-73.99,Gym / Fitness Center
+298,2025-05-28 17:00:00,40.73289,-73.99,Gym / Fitness Center,40.760261,-73.96524,Italian Restaurant
+298,2025-05-28 18:30:00,40.760261,-73.96524,Italian Restaurant,40.744284,-74.006483,Bar
+298,2025-05-28 20:00:00,40.744284,-74.006483,Bar,40.731698,-73.989227,Music Venue

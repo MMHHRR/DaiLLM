@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+570,2025-05-28 00:30:00,40.752806,-73.977175,Train Station,40.774515,-73.981324,Gym / Fitness Center
+570,2025-05-28 07:30:00,40.774515,-73.981324,Gym / Fitness Center,40.78424,-73.973597,Café
+570,2025-05-28 09:00:00,40.78424,-73.973597,Café,40.753867,-73.981794,Design Studio
+570,2025-05-28 10:30:00,40.753867,-73.981794,Design Studio,40.75332,-73.974268,Lunch at Ramen / Noodle House
+570,2025-05-28 12:00:00,40.75332,-73.974268,Lunch at Ramen / Noodle House,40.775742,-73.982187,Clothing Store
+570,2025-05-28 13:30:00,40.775742,-73.982187,Clothing Store,40.759937,-73.976101,General Entertainment
+570,2025-05-28 15:00:00,40.759937,-73.976101,General Entertainment,40.753728,-73.983688,Park
+570,2025-05-28 17:00:00,40.753728,-73.983688,Park,40.743139,-74.007344,Dinner at Japanese Restaurant
+570,2025-05-28 19:00:00,40.743139,-74.007344,Dinner at Japanese Restaurant,40.722593,-74.000796,Performing Arts Venue
+570,2025-05-28 20:30:00,40.722593,-74.000796,Performing Arts Venue,40.780392,-73.980555,Bar

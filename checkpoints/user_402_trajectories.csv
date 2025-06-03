@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+402,2025-05-28 07:30:00,40.752806,-73.977175,Train Station,40.752613,-73.986317,Building
+402,2025-05-28 08:00:00,40.752613,-73.986317,Building,40.75267,-73.986593,Gym / Fitness Center
+402,2025-05-28 12:00:00,40.75267,-73.986593,Gym / Fitness Center,40.752264,-73.986011,Deli / Bodega
+402,2025-05-28 13:00:00,40.752264,-73.986011,Deli / Bodega,40.752806,-73.977175,Train Station
+402,2025-05-28 14:00:00,40.752806,-73.977175,Train Station,40.729155,-73.987029,Eastern European Restaurant
+402,2025-05-28 17:00:00,40.729155,-73.987029,Eastern European Restaurant,40.728246,-73.984963,Theater
+402,2025-05-28 19:00:00,40.728246,-73.984963,Theater,40.752806,-73.977175,Train Station
+402,2025-05-28 21:30:00,40.752806,-73.977175,Train Station,40.752613,-73.986317,Building

@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+1018,2025-05-28 08:30:00,40.750719,-73.975153,Office,40.753239,-73.979144,American Restaurant
+1018,2025-05-28 12:00:00,40.753239,-73.979144,American Restaurant,40.750719,-73.975153,Office
+1018,2025-05-28 13:00:00,40.750719,-73.975153,Office,40.759761,-73.988005,Art Gallery
+1018,2025-05-28 17:30:00,40.759761,-73.988005,Art Gallery,40.7812,-73.952111,Thai Restaurant
+1018,2025-05-28 19:00:00,40.7812,-73.952111,Thai Restaurant,40.780075,-73.955269,Coffee Shop
+1018,2025-05-28 20:30:00,40.780075,-73.955269,Coffee Shop,40.739398,-73.99321,General Entertainment
+1018,2025-05-28 21:30:00,40.739398,-73.99321,General Entertainment,40.785491,-73.953616,Home (private)

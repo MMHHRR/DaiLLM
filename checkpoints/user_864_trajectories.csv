@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+864,2025-05-28 08:00:00,40.661206,-73.880632,Residential Building (Apartment / Condo),40.701816,-73.796118,University
+864,2025-05-28 08:30:00,40.701816,-73.796118,University,40.702356,-73.791678,Sandwich Place
+864,2025-05-28 12:00:00,40.702356,-73.791678,Sandwich Place,40.701816,-73.796118,University
+864,2025-05-28 13:00:00,40.701816,-73.796118,University,40.604755,-73.942589,Medical Center
+864,2025-05-28 15:30:00,40.604755,-73.942589,Medical Center,40.650501,-73.871399,Clothing Store
+864,2025-05-28 16:30:00,40.650501,-73.871399,Clothing Store,40.703447,-73.800277,Fast Food Restaurant
+864,2025-05-28 17:30:00,40.703447,-73.800277,Fast Food Restaurant,40.825559,-73.920772,Movie Theater
+864,2025-05-28 19:00:00,40.825559,-73.920772,Movie Theater,40.738721,-73.886673,Bar
+864,2025-05-28 21:30:00,40.738721,-73.886673,Bar,40.661206,-73.880632,Residential Building (Apartment / Condo)

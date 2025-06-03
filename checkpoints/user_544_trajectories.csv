@@ -1,0 +1,8 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+544,2025-05-28 07:30:00,40.760784,-73.964599,Gym / Fitness Center,40.72289,-73.982811,Coffee Shop
+544,2025-05-28 08:45:00,40.72289,-73.982811,Coffee Shop,40.755349,-73.993451,Office
+544,2025-05-28 09:15:00,40.755349,-73.993451,Office,40.730497,-73.982995,Sushi Restaurant
+544,2025-05-28 12:00:00,40.730497,-73.982995,Sushi Restaurant,40.722127,-73.983471,Café
+544,2025-05-28 13:15:00,40.722127,-73.983471,Café,40.760784,-73.964599,Gym / Fitness Center
+544,2025-05-28 17:30:00,40.760784,-73.964599,Gym / Fitness Center,40.722534,-73.982745,Cuban Restaurant
+544,2025-05-28 19:00:00,40.722534,-73.982745,Cuban Restaurant,40.766461,-73.960272,Coffee Shop

@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+877,2025-05-28 08:00:00,40.612496,-73.98888,Home (private),40.639041,-73.997941,Medical Center
+877,2025-05-28 09:00:00,40.639041,-73.997941,Medical Center,40.612496,-73.98888,Home (private)
+877,2025-05-28 10:30:00,40.612496,-73.98888,Home (private),40.616119,-73.993439,Deli / Bodega
+877,2025-05-28 13:00:00,40.616119,-73.993439,Deli / Bodega,40.615119,-73.994203,Coffee Shop
+877,2025-05-28 14:00:00,40.615119,-73.994203,Coffee Shop,40.612496,-73.98888,Home (private)
+877,2025-05-28 15:30:00,40.612496,-73.98888,Home (private),40.614562,-73.991431,Spanish Restaurant
+877,2025-05-28 18:00:00,40.614562,-73.991431,Spanish Restaurant,40.638026,-73.999702,Pizza Place
+877,2025-05-28 20:00:00,40.638026,-73.999702,Pizza Place,40.612496,-73.98888,Home (private)

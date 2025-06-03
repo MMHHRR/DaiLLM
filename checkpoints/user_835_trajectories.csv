@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+835,2025-05-28 08:30:00,40.661471,-73.920433,Coffee Shop,40.652545,-73.919796,Bus Station
+835,2025-05-28 09:00:00,40.652545,-73.919796,Bus Station,40.664796,-73.922954,Train Station
+835,2025-05-28 09:30:00,40.664796,-73.922954,Train Station,40.761333,-73.994336,Latin American Restaurant
+835,2025-05-28 12:00:00,40.761333,-73.994336,Latin American Restaurant,40.718168,-74.015837,Park
+835,2025-05-28 13:30:00,40.718168,-74.015837,Park,40.704365,-74.013381,Coffee Shop
+835,2025-05-28 15:00:00,40.704365,-74.013381,Coffee Shop,40.660898,-73.922201,Caribbean Restaurant
+835,2025-05-28 18:00:00,40.660898,-73.922201,Caribbean Restaurant,40.659578,-73.922453,General Entertainment
+835,2025-05-28 20:00:00,40.659578,-73.922453,General Entertainment,40.715247,-74.009404,Bar

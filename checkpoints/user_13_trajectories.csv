@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+13,2025-05-28 08:00:00,40.911136,-73.907403,Home (private),40.91119,-73.907111,College Academic Building
+13,2025-05-28 09:00:00,40.91119,-73.907111,College Academic Building,40.911248,-73.90751,Student Center
+13,2025-05-28 12:00:00,40.911248,-73.90751,Student Center,40.959776,-73.842502,Fast Food Restaurant
+13,2025-05-28 12:30:00,40.959776,-73.842502,Fast Food Restaurant,40.9116,-73.907602,College Academic Building
+13,2025-05-28 13:30:00,40.9116,-73.907602,College Academic Building,40.91269,-73.90949,College Academic Building
+13,2025-05-28 15:00:00,40.91269,-73.90949,College Academic Building,40.911961,-73.906654,College Academic Building
+13,2025-05-28 17:00:00,40.911961,-73.906654,College Academic Building,40.911271,-73.907179,Student Center
+13,2025-05-28 18:30:00,40.911271,-73.907179,Student Center,40.911604,-73.907711,Other Nightlife
+13,2025-05-28 20:00:00,40.911604,-73.907711,Other Nightlife,40.911136,-73.907403,Home (private)

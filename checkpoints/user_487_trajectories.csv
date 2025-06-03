@@ -1,0 +1,12 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+487,2025-05-28 00:30:00,40.665212,-73.94186,Home (private),40.665212,-73.94186,Home (private)
+487,2025-05-28 08:00:00,40.665212,-73.94186,Home (private),40.662522,-73.947018,General Travel
+487,2025-05-28 09:00:00,40.662522,-73.947018,General Travel,40.662613,-73.945705,College Academic Building
+487,2025-05-28 09:15:00,40.662613,-73.945705,College Academic Building,40.665199,-73.942541,Food & Drink Shop
+487,2025-05-28 12:00:00,40.665199,-73.942541,Food & Drink Shop,40.662881,-73.945279,Other Great Outdoors
+487,2025-05-28 13:00:00,40.662881,-73.945279,Other Great Outdoors,40.66327,-73.945738,Athletic & Sport
+487,2025-05-28 15:00:00,40.66327,-73.945738,Athletic & Sport,40.665212,-73.94186,Home (private)
+487,2025-05-28 17:00:00,40.665212,-73.94186,Home (private),40.664244,-73.948888,Caribbean Restaurant
+487,2025-05-28 19:00:00,40.664244,-73.948888,Caribbean Restaurant,40.663748,-73.94641,Bar
+487,2025-05-28 20:30:00,40.663748,-73.94641,Bar,40.664091,-73.946806,Bar
+487,2025-05-28 22:00:00,40.664091,-73.946806,Bar,40.663711,-73.947167,Other Nightlife

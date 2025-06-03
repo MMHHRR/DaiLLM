@@ -1,0 +1,11 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+605,2025-05-28 07:30:00,40.781357,-73.979717,Gym / Fitness Center,40.7809,-73.981255,Coffee Shop
+605,2025-05-28 09:00:00,40.7809,-73.981255,Coffee Shop,40.778325,-73.980389,Clothing Store
+605,2025-05-28 10:00:00,40.778325,-73.980389,Clothing Store,40.778432,-73.981938,Drugstore / Pharmacy
+605,2025-05-28 11:30:00,40.778432,-73.981938,Drugstore / Pharmacy,40.780558,-73.981719,Food & Drink Shop
+605,2025-05-28 12:00:00,40.780558,-73.981719,Food & Drink Shop,40.779301,-73.982707,Pet Store
+605,2025-05-28 13:30:00,40.779301,-73.982707,Pet Store,40.77764,-73.97933,Cosmetics Shop
+605,2025-05-28 15:00:00,40.77764,-73.97933,Cosmetics Shop,40.781357,-73.979717,Gym / Fitness Center
+605,2025-05-28 17:00:00,40.781357,-73.979717,Gym / Fitness Center,40.780558,-73.981719,Food & Drink Shop
+605,2025-05-28 18:30:00,40.780558,-73.981719,Food & Drink Shop,40.778432,-73.981938,Drugstore / Pharmacy
+605,2025-05-28 20:00:00,40.778432,-73.981938,Drugstore / Pharmacy,40.781357,-73.979717,Gym / Fitness Center

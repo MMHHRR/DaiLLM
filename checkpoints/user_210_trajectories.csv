@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+210,2025-05-28 08:30:00,40.73004,-73.997519,College Academic Building,40.966549,-74.075875,American Restaurant
+210,2025-05-28 12:00:00,40.966549,-74.075875,American Restaurant,40.731096,-73.99531,College Academic Building
+210,2025-05-28 13:30:00,40.731096,-73.99531,College Academic Building,40.730836,-73.997641,Park
+210,2025-05-28 15:00:00,40.730836,-73.997641,Park,40.946098,-74.071498,Coffee Shop
+210,2025-05-28 16:00:00,40.946098,-74.071498,Coffee Shop,40.961655,-74.074931,Gym / Fitness Center
+210,2025-05-28 18:00:00,40.961655,-74.074931,Gym / Fitness Center,40.973386,-74.071322,Bar
+210,2025-05-28 19:30:00,40.973386,-74.071322,Bar,40.731129,-73.993531,Mexican Restaurant
+210,2025-05-28 21:30:00,40.731129,-73.993531,Mexican Restaurant,40.973386,-74.071322,Bar

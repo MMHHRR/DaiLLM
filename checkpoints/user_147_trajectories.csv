@@ -1,0 +1,9 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+147,2025-05-28 09:00:00,40.796595,-74.1975,Library,40.741396,-74.004818,Coffee Shop
+147,2025-05-28 12:00:00,40.741396,-74.004818,Coffee Shop,40.780002,-74.18943,Fast Food Restaurant
+147,2025-05-28 13:00:00,40.780002,-74.18943,Fast Food Restaurant,40.737231,-73.996793,Clothing Store
+147,2025-05-28 14:30:00,40.737231,-73.996793,Clothing Store,40.796595,-74.1975,Library
+147,2025-05-28 16:00:00,40.796595,-74.1975,Library,40.828354,-74.186957,American Restaurant
+147,2025-05-28 18:00:00,40.828354,-74.186957,American Restaurant,40.734167,-73.990487,Movie Theater
+147,2025-05-28 20:00:00,40.734167,-73.990487,Movie Theater,40.805787,-74.208014,Ice Cream Shop
+147,2025-05-28 22:30:00,40.805787,-74.208014,Ice Cream Shop,40.796595,-74.1975,Library

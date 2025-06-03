@@ -1,0 +1,10 @@
+userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
+717,2025-05-28 08:00:00,40.762594,-73.966063,Gym / Fitness Center,40.771485,-73.959221,Vegetarian / Vegan Restaurant
+717,2025-05-28 09:30:00,40.771485,-73.959221,Vegetarian / Vegan Restaurant,40.762118,-73.925425,Subway
+717,2025-05-28 11:00:00,40.762118,-73.925425,Subway,40.723709,-73.998512,Deli / Bodega
+717,2025-05-28 12:00:00,40.723709,-73.998512,Deli / Bodega,40.789121,-73.955364,Park
+717,2025-05-28 13:00:00,40.789121,-73.955364,Park,40.778183,-73.980739,Gym / Fitness Center
+717,2025-05-28 15:00:00,40.778183,-73.980739,Gym / Fitness Center,40.763446,-73.965231,Vegetarian / Vegan Restaurant
+717,2025-05-28 17:30:00,40.763446,-73.965231,Vegetarian / Vegan Restaurant,40.75969,-73.962372,Gym / Fitness Center
+717,2025-05-28 19:00:00,40.75969,-73.962372,Gym / Fitness Center,40.722358,-73.982185,Salon / Barbershop
+717,2025-05-28 20:30:00,40.722358,-73.982185,Salon / Barbershop,40.762594,-73.966063,Home
