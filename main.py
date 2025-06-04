@@ -12,6 +12,7 @@ import time
 from tqdm import tqdm
 import logging
 from concurrent.futures import ProcessPoolExecutor, as_completed
+import config
 
 # Set up logging
 logging.basicConfig(
@@ -26,8 +27,8 @@ logging.basicConfig(
 # Load environment variables
 load_dotenv()
 client = openai.OpenAI(
-    api_key="sk-YSKJPd8GuwHqxMaFrbMU50sjJ4AVJNVftjuCUCZvcvwaWl3k",
-    base_url="https://api.zetatechs.com/v1/"
+    api_key=config.OPENAI_API_KEY,
+    base_url=config.OPENAI_BASE_URL
 )
 
 class Profiler:
@@ -54,7 +55,7 @@ class Profiler:
         """
 
         response = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model=config.LLM_MODEL,
             messages=[{"role": "user", "content": prompt}]
         )
 
@@ -78,7 +79,7 @@ class Profiler:
         """
 
         response = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model=config.LLM_MODEL,
             messages=[{"role": "user", "content": prompt}]
         )
         
@@ -129,7 +130,7 @@ class Generator:
             prompt += f"\n\nPrevious feedback to consider:\n{feedback_prompt}"
         
         response = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model=config.LLM_MODEL,
             messages=[{"role": "user", "content": prompt}]
         )
         
@@ -199,7 +200,7 @@ class Discriminator:
         """
         
         response = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model=config.LLM_MODEL,
             messages=[{"role": "user", "content": prompt}]
         )
         
@@ -339,13 +340,13 @@ class TrajectoryProcessor:
         trajectory_files = list(self.checkpoint_dir.glob('*_trajectories.csv'))
         if trajectory_files:
             trajectories = pd.concat([pd.read_csv(f) for f in trajectory_files])
-            trajectories.to_csv(self.output_dir / 'generated_trajectories.csv', index=False)
+            trajectories.to_csv(self.output_dir / 'generated_trajectories2.csv', index=False)
         
         # Merge score data
         score_files = list(self.checkpoint_dir.glob('*_scores.csv'))
         if score_files:
             scores = pd.concat([pd.read_csv(f) for f in score_files])
-            scores.to_csv(self.output_dir / 'generation_scores.csv', index=False)
+            scores.to_csv(self.output_dir / 'generation_scores2.csv', index=False)
 
 def main():
     # Create necessary directories

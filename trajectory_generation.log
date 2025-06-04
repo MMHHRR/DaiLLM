@@ -5561,3 +5561,27 @@
 2025-06-03 16:38:18,250 - INFO - Generation completed!
 2025-06-03 16:38:18,251 - INFO - Results saved to output/generated_trajectories.csv
 2025-06-03 16:38:18,251 - INFO - Scores saved to output/generation_scores.csv
+2025-06-04 11:33:49,790 - INFO - Loading data...
+2025-06-04 11:34:16,310 - INFO - Found 1083 users
+2025-06-04 11:34:16,310 - INFO - Using 15 processes for parallel processing
+2025-06-04 11:34:16,310 - INFO - Processing batch 1/22 (users 0-50)
+2025-06-04 11:34:24,259 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:34:24,373 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:34:24,406 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:34:24,413 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:34:25,099 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:34:25,107 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:34:25,221 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:34:25,483 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:34:26,003 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:34:26,195 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:34:27,165 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:34:33,311 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:34:37,649 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:34:37,660 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:34:39,119 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:34:39,582 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:34:40,262 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:34:41,629 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:34:42,327 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:34:42,362 - INFO - HTTP Request: POST https://api.zetatechs.com/v1/chat/completions "HTTP/1.1 200 OK"
