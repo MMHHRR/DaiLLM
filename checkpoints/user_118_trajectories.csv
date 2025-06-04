@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-118,2025-05-28 07:30:00,40.605818,-73.94186,Home (private),40.590725,-73.950893,College Academic Building
-118,2025-05-28 08:00:00,40.590725,-73.950893,College Academic Building,40.564889,-73.911764,American Restaurant
-118,2025-05-28 12:00:00,40.564889,-73.911764,American Restaurant,40.590725,-73.950893,College Academic Building
-118,2025-05-28 13:00:00,40.590725,-73.950893,College Academic Building,40.612521,-73.912964,Gym / Fitness Center
-118,2025-05-28 17:00:00,40.612521,-73.912964,Gym / Fitness Center,40.557295,-73.911548,Beach
-118,2025-05-28 18:30:00,40.557295,-73.911548,Beach,40.631465,-73.947617,American Restaurant
-118,2025-05-28 20:00:00,40.631465,-73.947617,American Restaurant,40.605818,-73.94186,Home (private)

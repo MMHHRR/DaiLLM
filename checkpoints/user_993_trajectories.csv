@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-993,2025-05-28 07:30:00,40.59758,-73.938353,Residential Building (Apartment / Condo),40.573314,-73.987901,Office
-993,2025-05-28 08:15:00,40.573314,-73.987901,Office,40.60497,-73.942969,American Restaurant
-993,2025-05-28 12:30:00,40.60497,-73.942969,American Restaurant,40.598111,-73.938328,Residential Building (Apartment / Condo)
-993,2025-05-28 13:30:00,40.598111,-73.938328,Residential Building (Apartment / Condo),40.764301,-73.92304,Gym / Fitness Center
-993,2025-05-28 15:00:00,40.764301,-73.92304,Gym / Fitness Center,40.719023,-74.002346,Coffee Shop
-993,2025-05-28 16:30:00,40.719023,-74.002346,Coffee Shop,40.650465,-73.967802,Park
-993,2025-05-28 18:00:00,40.650465,-73.967802,Park,40.62783,-73.927463,Bar
-993,2025-05-28 20:00:00,40.62783,-73.927463,Bar,40.598111,-73.938328,Residential Building (Apartment / Condo)

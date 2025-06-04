@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-378,2025-05-28 08:00:00,40.900899,-74.212063,Home (private),40.8877,-74.214766,Gym / Fitness Center
-378,2025-05-28 09:00:00,40.8877,-74.214766,Gym / Fitness Center,40.852157,-74.004335,Food & Drink Shop
-378,2025-05-28 10:30:00,40.852157,-74.004335,Food & Drink Shop,40.885551,-74.212604,Department Store
-378,2025-05-28 12:00:00,40.885551,-74.212604,Department Store,40.852157,-74.004335,Food & Drink Shop
-378,2025-05-28 13:30:00,40.852157,-74.004335,Food & Drink Shop,40.914923,-74.05828,Mall
-378,2025-05-28 15:00:00,40.914923,-74.05828,Mall,40.915329,-74.076701,Movie Theater
-378,2025-05-28 17:30:00,40.915329,-74.076701,Movie Theater,40.852157,-74.004335,Food & Drink Shop
-378,2025-05-28 20:00:00,40.852157,-74.004335,Food & Drink Shop,40.900899,-74.212063,Home (private)

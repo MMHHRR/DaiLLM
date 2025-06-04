@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-1012,2025-05-28 07:30:00,40.735697,-73.812498,Home (private),40.756144,-73.976905,Office
-1012,2025-05-28 08:00:00,40.756144,-73.976905,Office,40.757083,-73.975952,Coffee Shop
-1012,2025-05-28 12:30:00,40.757083,-73.975952,Coffee Shop,40.761847,-73.990151,Restaurant
-1012,2025-05-28 13:00:00,40.761847,-73.990151,Restaurant,40.702575,-73.818998,Gym/Fitness Center
-1012,2025-05-28 17:30:00,40.702575,-73.818998,Gym/Fitness Center,40.759513,-73.831472,Neighborhood
-1012,2025-05-28 19:00:00,40.759513,-73.831472,Neighborhood,40.761847,-73.990151,Thai Restaurant
-1012,2025-05-28 20:00:00,40.761847,-73.990151,Thai Restaurant,40.735697,-73.812498,Home (private)

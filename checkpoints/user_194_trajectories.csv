@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-194,2025-05-28 07:30:00,40.571588,-73.854004,Housing Development,40.578401,-73.936186,Community College
-194,2025-05-28 08:00:00,40.578401,-73.936186,Community College,40.590704,-73.797129,Sandwich Place
-194,2025-05-28 12:30:00,40.590704,-73.797129,Sandwich Place,40.589906,-73.899536,Gym / Fitness Center
-194,2025-05-28 13:30:00,40.589906,-73.899536,Gym / Fitness Center,40.590244,-73.898949,Athletic & Sport
-194,2025-05-28 15:30:00,40.590244,-73.898949,Athletic & Sport,40.577773,-73.846745,Beach
-194,2025-05-28 18:00:00,40.577773,-73.846745,Beach,40.650788,-73.837481,Food & Drink Shop
-194,2025-05-28 20:00:00,40.650788,-73.837481,Food & Drink Shop,40.58606,-73.929834,Movie Theater
-194,2025-05-28 21:30:00,40.58606,-73.929834,Movie Theater,40.571588,-73.854004,Housing Development

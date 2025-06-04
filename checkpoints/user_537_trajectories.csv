@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-537,2025-05-28 07:30:00,40.763884,-73.958401,Residential Building (Apartment / Condo),40.759313,-73.978495,Office
-537,2025-05-28 08:15:00,40.759313,-73.978495,Office,40.763535,-73.975344,French Restaurant
-537,2025-05-28 12:00:00,40.763535,-73.975344,French Restaurant,40.759313,-73.978495,Office
-537,2025-05-28 13:00:00,40.759313,-73.978495,Office,40.759313,-73.978495,Office
-537,2025-05-28 17:30:00,40.759313,-73.978495,Office,40.76442,-73.96658,Gym / Fitness Center
-537,2025-05-28 18:00:00,40.76442,-73.96658,Gym / Fitness Center,40.758298,-73.972222,American Restaurant
-537,2025-05-28 19:00:00,40.758298,-73.972222,American Restaurant,40.761621,-73.97419,Bar
-537,2025-05-28 21:00:00,40.761621,-73.97419,Bar,40.763884,-73.958401,Residential Building (Apartment / Condo)

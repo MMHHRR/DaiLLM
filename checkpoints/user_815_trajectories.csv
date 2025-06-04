@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-815,2025-05-28 12:00:00,40.808312,-73.960927,Coffee Shop,40.808612,-73.961549,College Academic Building
-815,2025-05-28 12:30:00,40.808612,-73.961549,College Academic Building,40.809253,-73.965862,Park
-815,2025-05-28 15:00:00,40.809253,-73.965862,Park,40.807833,-73.963864,Chinese Restaurant
-815,2025-05-28 16:00:00,40.807833,-73.963864,Chinese Restaurant,40.808612,-73.961549,College Academic Building
-815,2025-05-28 17:00:00,40.808612,-73.961549,College Academic Building,40.701724,-73.840656,Event Space
-815,2025-05-28 19:00:00,40.701724,-73.840656,Event Space,40.755998,-73.967733,Bar
-815,2025-05-28 20:30:00,40.755998,-73.967733,Bar,40.712799,-73.859549,Home (private)

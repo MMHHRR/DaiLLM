@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-15,2025-05-28 08:00:00,40.762539,-74.000633,Home (private),40.719339,-74.004872,Hotel
-15,2025-05-28 09:00:00,40.719339,-74.004872,Hotel,40.79301,-73.973392,Deli / Bodega
-15,2025-05-28 12:00:00,40.79301,-73.973392,Deli / Bodega,40.726289,-74.000395,Italian Restaurant
-15,2025-05-28 13:00:00,40.726289,-74.000395,Italian Restaurant,40.794197,-73.972728,Laundry Service
-15,2025-05-28 15:00:00,40.794197,-73.972728,Laundry Service,40.73256,-73.985324,Bar
-15,2025-05-28 17:30:00,40.73256,-73.985324,Bar,40.785714,-73.972777,Burger Joint
-15,2025-05-28 19:00:00,40.785714,-73.972777,Burger Joint,40.756711,-74.001002,Convention Center
-15,2025-05-28 21:00:00,40.756711,-74.001002,Convention Center,40.762539,-74.000633,Home (private)

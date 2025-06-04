@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-780,2025-05-28 07:30:00,40.731708,-73.985479,Gym / Fitness Center,40.754084,-73.98232,Office
-780,2025-05-28 09:00:00,40.754084,-73.98232,Office,40.734103,-74.002612,American Restaurant
-780,2025-05-28 12:30:00,40.734103,-74.002612,American Restaurant,40.728123,-73.982857,American Restaurant
-780,2025-05-28 17:30:00,40.728123,-73.982857,American Restaurant,40.733191,-73.993512,Bar
-780,2025-05-28 19:00:00,40.733191,-73.993512,Bar,40.754019,-73.982105,Mexican Restaurant
-780,2025-05-28 21:30:00,40.754019,-73.982105,Mexican Restaurant,40.72702,-74.001898,Bar

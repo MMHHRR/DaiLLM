@@ -1,6 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-699,2025-05-28 08:30:00,40.736676,-73.98891,Office,40.736052,-73.989508,American Restaurant
-699,2025-05-28 12:30:00,40.736052,-73.989508,American Restaurant,40.736676,-73.98891,Office
-699,2025-05-28 13:15:00,40.736676,-73.98891,Office,40.566619,-74.1136,Bank
-699,2025-05-28 17:30:00,40.566619,-74.1136,Bank,40.735592,-73.988693,BBQ Joint
-699,2025-05-28 18:00:00,40.735592,-73.988693,BBQ Joint,40.761943,-73.788969,Home (private)

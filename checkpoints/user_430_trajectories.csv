@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-430,2025-05-28 07:30:00,40.706889,-73.818512,Residential Building (Apartment / Condo),40.702575,-73.818998,Gym / Fitness Center
-430,2025-05-28 08:00:00,40.702575,-73.818998,Gym / Fitness Center,40.770272,-73.988285,College Academic Building
-430,2025-05-28 09:00:00,40.770272,-73.988285,College Academic Building,40.764974,-73.917089,Restaurant
-430,2025-05-28 12:30:00,40.764974,-73.917089,Restaurant,40.780874,-73.802793,Bank
-430,2025-05-28 14:00:00,40.780874,-73.802793,Bank,40.706889,-73.818512,Residential Building (Apartment / Condo)
-430,2025-05-28 17:00:00,40.706889,-73.818512,Residential Building (Apartment / Condo),40.766697,-73.912797,Bar
-430,2025-05-28 18:00:00,40.766697,-73.912797,Bar,40.759459,-73.919749,Restaurant
-430,2025-05-28 20:00:00,40.759459,-73.919749,Restaurant,40.706889,-73.818512,Residential Building (Apartment / Condo)

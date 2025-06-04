@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-774,2025-05-28 09:00:00,40.857093,-73.982277,Gas Station / Garage,40.760504,-73.943849,Factory
-774,2025-05-28 09:30:00,40.760504,-73.943849,Factory,40.756961,-73.989074,BBQ Joint
-774,2025-05-28 12:00:00,40.756961,-73.989074,BBQ Joint,40.760504,-73.943849,Factory
-774,2025-05-28 13:00:00,40.760504,-73.943849,Factory,40.806224,-73.941819,Church
-774,2025-05-28 16:00:00,40.806224,-73.941819,Church,40.857093,-73.982277,Gas Station / Garage
-774,2025-05-28 17:30:00,40.857093,-73.982277,Gas Station / Garage,40.756782,-74.001503,General Entertainment
-774,2025-05-28 20:00:00,40.756782,-74.001503,General Entertainment,40.760504,-73.943849,Factory

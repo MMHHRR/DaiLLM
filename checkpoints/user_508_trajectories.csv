@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-508,2025-05-28 09:00:00,40.571283,-74.118123,Home (private),40.564888,-74.113762,Drugstore / Pharmacy
-508,2025-05-28 10:30:00,40.564888,-74.113762,Drugstore / Pharmacy,40.576375,-74.102561,Cosmetics Shop
-508,2025-05-28 11:15:00,40.576375,-74.102561,Cosmetics Shop,40.611722,-74.15903,American Restaurant
-508,2025-05-28 12:00:00,40.611722,-74.15903,American Restaurant,40.571283,-74.118123,Home (private)
-508,2025-05-28 13:30:00,40.571283,-74.118123,Home (private),40.587223,-74.103908,Japanese Restaurant
-508,2025-05-28 17:00:00,40.587223,-74.103908,Japanese Restaurant,40.738914,-74.030182,Bar
-508,2025-05-28 18:30:00,40.738914,-74.030182,Bar,40.739398,-73.99321,General Entertainment
-508,2025-05-28 20:00:00,40.739398,-73.99321,General Entertainment,40.571283,-74.118123,Home (private)

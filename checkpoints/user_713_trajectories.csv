@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-713,2025-05-28 08:30:00,40.741699,-73.974776,College Academic Building,40.743656,-73.97663,Coffee Shop
-713,2025-05-28 10:00:00,40.743656,-73.97663,Coffee Shop,40.745245,-73.982692,Mexican Restaurant
-713,2025-05-28 12:00:00,40.745245,-73.982692,Mexican Restaurant,40.741699,-73.974776,College Academic Building
-713,2025-05-28 13:30:00,40.741699,-73.974776,College Academic Building,40.743656,-73.97663,Coffee Shop
-713,2025-05-28 15:00:00,40.743656,-73.97663,Coffee Shop,40.744045,-73.983737,Coffee Shop
-713,2025-05-28 17:00:00,40.744045,-73.983737,Coffee Shop,40.745245,-73.982692,Mexican Restaurant
-713,2025-05-28 19:00:00,40.745245,-73.982692,Mexican Restaurant,40.743656,-73.97663,Coffee Shop

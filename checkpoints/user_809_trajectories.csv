@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-809,2025-05-28 07:30:00,40.720803,-74.000967,Office,40.736827,-73.986909,Café
-809,2025-05-28 12:00:00,40.736827,-73.986909,Café,40.727802,-73.988165,College Academic Building
-809,2025-05-28 13:00:00,40.727802,-73.988165,College Academic Building,40.730034,-73.992332,Gym / Fitness Center
-809,2025-05-28 17:00:00,40.730034,-73.992332,Gym / Fitness Center,40.726569,-73.989183,Italian Restaurant
-809,2025-05-28 18:30:00,40.726569,-73.989183,Italian Restaurant,40.734081,-74.004268,American Restaurant
-809,2025-05-28 20:00:00,40.734081,-74.004268,American Restaurant,40.730132,-73.99423,Bar
-809,2025-05-28 22:00:00,40.730132,-73.99423,Bar,40.730034,-73.992332,Gym / Fitness Center

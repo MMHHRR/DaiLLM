@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-444,2025-05-28 07:30:00,40.754189,-73.94186,Home (private),40.72868,-73.859471,General College & University
-444,2025-05-28 08:30:00,40.72868,-73.859471,General College & University,40.752774,-73.924336,Food & Drink Shop
-444,2025-05-28 12:00:00,40.752774,-73.924336,Food & Drink Shop,40.72868,-73.859471,General College & University
-444,2025-05-28 13:00:00,40.72868,-73.859471,General College & University,40.760281,-73.950571,Residential Building (Apartment / Condo)
-444,2025-05-28 17:00:00,40.760281,-73.950571,Residential Building (Apartment / Condo),40.758765,-73.952494,American Restaurant
-444,2025-05-28 18:30:00,40.758765,-73.952494,American Restaurant,40.772057,-73.940503,Park
-444,2025-05-28 20:00:00,40.772057,-73.940503,Park,40.758993,-73.919492,Bar
-444,2025-05-28 21:30:00,40.758993,-73.919492,Bar,40.754189,-73.94186,Home (private)

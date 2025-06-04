@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-381,2025-05-28 08:30:00,40.63118,-73.951025,College Academic Building,40.632195,-73.948331,Coffee Shop
-381,2025-05-28 12:00:00,40.632195,-73.948331,Coffee Shop,40.63118,-73.951025,College Academic Building
-381,2025-05-28 13:00:00,40.63118,-73.951025,College Academic Building,40.631299,-73.950961,Convention Center
-381,2025-05-28 16:00:00,40.631299,-73.950961,Convention Center,40.694157,-73.991873,Mexican Restaurant
-381,2025-05-28 18:00:00,40.694157,-73.991873,Mexican Restaurant,40.687165,-73.975619,Bar
-381,2025-05-28 20:00:00,40.687165,-73.975619,Bar,40.666523,-73.98191,Thai Restaurant

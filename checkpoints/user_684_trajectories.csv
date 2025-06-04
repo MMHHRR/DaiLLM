@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-684,2025-05-28 07:30:00,40.925513,-74.087401,Coffee Shop,40.813548,-74.109548,Convenience Store
-684,2025-05-28 08:15:00,40.813548,-74.109548,Convenience Store,40.80893,-74.105004,Sandwich Place
-684,2025-05-28 12:00:00,40.80893,-74.105004,Sandwich Place,40.931951,-74.132019,Bookstore
-684,2025-05-28 13:00:00,40.931951,-74.132019,Bookstore,40.955412,-74.068316,Gaming Cafe
-684,2025-05-28 15:30:00,40.955412,-74.068316,Gaming Cafe,40.915329,-74.076701,Movie Theater
-684,2025-05-28 18:00:00,40.915329,-74.076701,Movie Theater,40.955757,-74.074373,Pizza Place
-684,2025-05-28 20:30:00,40.955757,-74.074373,Pizza Place,40.966688,-74.078636,Coffee Shop

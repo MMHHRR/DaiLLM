@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-103,2025-05-28 09:00:00,40.737099,-73.990398,Coffee Shop,40.73269,-73.974638,Gym / Fitness Center
-103,2025-05-28 10:00:00,40.73269,-73.974638,Gym / Fitness Center,40.743006,-73.987062,Italian Restaurant
-103,2025-05-28 11:30:00,40.743006,-73.987062,Italian Restaurant,40.7328,-73.954692,Bar
-103,2025-05-28 13:00:00,40.7328,-73.954692,Bar,40.794835,-73.965983,Arts & Crafts Store
-103,2025-05-28 14:30:00,40.794835,-73.965983,Arts & Crafts Store,40.725015,-73.9991,Electronics Store
-103,2025-05-28 16:00:00,40.725015,-73.9991,Electronics Store,40.749051,-73.992137,American Restaurant
-103,2025-05-28 18:00:00,40.749051,-73.992137,American Restaurant,40.763315,-73.984165,Music Venue
-103,2025-05-28 20:00:00,40.763315,-73.984165,Music Venue,40.728602,-73.989962,Bar

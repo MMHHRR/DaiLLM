@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-778,2025-05-28 08:30:00,40.719893,-74.000054,Office,40.720087,-74.003961,Coffee Shop
-778,2025-05-28 10:00:00,40.720087,-74.003961,Coffee Shop,40.723185,-74.002547,Food & Drink Shop
-778,2025-05-28 11:45:00,40.723185,-74.002547,Food & Drink Shop,40.719893,-74.000054,Office
-778,2025-05-28 13:00:00,40.719893,-74.000054,Office,40.719434,-74.000492,American Restaurant
-778,2025-05-28 17:00:00,40.719434,-74.000492,American Restaurant,40.761397,-73.976986,Art Museum
-778,2025-05-28 19:00:00,40.761397,-73.976986,Art Museum,40.72228,-73.995177,Coffee Shop
-778,2025-05-28 21:00:00,40.72228,-73.995177,Coffee Shop,40.719893,-74.000054,Office

@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-462,2025-05-28 07:30:00,40.718932,-73.989129,Gym / Fitness Center,40.719741,-73.988642,Coffee Shop
-462,2025-05-28 09:00:00,40.719741,-73.988642,Coffee Shop,40.746229,-73.982381,Office
-462,2025-05-28 10:00:00,40.746229,-73.982381,Office,40.721545,-73.988842,Italian Restaurant
-462,2025-05-28 12:30:00,40.721545,-73.988842,Italian Restaurant,40.746229,-73.982381,Office
-462,2025-05-28 13:30:00,40.746229,-73.982381,Office,40.718932,-73.989129,Gym / Fitness Center
-462,2025-05-28 17:00:00,40.718932,-73.989129,Gym / Fitness Center,40.721545,-73.988842,Italian Restaurant
-462,2025-05-28 19:00:00,40.721545,-73.988842,Italian Restaurant,40.721957,-73.99204,Bar
-462,2025-05-28 20:30:00,40.721957,-73.99204,Bar,40.718932,-73.989129,Gym / Fitness Center

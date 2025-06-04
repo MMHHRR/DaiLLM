@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-515,2025-05-28 11:00:00,40.733955,-74.000177,Bar,40.763214,-73.989083,Thrift / Vintage Store
-515,2025-05-28 13:00:00,40.763214,-73.989083,Thrift / Vintage Store,40.726039,-73.982084,Performing Arts Venue
-515,2025-05-28 15:00:00,40.726039,-73.982084,Performing Arts Venue,40.764048,-73.9884,Restaurant
-515,2025-05-28 17:00:00,40.764048,-73.9884,Restaurant,40.824467,-73.95374,General Entertainment
-515,2025-05-28 20:00:00,40.824467,-73.95374,General Entertainment,40.726039,-73.982084,Performing Arts Venue
-515,2025-05-28 22:00:00,40.726039,-73.982084,Performing Arts Venue,40.731895,-73.983976,Bar
-515,2025-05-28 23:30:00,40.731895,-73.983976,Bar,40.726142,-73.989499,Bar

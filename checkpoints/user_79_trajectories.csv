@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-79,2025-05-28 10:00:00,40.725741,-73.990283,Bar,40.725472,-73.983783,Café
-79,2025-05-28 12:00:00,40.725472,-73.983783,Café,40.763939,-73.973088,Electronics Store
-79,2025-05-28 14:00:00,40.763939,-73.973088,Electronics Store,40.637762,-74.002214,Historic Site
-79,2025-05-28 16:00:00,40.637762,-74.002214,Historic Site,40.74515,-73.992267,General Entertainment
-79,2025-05-28 18:00:00,40.74515,-73.992267,General Entertainment,40.747513,-73.997875,Comedy Club
-79,2025-05-28 20:00:00,40.747513,-73.997875,Comedy Club,40.760353,-73.989636,Bar

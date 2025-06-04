@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-542,2025-05-28 08:00:00,40.776898,-73.980176,Residential Building (Apartment / Condo),40.772149,-73.987649,College Academic Building
-542,2025-05-28 08:30:00,40.772149,-73.987649,College Academic Building,40.771962,-73.98262,Burger Joint
-542,2025-05-28 12:00:00,40.771962,-73.98262,Burger Joint,40.772149,-73.987649,College Academic Building
-542,2025-05-28 12:30:00,40.772149,-73.987649,College Academic Building,40.776677,-73.980567,College Academic Building
-542,2025-05-28 15:00:00,40.776677,-73.980567,College Academic Building,40.776898,-73.980176,Residential Building (Apartment / Condo)
-542,2025-05-28 17:30:00,40.776898,-73.980176,Residential Building (Apartment / Condo),40.770983,-73.987132,Diner
-542,2025-05-28 18:00:00,40.770983,-73.987132,Diner,40.76114,-73.985675,Theater
-542,2025-05-28 20:00:00,40.76114,-73.985675,Theater,40.776898,-73.980176,Residential Building (Apartment / Condo)

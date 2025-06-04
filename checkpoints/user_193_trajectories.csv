@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-193,2025-05-28 08:00:00,40.711455,-73.98888,Home (private),40.713342,-73.991402,College Academic Building
-193,2025-05-28 09:00:00,40.713342,-73.991402,College Academic Building,40.710831,-73.991304,Food & Drink Shop
-193,2025-05-28 12:00:00,40.710831,-73.991304,Food & Drink Shop,40.713594,-73.99667,Library
-193,2025-05-28 13:00:00,40.713594,-73.99667,Library,40.768152,-73.866087,Gym / Fitness Center
-193,2025-05-28 15:00:00,40.768152,-73.866087,Gym / Fitness Center,40.711513,-73.991947,Food & Drink Shop
-193,2025-05-28 17:00:00,40.711513,-73.991947,Food & Drink Shop,40.660631,-73.91189,Bar
-193,2025-05-28 18:00:00,40.660631,-73.91189,Bar,40.709777,-73.991712,Other Great Outdoors
-193,2025-05-28 20:00:00,40.709777,-73.991712,Other Great Outdoors,40.711455,-73.98888,Home (private)

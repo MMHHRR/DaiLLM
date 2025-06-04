@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-461,2025-05-28 08:30:00,40.751646,-73.99292,Coffee Shop,40.647762,-73.958062,Fast Food Restaurant
-461,2025-05-28 12:00:00,40.647762,-73.958062,Fast Food Restaurant,40.650019,-73.960399,Sandwich Place
-461,2025-05-28 13:30:00,40.650019,-73.960399,Sandwich Place,40.631088,-73.977226,Bar
-461,2025-05-28 16:00:00,40.631088,-73.977226,Bar,40.649155,-73.964123,Caribbean Restaurant
-461,2025-05-28 18:30:00,40.649155,-73.964123,Caribbean Restaurant,40.607641,-73.974431,Bar
-461,2025-05-28 20:30:00,40.607641,-73.974431,Bar,40.650797,-73.958774,Donut Shop
-461,2025-05-28 23:00:00,40.650797,-73.958774,Donut Shop,40.640533,-73.977126,Home (private)

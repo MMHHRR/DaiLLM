@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-421,2025-05-28 01:00:00,40.763532,-73.98304,Bar,40.738139,-73.990765,Gym / Fitness Center
-421,2025-05-28 07:30:00,40.738139,-73.990765,Gym / Fitness Center,40.752213,-73.977613,American Restaurant
-421,2025-05-28 09:00:00,40.752213,-73.977613,American Restaurant,40.760838,-73.979959,Office
-421,2025-05-28 12:30:00,40.760838,-73.979959,Office,40.763688,-73.96763,American Restaurant
-421,2025-05-28 18:00:00,40.763688,-73.96763,American Restaurant,40.72707,-73.991906,Bar
-421,2025-05-28 20:00:00,40.72707,-73.991906,Bar,40.7211,-73.987924,Music Venue

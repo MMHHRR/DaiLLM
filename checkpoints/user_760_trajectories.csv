@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-760,2025-05-28 07:00:00,40.741096,-73.992705,Gym / Fitness Center,40.739525,-73.996039,Coffee Shop
-760,2025-05-28 08:15:00,40.739525,-73.996039,Coffee Shop,40.77564,-73.959038,Building
-760,2025-05-28 09:00:00,40.77564,-73.959038,Building,40.776496,-73.956764,Mexican Restaurant
-760,2025-05-28 12:30:00,40.776496,-73.956764,Mexican Restaurant,40.741096,-73.992705,Gym / Fitness Center
-760,2025-05-28 14:00:00,40.741096,-73.992705,Gym / Fitness Center,40.739258,-73.973522,American Restaurant
-760,2025-05-28 18:30:00,40.739258,-73.973522,American Restaurant,40.743597,-74.003327,Bar
-760,2025-05-28 20:00:00,40.743597,-74.003327,Bar,40.741096,-73.992705,Gym / Fitness Center

@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-578,2025-05-28 08:00:00,40.862138,-73.891565,Residential Building (Apartment / Condo),40.847502,-73.938222,Café
-578,2025-05-28 09:00:00,40.847502,-73.938222,Café,40.768227,-73.9558,Italian Restaurant
-578,2025-05-28 11:30:00,40.768227,-73.9558,Italian Restaurant,40.84867,-73.934435,Donut Shop
-578,2025-05-28 13:30:00,40.84867,-73.934435,Donut Shop,40.745031,-73.998076,Seafood Restaurant
-578,2025-05-28 15:00:00,40.745031,-73.998076,Seafood Restaurant,40.761373,-73.960426,Movie Theater
-578,2025-05-28 18:00:00,40.761373,-73.960426,Movie Theater,40.833606,-73.945078,Latin American Restaurant
-578,2025-05-28 20:30:00,40.833606,-73.945078,Latin American Restaurant,40.726771,-73.991675,Bar
-578,2025-05-28 22:00:00,40.726771,-73.991675,Bar,40.730963,-74.006764,Bar

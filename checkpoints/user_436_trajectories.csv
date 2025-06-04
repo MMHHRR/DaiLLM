@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-436,2025-05-28 09:00:00,40.744335,-73.995413,Coffee Shop,40.74897,-73.989474,Gym / Fitness Center
-436,2025-05-28 10:00:00,40.74897,-73.989474,Gym / Fitness Center,40.743204,-73.993267,Deli / Bodega
-436,2025-05-28 12:00:00,40.743204,-73.993267,Deli / Bodega,40.743995,-73.995626,Pizza Place
-436,2025-05-28 13:00:00,40.743995,-73.995626,Pizza Place,40.744346,-73.995431,Tanning Salon
-436,2025-05-28 14:00:00,40.744346,-73.995431,Tanning Salon,40.744335,-73.995413,Coffee Shop
-436,2025-05-28 15:30:00,40.744335,-73.995413,Coffee Shop,40.74897,-73.989474,Gym / Fitness Center
-436,2025-05-28 17:00:00,40.74897,-73.989474,Gym / Fitness Center,40.744285,-73.995574,Mexican Restaurant
-436,2025-05-28 19:00:00,40.744285,-73.995574,Mexican Restaurant,40.763625,-73.997576,Bar

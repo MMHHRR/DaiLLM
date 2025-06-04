@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-239,2025-05-28 08:00:00,40.750795,-73.993576,Train Station,40.715006,-73.83075,Building
-239,2025-05-28 08:15:00,40.715006,-73.83075,Building,40.74798,-73.992745,Vegetarian / Vegan Restaurant
-239,2025-05-28 12:30:00,40.74798,-73.992745,Vegetarian / Vegan Restaurant,40.750795,-73.993576,Train Station
-239,2025-05-28 13:30:00,40.750795,-73.993576,Train Station,40.713484,-73.958745,Design Studio
-239,2025-05-28 16:00:00,40.713484,-73.958745,Design Studio,40.715488,-73.832637,Chinese Restaurant
-239,2025-05-28 18:00:00,40.715488,-73.832637,Chinese Restaurant,40.713435,-74.006141,Park
-239,2025-05-28 20:00:00,40.713435,-74.006141,Park,40.707771,-74.005904,Café
-239,2025-05-28 21:30:00,40.707771,-74.005904,Café,40.750795,-73.993576,Train Station

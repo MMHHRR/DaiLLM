@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-575,2025-05-28 08:00:00,40.706957,-74.005823,Office,40.679955,-73.944464,Food & Drink Shop
-575,2025-05-28 12:30:00,40.679955,-73.944464,Food & Drink Shop,40.706957,-74.005823,Office
-575,2025-05-28 13:00:00,40.706957,-74.005823,Office,40.706957,-74.005823,Office
-575,2025-05-28 17:30:00,40.706957,-74.005823,Office,40.751064,-73.992286,Bar
-575,2025-05-28 18:00:00,40.751064,-73.992286,Bar,40.68009,-73.942854,Caribbean Restaurant
-575,2025-05-28 20:30:00,40.68009,-73.942854,Caribbean Restaurant,40.708343,-74.00444,Dessert Shop

@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-757,2025-05-28 08:00:00,40.917243,-74.171483,Office,40.812315,-73.983693,Food & Drink Shop
-757,2025-05-28 12:00:00,40.812315,-73.983693,Food & Drink Shop,40.825336,-73.976274,Other Great Outdoors
-757,2025-05-28 12:45:00,40.825336,-73.976274,Other Great Outdoors,40.917243,-74.171483,Office
-757,2025-05-28 14:00:00,40.917243,-74.171483,Office,40.825271,-73.974672,Candy Store
-757,2025-05-28 17:30:00,40.825271,-73.974672,Candy Store,40.780094,-74.009829,Chinese Restaurant
-757,2025-05-28 18:00:00,40.780094,-74.009829,Chinese Restaurant,40.825336,-73.976274,Other Great Outdoors
-757,2025-05-28 20:00:00,40.825336,-73.976274,Other Great Outdoors,40.893828,-73.974198,Coffee Shop
-757,2025-05-28 21:00:00,40.893828,-73.974198,Coffee Shop,40.82614,-73.974385,Home

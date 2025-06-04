@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-446,2025-05-28 07:30:00,40.77911,-74.08225,Office,40.729346,-74.003717,American Restaurant
-446,2025-05-28 12:00:00,40.729346,-74.003717,American Restaurant,40.77911,-74.08225,Office
-446,2025-05-28 13:00:00,40.77911,-74.08225,Office,40.675716,-74.227594,Park
-446,2025-05-28 17:30:00,40.675716,-74.227594,Park,40.738914,-74.030182,Bar
-446,2025-05-28 19:00:00,40.738914,-74.030182,Bar,40.691119,-74.218044,General Entertainment
-446,2025-05-28 21:00:00,40.691119,-74.218044,General Entertainment,40.73061,-73.935242,Home

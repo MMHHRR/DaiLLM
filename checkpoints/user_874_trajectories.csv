@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-874,2025-05-28 07:30:00,40.682622,-73.718364,Home (private),40.685455,-73.715515,School
-874,2025-05-28 08:00:00,40.685455,-73.715515,School,40.684934,-73.724678,Deli / Bodega
-874,2025-05-28 12:00:00,40.684934,-73.724678,Deli / Bodega,40.689801,-73.721097,Latin American Restaurant
-874,2025-05-28 12:30:00,40.689801,-73.721097,Latin American Restaurant,40.685455,-73.715515,School
-874,2025-05-28 13:30:00,40.685455,-73.715515,School,40.705436,-73.780708,Trade School
-874,2025-05-28 17:00:00,40.705436,-73.780708,Trade School,40.689801,-73.721097,Latin American Restaurant
-874,2025-05-28 19:00:00,40.689801,-73.721097,Latin American Restaurant,40.683912,-73.722119,Church
-874,2025-05-28 20:30:00,40.683912,-73.722119,Church,40.682622,-73.718364,Home (private)

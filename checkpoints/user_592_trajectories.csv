@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-592,2025-05-28 08:00:00,40.634045,-74.141613,Home (private),40.643219,-74.07446,Bus Station
-592,2025-05-28 08:30:00,40.643219,-74.07446,Bus Station,40.703253,-74.014227,Coffee Shop
-592,2025-05-28 08:45:00,40.703253,-74.014227,Coffee Shop,40.704912,-74.014013,Subway
-592,2025-05-28 09:20:00,40.704912,-74.014013,Subway,40.625146,-74.144508,Middle Eastern Restaurant
-592,2025-05-28 17:00:00,40.625146,-74.144508,Middle Eastern Restaurant,40.626298,-74.134884,Food & Drink Shop
-592,2025-05-28 18:30:00,40.626298,-74.134884,Food & Drink Shop,40.644406,-74.072957,Ferry
-592,2025-05-28 19:00:00,40.644406,-74.072957,Ferry,40.634045,-74.141613,Home (private)

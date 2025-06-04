@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-12,2025-05-28 07:30:00,40.706475,-73.802707,Breakfast Spot,40.707019,-73.802179,Bus Station
-12,2025-05-28 08:30:00,40.707019,-73.802179,Bus Station,40.764016,-73.829476,Food & Drink Shop
-12,2025-05-28 09:00:00,40.764016,-73.829476,Food & Drink Shop,40.599584,-73.989795,Asian Restaurant
-12,2025-05-28 11:30:00,40.599584,-73.989795,Asian Restaurant,40.763963,-73.829124,Food & Drink Shop
-12,2025-05-28 13:00:00,40.763963,-73.829124,Food & Drink Shop,40.605899,-73.984538,Drugstore / Pharmacy
-12,2025-05-28 15:00:00,40.605899,-73.984538,Drugstore / Pharmacy,40.758115,-73.82964,Coffee Shop
-12,2025-05-28 18:30:00,40.758115,-73.82964,Coffee Shop,40.764123,-73.828082,Sushi Restaurant
-12,2025-05-28 20:00:00,40.764123,-73.828082,Sushi Restaurant,40.757822,-73.828027,Food & Drink Shop

@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-383,2025-05-28 10:00:00,40.747847,-74.176841,Home (private),40.813843,-74.21652,College Academic Building
-383,2025-05-28 11:00:00,40.813843,-74.21652,College Academic Building,40.741725,-74.170767,Diner
-383,2025-05-28 13:00:00,40.741725,-74.170767,Diner,40.773814,-74.175439,Park
-383,2025-05-28 14:00:00,40.773814,-74.175439,Park,40.744585,-74.169826,Bar
-383,2025-05-28 16:00:00,40.744585,-74.169826,Bar,40.728137,-74.0418,Neighborhood
-383,2025-05-28 18:00:00,40.728137,-74.0418,Neighborhood,40.747847,-74.176841,Home (private)

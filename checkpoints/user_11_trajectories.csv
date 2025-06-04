@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-11,2025-05-28 06:30:00,40.734413,-74.01,Gym / Fitness Center,40.737099,-73.990398,Coffee Shop
-11,2025-05-28 08:00:00,40.737099,-73.990398,Coffee Shop,40.728982,-73.995838,University
-11,2025-05-28 09:30:00,40.728982,-73.995838,University,40.739468,-74.001901,Restaurant
-11,2025-05-28 12:30:00,40.739468,-74.001901,Restaurant,40.73304,-73.99974,Spa / Massage
-11,2025-05-28 14:00:00,40.73304,-73.99974,Spa / Massage,40.734413,-74.01,Gym / Fitness Center
-11,2025-05-28 17:00:00,40.734413,-74.01,Gym / Fitness Center,40.755466,-73.987234,Seafood Restaurant
-11,2025-05-28 18:30:00,40.755466,-73.987234,Seafood Restaurant,40.772531,-73.983442,Performing Arts Venue
-11,2025-05-28 20:00:00,40.772531,-73.983442,Performing Arts Venue,40.715325,-74.009525,Hotel

@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-244,2025-05-28 09:30:00,40.755002,-73.968647,Coffee Shop,40.779209,-73.955129,Gym / Fitness Center
-244,2025-05-28 10:15:00,40.779209,-73.955129,Gym / Fitness Center,40.774945,-73.956661,Sushi Restaurant
-244,2025-05-28 11:45:00,40.774945,-73.956661,Sushi Restaurant,40.755002,-73.968647,Coffee Shop
-244,2025-05-28 13:00:00,40.755002,-73.968647,Coffee Shop,40.779209,-73.955129,Gym / Fitness Center
-244,2025-05-28 14:30:00,40.779209,-73.955129,Gym / Fitness Center,40.780734,-73.95258,Italian Restaurant
-244,2025-05-28 16:00:00,40.780734,-73.95258,Italian Restaurant,40.740728,-74.008611,Bar
-244,2025-05-28 18:00:00,40.740728,-74.008611,Bar,40.735755,-74.000791,Bar
-244,2025-05-28 20:00:00,40.735755,-74.000791,Bar,40.755002,-73.968647,Coffee Shop

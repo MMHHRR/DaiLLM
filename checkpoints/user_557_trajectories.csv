@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-557,2025-05-28 07:30:00,40.749029,-73.992372,Gym / Fitness Center,40.69382,-73.985565,Office
-557,2025-05-28 09:00:00,40.69382,-73.985565,Office,40.749528,-73.994703,Asian Restaurant
-557,2025-05-28 12:30:00,40.749528,-73.994703,Asian Restaurant,40.695708,-73.991058,College Academic Building
-557,2025-05-28 13:30:00,40.695708,-73.991058,College Academic Building,40.749029,-73.992372,Gym / Fitness Center
-557,2025-05-28 17:00:00,40.749029,-73.992372,Gym / Fitness Center,40.749528,-73.994703,Asian Restaurant
-557,2025-05-28 19:00:00,40.749528,-73.994703,Asian Restaurant,40.749166,-73.993302,Gym / Fitness Center
-557,2025-05-28 20:30:00,40.749166,-73.993302,Gym / Fitness Center,40.755998,-73.99115,Bar
-557,2025-05-28 22:00:00,40.755998,-73.99115,Bar,40.749185,-73.992137,Home

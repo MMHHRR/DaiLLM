@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-746,2025-05-28 07:30:00,40.711109,-74.005044,University,40.745324,-73.992229,Café
-746,2025-05-28 12:00:00,40.745324,-73.992229,Café,40.7108,-74.004722,College Academic Building
-746,2025-05-28 13:00:00,40.7108,-74.004722,College Academic Building,40.722514,-74.048277,Vietnamese Restaurant
-746,2025-05-28 16:00:00,40.722514,-74.048277,Vietnamese Restaurant,40.712671,-74.011931,Train Station
-746,2025-05-28 17:30:00,40.712671,-74.011931,Train Station,40.730321,-74.002799,Asian Restaurant
-746,2025-05-28 18:00:00,40.730321,-74.002799,Asian Restaurant,40.745834,-73.993279,Performing Arts Venue
-746,2025-05-28 20:00:00,40.745834,-73.993279,Performing Arts Venue,40.728833,-74.005256,Bar
-746,2025-05-28 22:30:00,40.728833,-74.005256,Bar,40.719485,-74.042702,Train Station

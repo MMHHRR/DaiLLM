@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-989,2025-05-28 07:30:00,40.701425,-73.918346,Home (private),40.742113,-73.98972,Office
-989,2025-05-28 08:00:00,40.742113,-73.98972,Office,40.866319,-73.928201,Restaurant
-989,2025-05-28 12:00:00,40.866319,-73.928201,Restaurant,40.742113,-73.98972,Office
-989,2025-05-28 13:00:00,40.742113,-73.98972,Office,40.744425,-73.996492,Gym / Fitness Center
-989,2025-05-28 17:30:00,40.744425,-73.996492,Gym / Fitness Center,40.740728,-74.008611,Bar
-989,2025-05-28 19:00:00,40.740728,-74.008611,Bar,40.701425,-73.918346,Home (private)

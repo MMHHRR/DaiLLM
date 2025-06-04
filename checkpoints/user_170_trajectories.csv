@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-170,2025-05-28 07:30:00,40.714787,-74.012385,Home (private),40.710432,-74.01042,Office
-170,2025-05-28 08:15:00,40.710432,-74.01042,Office,40.733568,-74.001653,American Restaurant
-170,2025-05-28 12:00:00,40.733568,-74.001653,American Restaurant,40.710432,-74.01042,Office
-170,2025-05-28 13:00:00,40.710432,-74.01042,Office,40.740003,-74.0058,Gym / Fitness Center
-170,2025-05-28 17:30:00,40.740003,-74.0058,Gym / Fitness Center,40.759426,-73.975757,Mediterranean Restaurant
-170,2025-05-28 19:00:00,40.759426,-73.975757,Mediterranean Restaurant,40.714787,-74.012385,Home (private)

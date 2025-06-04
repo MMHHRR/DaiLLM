@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-1001,2025-05-28 07:30:00,40.738681,-73.988498,Gym / Fitness Center,40.743695,-74.00341,Coffee Shop
-1001,2025-05-28 09:00:00,40.743695,-74.00341,Coffee Shop,40.748582,-73.989422,Miscellaneous Shop
-1001,2025-05-28 10:00:00,40.748582,-73.989422,Miscellaneous Shop,40.741053,-73.983815,Vietnamese Restaurant
-1001,2025-05-28 12:30:00,40.741053,-73.983815,Vietnamese Restaurant,40.735282,-73.990403,Park
-1001,2025-05-28 14:00:00,40.735282,-73.990403,Park,40.746514,-73.989795,Gym / Fitness Center
-1001,2025-05-28 16:00:00,40.746514,-73.989795,Gym / Fitness Center,40.746988,-73.977376,Italian Restaurant
-1001,2025-05-28 18:30:00,40.746988,-73.977376,Italian Restaurant,40.742762,-73.976923,Movie Theater
-1001,2025-05-28 20:30:00,40.742762,-73.976923,Movie Theater,40.732431,-74.001749,Bar

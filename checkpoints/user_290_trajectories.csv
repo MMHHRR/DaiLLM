@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-290,2025-05-28 07:30:00,40.736755,-73.995216,Gym / Fitness Center,40.733178,-73.99116,Coffee Shop
-290,2025-05-28 09:00:00,40.733178,-73.99116,Coffee Shop,40.734738,-74.002162,Mexican Restaurant
-290,2025-05-28 12:30:00,40.734738,-74.002162,Mexican Restaurant,40.740015,-73.982205,Bar
-290,2025-05-28 14:00:00,40.740015,-73.982205,Bar,40.736755,-73.995216,Gym / Fitness Center
-290,2025-05-28 17:00:00,40.736755,-73.995216,Gym / Fitness Center,40.736532,-73.990828,Diner
-290,2025-05-28 19:00:00,40.736532,-73.990828,Diner,40.735755,-74.000791,Bar

@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-821,2025-05-28 08:30:00,40.7259,-74.005962,Office,40.761943,-73.983597,Diner
-821,2025-05-28 12:00:00,40.761943,-73.983597,Diner,40.7259,-74.005962,Office
-821,2025-05-28 13:00:00,40.7259,-74.005962,Office,40.725202,-73.983287,Argentinian Restaurant
-821,2025-05-28 17:30:00,40.725202,-73.983287,Argentinian Restaurant,40.756932,-73.988974,Movie Theater
-821,2025-05-28 19:00:00,40.756932,-73.988974,Movie Theater,40.721799,-73.996131,Ice Cream Shop
-821,2025-05-28 21:30:00,40.721799,-73.996131,Ice Cream Shop,40.7259,-74.005962,Office

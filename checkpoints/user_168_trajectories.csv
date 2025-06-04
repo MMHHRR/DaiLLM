@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-168,2025-05-28 08:30:00,40.750999,-74.025477,Coffee Shop,40.7373,-74.03744,Food & Drink Shop
-168,2025-05-28 09:15:00,40.7373,-74.03744,Food & Drink Shop,40.742646,-74.029304,Chinese Restaurant
-168,2025-05-28 12:30:00,40.742646,-74.029304,Chinese Restaurant,40.742152,-74.03223,Park
-168,2025-05-28 13:45:00,40.742152,-74.03223,Park,40.737259,-74.037061,Wings Joint
-168,2025-05-28 18:00:00,40.737259,-74.037061,Wings Joint,40.72073,-74.081699,Event Space
-168,2025-05-28 19:30:00,40.72073,-74.081699,Event Space,40.73728,-74.03725,Bar
-168,2025-05-28 22:00:00,40.73728,-74.03725,Bar,40.724751,-74.082884,Home (private)

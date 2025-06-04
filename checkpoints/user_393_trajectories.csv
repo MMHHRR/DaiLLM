@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-393,2025-05-28 07:30:00,40.672089,-73.969754,Gym / Fitness Center,40.715428,-73.944444,Coffee Shop
-393,2025-05-28 09:00:00,40.715428,-73.944444,Coffee Shop,40.72354,-73.998398,Clothing Store
-393,2025-05-28 10:30:00,40.72354,-73.998398,Clothing Store,40.686226,-73.973961,Southern / Soul Food Restaurant
-393,2025-05-28 12:00:00,40.686226,-73.973961,Southern / Soul Food Restaurant,40.711812,-73.949068,Coffee Shop
-393,2025-05-28 14:00:00,40.711812,-73.949068,Coffee Shop,40.672089,-73.969754,Gym / Fitness Center
-393,2025-05-28 15:30:00,40.672089,-73.969754,Gym / Fitness Center,40.72158,-73.957637,Brewery
-393,2025-05-28 18:00:00,40.72158,-73.957637,Brewery,40.772531,-73.983442,Performing Arts Venue
-393,2025-05-28 20:00:00,40.772531,-73.983442,Performing Arts Venue,40.679985,-73.968038,Bar

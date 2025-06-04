@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-138,2025-05-28 07:30:00,40.766906,-73.957568,Gym / Fitness Center,40.745982,-73.953616,Home (private)
-138,2025-05-28 09:00:00,40.745982,-73.953616,Home (private),40.76674,-73.957614,Other Great Outdoors
-138,2025-05-28 12:00:00,40.76674,-73.957614,Other Great Outdoors,40.744773,-73.950663,Mediterranean Restaurant
-138,2025-05-28 13:30:00,40.744773,-73.950663,Mediterranean Restaurant,40.745982,-73.953616,Home (private)
-138,2025-05-28 15:00:00,40.745982,-73.953616,Home (private),40.766906,-73.957568,Gym / Fitness Center
-138,2025-05-28 17:30:00,40.766906,-73.957568,Gym / Fitness Center,40.737831,-73.981022,Bar
-138,2025-05-28 19:00:00,40.737831,-73.981022,Bar,40.766217,-73.955734,Sushi Restaurant
-138,2025-05-28 21:00:00,40.766217,-73.955734,Sushi Restaurant,40.745982,-73.953616,Home (private)

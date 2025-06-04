@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-863,2025-05-28 07:30:00,40.721341,-73.98888,Home (private),40.745909,-73.989457,Office
-863,2025-05-28 08:00:00,40.745909,-73.989457,Office,40.720415,-73.996697,Asian Restaurant
-863,2025-05-28 12:00:00,40.720415,-73.996697,Asian Restaurant,40.745909,-73.989457,Office
-863,2025-05-28 13:30:00,40.745909,-73.989457,Office,40.718045,-73.989875,Japanese Restaurant
-863,2025-05-28 18:00:00,40.718045,-73.989875,Japanese Restaurant,40.733029,-73.990038,Coffee Shop
-863,2025-05-28 19:30:00,40.733029,-73.990038,Coffee Shop,40.721341,-73.98888,Home (private)

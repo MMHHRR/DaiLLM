@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-1005,2025-05-28 08:00:00,40.7662,-74.219581,Coffee Shop,40.750795,-73.993576,Train Station
-1005,2025-05-28 09:00:00,40.750795,-73.993576,Train Station,40.72496,-73.994989,Sandwich Place
-1005,2025-05-28 12:00:00,40.72496,-73.994989,Sandwich Place,40.722842,-73.994116,Cuban Restaurant
-1005,2025-05-28 13:00:00,40.722842,-73.994116,Cuban Restaurant,40.725063,-73.996005,Gym / Fitness Center
-1005,2025-05-28 15:00:00,40.725063,-73.996005,Gym / Fitness Center,40.751646,-73.99292,Coffee Shop
-1005,2025-05-28 17:30:00,40.751646,-73.99292,Coffee Shop,40.763848,-74.228482,Caribbean Restaurant
-1005,2025-05-28 19:00:00,40.763848,-74.228482,Caribbean Restaurant,40.750738,-73.9922,Bar

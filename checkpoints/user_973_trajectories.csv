@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-973,2025-05-28 07:30:00,40.7918,-73.974,Gym / Fitness Center,40.761165,-73.973404,Coffee Shop
-973,2025-05-28 09:00:00,40.761165,-73.973404,Coffee Shop,40.75828,-73.969253,American Restaurant
-973,2025-05-28 12:30:00,40.75828,-73.969253,American Restaurant,40.758056,-73.973972,Salad Place
-973,2025-05-28 14:00:00,40.758056,-73.973972,Salad Place,40.722307,-73.987352,Deli / Bodega
-973,2025-05-28 16:00:00,40.722307,-73.987352,Deli / Bodega,40.714464,-73.998828,Chinese Restaurant
-973,2025-05-28 18:30:00,40.714464,-73.998828,Chinese Restaurant,40.742278,-73.985256,Bar
-973,2025-05-28 20:00:00,40.742278,-73.985256,Bar,40.726138,-73.994966,Bar

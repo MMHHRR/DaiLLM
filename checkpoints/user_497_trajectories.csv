@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-497,2025-05-28 07:30:00,40.879883,-73.908417,Gym / Fitness Center,40.873578,-73.908591,Coffee Shop
-497,2025-05-28 09:00:00,40.873578,-73.908591,Coffee Shop,40.82013,-73.959088,American Restaurant
-497,2025-05-28 12:30:00,40.82013,-73.959088,American Restaurant,40.771426,-73.973501,Park
-497,2025-05-28 13:30:00,40.771426,-73.973501,Park,40.862532,-73.897037,Gym / Fitness Center
-497,2025-05-28 16:00:00,40.862532,-73.897037,Gym / Fitness Center,40.756961,-73.989074,BBQ Joint
-497,2025-05-28 18:30:00,40.756961,-73.989074,BBQ Joint,40.874642,-73.901521,Food & Drink Shop
-497,2025-05-28 20:00:00,40.874642,-73.901521,Food & Drink Shop,40.873578,-73.908591,Coffee Shop

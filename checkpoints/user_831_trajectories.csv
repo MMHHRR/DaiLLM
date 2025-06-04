@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-831,2025-05-28 08:30:00,40.951057,-74.089866,Community College,40.854462,-74.070961,Fast Food Restaurant
-831,2025-05-28 12:00:00,40.854462,-74.070961,Fast Food Restaurant,40.885957,-74.043496,Neighborhood
-831,2025-05-28 13:00:00,40.885957,-74.043496,Neighborhood,40.956343,-74.069028,Mall
-831,2025-05-28 15:00:00,40.956343,-74.069028,Mall,40.848644,-74.080977,Wings Joint
-831,2025-05-28 17:30:00,40.848644,-74.080977,Wings Joint,40.86154,-74.10002,Stadium
-831,2025-05-28 19:00:00,40.86154,-74.10002,Stadium,40.731698,-73.989227,Music Venue

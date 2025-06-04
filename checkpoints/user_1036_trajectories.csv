@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-1036,2025-05-28 09:00:00,40.734244,-73.87131,Home (private),40.787051,-73.72852,Asian Restaurant
-1036,2025-05-28 10:30:00,40.787051,-73.72852,Asian Restaurant,40.742969,-73.882767,Food & Drink Shop
-1036,2025-05-28 12:00:00,40.742969,-73.882767,Food & Drink Shop,40.776967,-73.701482,Medical Center
-1036,2025-05-28 13:00:00,40.776967,-73.701482,Medical Center,40.787051,-73.72852,Asian Restaurant
-1036,2025-05-28 15:00:00,40.787051,-73.72852,Asian Restaurant,40.75886,-73.829986,Salon / Barbershop
-1036,2025-05-28 17:00:00,40.75886,-73.829986,Salon / Barbershop,40.787051,-73.72852,Asian Restaurant
-1036,2025-05-28 18:30:00,40.787051,-73.72852,Asian Restaurant,40.771586,-73.836443,Movie Theater
-1036,2025-05-28 20:00:00,40.771586,-73.836443,Movie Theater,40.734244,-73.87131,Home (private)

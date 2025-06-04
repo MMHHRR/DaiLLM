@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-377,2025-05-28 12:00:00,40.694485,-73.93044,Coffee Shop,40.728177,-73.857849,Indian Restaurant
-377,2025-05-28 12:30:00,40.728177,-73.857849,Indian Restaurant,40.742863,-73.992389,Event Space
-377,2025-05-28 14:00:00,40.742863,-73.992389,Event Space,40.742188,-73.987924,Park
-377,2025-05-28 16:00:00,40.742188,-73.987924,Park,40.726419,-73.989296,Thai Restaurant
-377,2025-05-28 17:00:00,40.726419,-73.989296,Thai Restaurant,40.726075,-74.00937,Bar
-377,2025-05-28 19:00:00,40.726075,-74.00937,Bar,40.742863,-73.992389,Event Space

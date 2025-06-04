@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-504,2025-05-28 07:30:00,40.715185,-74.035409,Gym / Fitness Center,40.779772,-73.94716,Coffee Shop
-504,2025-05-28 08:30:00,40.779772,-73.94716,Coffee Shop,40.715281,-74.036395,American Restaurant
-504,2025-05-28 09:15:00,40.715281,-74.036395,American Restaurant,40.715281,-74.036395,American Restaurant
-504,2025-05-28 12:00:00,40.715281,-74.036395,American Restaurant,40.715185,-74.035409,Gym / Fitness Center
-504,2025-05-28 13:30:00,40.715185,-74.035409,Gym / Fitness Center,40.779514,-73.953751,Medical Center
-504,2025-05-28 17:00:00,40.779514,-73.953751,Medical Center,40.715122,-74.034559,Deli / Bodega
-504,2025-05-28 18:30:00,40.715122,-74.034559,Deli / Bodega,40.715281,-74.036395,American Restaurant
-504,2025-05-28 19:00:00,40.715281,-74.036395,American Restaurant,40.716503,-74.03437,Coffee Shop

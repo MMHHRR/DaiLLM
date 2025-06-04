@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-861,2025-05-28 07:30:00,40.80714,-74.176841,Home (private),40.742121,-74.00506,Office
-861,2025-05-28 08:30:00,40.742121,-74.00506,Office,40.831622,-74.136794,Food & Drink Shop
-861,2025-05-28 12:00:00,40.831622,-74.136794,Food & Drink Shop,40.742121,-74.00506,Office
-861,2025-05-28 13:00:00,40.742121,-74.00506,Office,40.801907,-74.170325,Gym / Fitness Center
-861,2025-05-28 17:00:00,40.801907,-74.170325,Gym / Fitness Center,40.731687,-74.170881,Bar
-861,2025-05-28 18:30:00,40.731687,-74.170881,Bar,40.884915,-74.195585,General Entertainment
-861,2025-05-28 20:00:00,40.884915,-74.195585,General Entertainment,40.80714,-74.176841,Home (private)

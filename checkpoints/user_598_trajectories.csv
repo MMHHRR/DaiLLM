@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-598,2025-05-28 08:30:00,40.739465,-74.002656,Coffee Shop,40.750614,-73.988564,Department Store
-598,2025-05-28 09:15:00,40.750614,-73.988564,Department Store,40.762668,-73.968657,Furniture / Home Store
-598,2025-05-28 12:00:00,40.762668,-73.968657,Furniture / Home Store,40.763976,-73.988555,American Restaurant
-598,2025-05-28 13:30:00,40.763976,-73.988555,American Restaurant,40.762668,-73.968657,Furniture / Home Store
-598,2025-05-28 15:00:00,40.762668,-73.968657,Furniture / Home Store,40.718862,-73.945087,Bar
-598,2025-05-28 17:00:00,40.718862,-73.945087,Bar,40.71811,-73.957545,Italian Restaurant
-598,2025-05-28 19:30:00,40.71811,-73.957545,Italian Restaurant,40.71947,-73.990342,Bar
-598,2025-05-28 21:00:00,40.71947,-73.990342,Bar,40.690809,-73.959256,Other Nightlife

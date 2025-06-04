@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-548,2025-05-28 09:00:00,40.727955,-73.993261,Coffee Shop,40.729535,-73.993478,College Academic Building
-548,2025-05-28 10:00:00,40.729535,-73.993478,College Academic Building,40.729369,-73.998868,Vegetarian / Vegan Restaurant
-548,2025-05-28 12:30:00,40.729369,-73.998868,Vegetarian / Vegan Restaurant,40.736735,-73.989761,Bookstore
-548,2025-05-28 14:00:00,40.736735,-73.989761,Bookstore,40.726096,-73.996074,Clothing Store
-548,2025-05-28 15:30:00,40.726096,-73.996074,Clothing Store,40.748123,-73.987593,Korean Restaurant
-548,2025-05-28 17:00:00,40.748123,-73.987593,Korean Restaurant,40.742762,-73.976923,Movie Theater
-548,2025-05-28 19:00:00,40.742762,-73.976923,Movie Theater,40.805369,-73.965892,Dessert Shop
-548,2025-05-28 21:30:00,40.805369,-73.965892,Dessert Shop,40.740349,-73.984267,Tea Room

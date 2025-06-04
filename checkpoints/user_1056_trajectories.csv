@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-1056,2025-05-28 08:00:00,40.75848,-73.979746,Office,40.722638,-73.998002,Coffee Shop
-1056,2025-05-28 12:30:00,40.722638,-73.998002,Coffee Shop,40.75848,-73.979746,Office
-1056,2025-05-28 13:00:00,40.75848,-73.979746,Office,40.78503,-73.95572,American Restaurant
-1056,2025-05-28 17:30:00,40.78503,-73.95572,American Restaurant,40.726758,-73.999561,Bar
-1056,2025-05-28 19:00:00,40.726758,-73.999561,Bar,40.757031,-73.989026,Movie Theater
-1056,2025-05-28 21:30:00,40.757031,-73.989026,Movie Theater,40.762539,-74.000633,Home (private)

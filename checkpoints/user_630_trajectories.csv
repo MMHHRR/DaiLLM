@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-630,2025-05-28 07:30:00,40.913954,-74.049935,Gym / Fitness Center,40.893071,-73.97342,Food
-630,2025-05-28 09:00:00,40.893071,-73.97342,Food,40.879785,-73.95131,Sushi Restaurant
-630,2025-05-28 12:00:00,40.879785,-73.95131,Sushi Restaurant,40.904691,-74.082699,Park
-630,2025-05-28 13:30:00,40.904691,-74.082699,Park,40.916382,-74.087195,General Travel
-630,2025-05-28 15:00:00,40.916382,-74.087195,General Travel,40.905145,-74.031672,American Restaurant
-630,2025-05-28 17:00:00,40.905145,-74.031672,American Restaurant,40.88216,-74.066796,Bar
-630,2025-05-28 19:00:00,40.88216,-74.066796,Bar,40.913954,-74.049935,Gym / Fitness Center

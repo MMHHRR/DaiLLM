@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-450,2025-05-28 07:30:00,40.791512,-73.944578,Gym / Fitness Center,40.740486,-74.001884,American Restaurant
-450,2025-05-28 08:45:00,40.740486,-74.001884,American Restaurant,40.745223,-73.982644,Office
-450,2025-05-28 10:15:00,40.745223,-73.982644,Office,40.804981,-73.937024,Diner
-450,2025-05-28 12:30:00,40.804981,-73.937024,Diner,40.791512,-73.944578,Gym / Fitness Center
-450,2025-05-28 18:00:00,40.791512,-73.944578,Gym / Fitness Center,40.761937,-73.985422,Steakhouse
-450,2025-05-28 20:00:00,40.761937,-73.985422,Steakhouse,40.747513,-73.997875,Comedy Club
-450,2025-05-28 22:00:00,40.747513,-73.997875,Comedy Club,40.763343,-73.989015,Bar
-450,2025-05-28 23:30:00,40.763343,-73.989015,Bar,40.80056,-73.942637,Residential Building (Apartment / Condo)

@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-714,2025-05-28 08:00:00,40.841184,-73.939854,Coffee Shop,40.841292,-73.940463,College Academic Building
-714,2025-05-28 08:30:00,40.841292,-73.940463,College Academic Building,40.841713,-73.942397,American Restaurant
-714,2025-05-28 12:00:00,40.841713,-73.942397,American Restaurant,40.843401,-73.942282,Gym / Fitness Center
-714,2025-05-28 13:00:00,40.843401,-73.942282,Gym / Fitness Center,40.851184,-73.939854,Coffee Shop
-714,2025-05-28 14:30:00,40.851184,-73.939854,Coffee Shop,40.841292,-73.940463,College Academic Building
-714,2025-05-28 15:30:00,40.841292,-73.940463,College Academic Building,40.843401,-73.942282,Gym / Fitness Center
-714,2025-05-28 18:00:00,40.843401,-73.942282,Gym / Fitness Center,40.85137,-73.93213,Dining
-714,2025-05-28 19:30:00,40.85137,-73.93213,Dining,40.841268,-73.940262,Coffee Shop

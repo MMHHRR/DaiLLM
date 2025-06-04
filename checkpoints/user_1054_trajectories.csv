@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-1054,2025-05-28 00:00:00,40.874542,-74.094631,Home (private),40.874542,-74.094631,Home (private)
-1054,2025-05-28 08:00:00,40.874542,-74.094631,Home (private),40.880122,-74.101253,Student Center
-1054,2025-05-28 09:00:00,40.880122,-74.101253,Student Center,40.879087,-74.085009,Food & Drink Shop
-1054,2025-05-28 12:00:00,40.879087,-74.085009,Food & Drink Shop,40.866795,-74.100165,Department Store
-1054,2025-05-28 13:00:00,40.866795,-74.100165,Department Store,40.890239,-74.094336,Fast Food Restaurant
-1054,2025-05-28 15:00:00,40.890239,-74.094336,Fast Food Restaurant,40.879797,-74.10825,Outdoors & Recreation
-1054,2025-05-28 18:00:00,40.879797,-74.10825,Outdoors & Recreation,40.904444,-74.118229,Bar
-1054,2025-05-28 20:00:00,40.904444,-74.118229,Bar,40.828586,-74.14027,Movie Theater

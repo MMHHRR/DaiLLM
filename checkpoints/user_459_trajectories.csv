@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-459,2025-05-28 08:30:00,40.809207,-73.961689,College Academic Building,40.808493,-73.960484,College Academic Building
-459,2025-05-28 11:00:00,40.808493,-73.960484,College Academic Building,40.763885,-73.988389,Diner
-459,2025-05-28 13:00:00,40.763885,-73.988389,Diner,40.809976,-73.961806,Coffee Shop
-459,2025-05-28 14:30:00,40.809976,-73.961806,Coffee Shop,40.806727,-73.959348,College Academic Building
-459,2025-05-28 16:00:00,40.806727,-73.959348,College Academic Building,40.805055,-73.959146,Park
-459,2025-05-28 17:30:00,40.805055,-73.959146,Park,40.758554,-73.985571,Theater
-459,2025-05-28 19:00:00,40.758554,-73.985571,Theater,40.652269,-74.002954,Food Truck

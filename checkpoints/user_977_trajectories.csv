@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-977,2025-05-28 07:30:00,40.730059,-74.003034,Coffee Shop,40.72983,-74.00692,Gym / Fitness Center
-977,2025-05-28 08:00:00,40.72983,-74.00692,Gym / Fitness Center,40.762911,-73.981072,Office
-977,2025-05-28 09:30:00,40.762911,-73.981072,Office,40.730543,-74.002168,Burrito Place
-977,2025-05-28 12:30:00,40.730543,-74.002168,Burrito Place,40.713521,-74.015659,Coffee Shop
-977,2025-05-28 14:00:00,40.713521,-74.015659,Coffee Shop,40.72983,-74.00692,Gym / Fitness Center
-977,2025-05-28 17:00:00,40.72983,-74.00692,Gym / Fitness Center,40.742347,-73.985066,Food Truck
-977,2025-05-28 19:00:00,40.742347,-73.985066,Food Truck,40.735482,-74.006074,Italian Restaurant
-977,2025-05-28 20:00:00,40.735482,-74.006074,Italian Restaurant,40.730375,-74.002474,Ice Cream Shop

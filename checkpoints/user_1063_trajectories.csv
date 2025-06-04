@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-1063,2025-05-28 08:30:00,40.808768,-74.118123,Home (private),40.795635,-74.200825,Office
-1063,2025-05-28 09:00:00,40.795635,-74.200825,Office,40.796918,-74.179773,Food & Drink Shop
-1063,2025-05-28 12:30:00,40.796918,-74.179773,Food & Drink Shop,40.77907,-74.18815,Convenience Store
-1063,2025-05-28 13:00:00,40.77907,-74.18815,Convenience Store,40.861564,-74.071916,Deli / Bodega
-1063,2025-05-28 17:30:00,40.861564,-74.071916,Deli / Bodega,40.812348,-74.11922,Food & Drink Shop
-1063,2025-05-28 18:00:00,40.812348,-74.11922,Food & Drink Shop,40.808217,-74.191945,Fast Food Restaurant
-1063,2025-05-28 19:30:00,40.808217,-74.191945,Fast Food Restaurant,40.841205,-74.159024,Donut Shop
-1063,2025-05-28 21:00:00,40.841205,-74.159024,Donut Shop,40.808768,-74.118123,Home (private)

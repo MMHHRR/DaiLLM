@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-731,2025-05-28 08:30:00,40.80927,-73.949071,Gym / Fitness Center,40.753699,-73.988475,Café
-731,2025-05-28 10:00:00,40.753699,-73.988475,Café,40.735958,-73.991189,Clothing Store
-731,2025-05-28 12:00:00,40.735958,-73.991189,Clothing Store,40.752572,-73.994604,American Restaurant
-731,2025-05-28 13:30:00,40.752572,-73.994604,American Restaurant,40.755509,-73.992647,General Entertainment
-731,2025-05-28 15:00:00,40.755509,-73.992647,General Entertainment,40.80927,-73.949071,Gym / Fitness Center
-731,2025-05-28 17:00:00,40.80927,-73.949071,Gym / Fitness Center,40.753154,-73.989055,Mexican Restaurant
-731,2025-05-28 19:00:00,40.753154,-73.989055,Mexican Restaurant,40.760175,-73.98498,Bar
-731,2025-05-28 21:00:00,40.760175,-73.98498,Bar,40.73719,-73.996953,Ice Cream Shop

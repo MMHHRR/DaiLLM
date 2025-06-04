@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-917,2025-05-28 07:30:00,40.738995,-73.987281,Gym / Fitness Center,40.741112,-73.987598,Office
-917,2025-05-28 09:00:00,40.741112,-73.987598,Office,40.742679,-73.992923,Salad Place
-917,2025-05-28 12:30:00,40.742679,-73.992923,Salad Place,40.741112,-73.987598,Office
-917,2025-05-28 13:00:00,40.741112,-73.987598,Office,40.719455,-73.996361,Vietnamese Restaurant
-917,2025-05-28 17:30:00,40.719455,-73.996361,Vietnamese Restaurant,40.756974,-73.988774,Movie Theater
-917,2025-05-28 19:00:00,40.756974,-73.988774,Movie Theater,40.717374,-73.997451,Chinese Restaurant
-917,2025-05-28 21:30:00,40.717374,-73.997451,Chinese Restaurant,40.738995,-73.987281,Gym / Fitness Center

@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-69,2025-05-28 08:00:00,40.716162,-73.88307,Home (private),40.709347,-73.95965,Bus Station
-69,2025-05-28 09:00:00,40.709347,-73.95965,Bus Station,40.70566,-73.896446,Food & Drink Shop
-69,2025-05-28 09:30:00,40.70566,-73.896446,Food & Drink Shop,40.703714,-73.789092,Other Great Outdoors
-69,2025-05-28 12:00:00,40.703714,-73.789092,Other Great Outdoors,40.716162,-73.88307,Home (private)
-69,2025-05-28 14:00:00,40.716162,-73.88307,Home (private),40.712859,-73.877419,Salon / Barbershop
-69,2025-05-28 17:00:00,40.712859,-73.877419,Salon / Barbershop,40.712854,-73.87896,Bar
-69,2025-05-28 18:00:00,40.712854,-73.87896,Bar,40.70566,-73.896446,Food & Drink Shop
-69,2025-05-28 20:00:00,40.70566,-73.896446,Food & Drink Shop,40.716162,-73.88307,Home (private)

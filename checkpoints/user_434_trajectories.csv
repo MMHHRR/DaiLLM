@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-434,2025-05-28 08:30:00,40.758123,-73.982082,Office,40.752295,-73.987392,Deli / Bodega
-434,2025-05-28 12:00:00,40.752295,-73.987392,Deli / Bodega,40.770168,-73.984446,University
-434,2025-05-28 17:00:00,40.770168,-73.984446,University,40.753422,-73.986822,Middle Eastern Restaurant
-434,2025-05-28 18:30:00,40.753422,-73.986822,Middle Eastern Restaurant,40.744215,-73.988538,Bar
-434,2025-05-28 20:00:00,40.744215,-73.988538,Bar,40.758337,-73.982375,Coffee Shop
-434,2025-05-28 22:00:00,40.758337,-73.982375,Coffee Shop,40.917291,-74.118123,Home (private)

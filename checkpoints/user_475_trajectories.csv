@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-475,2025-05-28 07:30:00,40.737069,-73.993015,Office,40.738667,-73.995777,Deli / Bodega
-475,2025-05-28 12:00:00,40.738667,-73.995777,Deli / Bodega,40.737069,-73.993015,Office
-475,2025-05-28 13:00:00,40.737069,-73.993015,Office,40.721252,-73.989173,Gym / Fitness Center
-475,2025-05-28 17:30:00,40.721252,-73.989173,Gym / Fitness Center,40.721387,-73.989193,Vegetarian / Vegan Restaurant
-475,2025-05-28 19:00:00,40.721387,-73.989193,Vegetarian / Vegan Restaurant,40.726569,-73.985945,Bar
-475,2025-05-28 20:30:00,40.726569,-73.985945,Bar,40.718493,-73.982663,Neighborhood

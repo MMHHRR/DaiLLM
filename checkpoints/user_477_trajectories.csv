@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-477,2025-05-28 07:30:00,40.721115,-73.847331,Coffee Shop,40.721273,-73.846923,Gym / Fitness Center
-477,2025-05-28 08:15:00,40.721273,-73.846923,Gym / Fitness Center,40.721115,-73.847331,Coffee Shop
-477,2025-05-28 09:30:00,40.721115,-73.847331,Coffee Shop,40.721115,-73.847331,Coffee Shop
-477,2025-05-28 12:00:00,40.721115,-73.847331,Coffee Shop,40.721273,-73.846923,Gym / Fitness Center
-477,2025-05-28 12:30:00,40.721273,-73.846923,Gym / Fitness Center,40.721115,-73.847331,Coffee Shop
-477,2025-05-28 14:00:00,40.721115,-73.847331,Coffee Shop,40.721115,-73.847331,Coffee Shop
-477,2025-05-28 17:30:00,40.721115,-73.847331,Coffee Shop,40.721273,-73.846923,Gym / Fitness Center
-477,2025-05-28 18:00:00,40.721273,-73.846923,Gym / Fitness Center,40.721115,-73.847331,Coffee Shop

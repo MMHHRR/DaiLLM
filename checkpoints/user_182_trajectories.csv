@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-182,2025-05-28 10:00:00,40.851378,-73.94008,Café,40.842465,-73.934642,Park
-182,2025-05-28 12:30:00,40.842465,-73.934642,Park,40.843364,-73.935256,General Entertainment
-182,2025-05-28 15:00:00,40.843364,-73.935256,General Entertainment,40.779438,-73.97402,Italian Restaurant
-182,2025-05-28 18:00:00,40.779438,-73.97402,Italian Restaurant,40.737434,-73.991281,Bar
-182,2025-05-28 20:00:00,40.737434,-73.991281,Bar,40.843364,-73.935256,General Entertainment
-182,2025-05-28 22:30:00,40.843364,-73.935256,General Entertainment,40.71838,-73.948792,Bar
-182,2025-05-29 00:30:00,40.71838,-73.948792,Bar,40.843364,-73.935256,General Entertainment

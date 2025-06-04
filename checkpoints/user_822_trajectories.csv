@@ -1,6 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-822,2025-05-28 12:00:00,40.715797,-74.012239,Food & Drink Shop,40.782791,-73.950917,American Restaurant
-822,2025-05-28 15:00:00,40.782791,-73.950917,American Restaurant,40.72868,-74.005,Asian Restaurant
-822,2025-05-28 18:00:00,40.72868,-74.005,Asian Restaurant,40.756571,-73.984594,Bar
-822,2025-05-28 20:30:00,40.756571,-73.984594,Bar,40.732876,-73.997881,Brewery
-822,2025-05-28 22:00:00,40.732876,-73.997881,Brewery,40.746245,-73.977551,Bar

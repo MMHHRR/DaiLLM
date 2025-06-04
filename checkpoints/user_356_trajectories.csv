@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-356,2025-05-28 07:30:00,40.718932,-73.989129,Gym / Fitness Center,40.716256,-73.991185,Coffee Shop
-356,2025-05-28 09:00:00,40.716256,-73.991185,Coffee Shop,40.736532,-73.990828,Lunch at Diner
-356,2025-05-28 11:30:00,40.736532,-73.990828,Lunch at Diner,40.718932,-73.989129,Gym / Fitness Center
-356,2025-05-28 13:00:00,40.718932,-73.989129,Gym / Fitness Center,40.778587,-73.953242,Asian Restaurant
-356,2025-05-28 17:30:00,40.778587,-73.953242,Asian Restaurant,40.720068,-73.988313,Bar
-356,2025-05-28 19:30:00,40.720068,-73.988313,Bar,40.711453,-73.947265,Coffee Shop

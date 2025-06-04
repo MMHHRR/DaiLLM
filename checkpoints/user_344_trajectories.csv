@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-344,2025-05-28 08:00:00,40.773943,-73.94186,Home (private),40.737116,-73.817731,College Academic Building
-344,2025-05-28 08:30:00,40.737116,-73.817731,College Academic Building,40.73708,-73.818083,College Academic Building
-344,2025-05-28 10:30:00,40.73708,-73.818083,College Academic Building,40.72003,-73.84516,Fast Food Restaurant
-344,2025-05-28 12:00:00,40.72003,-73.84516,Fast Food Restaurant,40.73523,-73.820152,College Academic Building
-344,2025-05-28 12:30:00,40.73523,-73.820152,College Academic Building,40.679564,-73.984165,Gym / Fitness Center
-344,2025-05-28 14:30:00,40.679564,-73.984165,Gym / Fitness Center,40.737166,-73.817723,College Academic Building
-344,2025-05-28 16:00:00,40.737166,-73.817723,College Academic Building,40.72003,-73.84516,Fast Food Restaurant
-344,2025-05-28 17:00:00,40.72003,-73.84516,Fast Food Restaurant,40.773943,-73.94186,Home (private)

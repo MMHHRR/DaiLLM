@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-1006,2025-05-28 08:00:00,40.686104,-73.943826,Residential Building (Apartment / Condo),40.674958,-73.736072,School
-1006,2025-05-28 09:00:00,40.674958,-73.736072,School,40.686142,-73.943648,Deli / Bodega
-1006,2025-05-28 11:00:00,40.686142,-73.943648,Deli / Bodega,40.687247,-73.944705,Caribbean Restaurant
-1006,2025-05-28 12:30:00,40.687247,-73.944705,Caribbean Restaurant,40.679955,-73.944464,Food & Drink Shop
-1006,2025-05-28 14:00:00,40.679955,-73.944464,Food & Drink Shop,40.703677,-73.816333,Elementary School
-1006,2025-05-28 16:00:00,40.703677,-73.816333,Elementary School,40.687945,-73.944785,Fried Chicken Joint
-1006,2025-05-28 18:00:00,40.687945,-73.944785,Fried Chicken Joint,40.686142,-73.943648,Deli / Bodega
-1006,2025-05-28 19:00:00,40.686142,-73.943648,Deli / Bodega,40.686104,-73.943826,Residential Building (Apartment / Condo)

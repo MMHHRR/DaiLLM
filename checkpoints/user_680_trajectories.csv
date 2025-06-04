@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-680,2025-05-28 06:30:00,40.73757,-74.0017,Gym / Fitness Center,40.731156,-73.988728,American Restaurant
-680,2025-05-28 08:00:00,40.731156,-73.988728,American Restaurant,40.733787,-73.993035,Coffee Shop
-680,2025-05-28 09:30:00,40.733787,-73.993035,Coffee Shop,40.730239,-73.990369,Sushi Restaurant
-680,2025-05-28 12:00:00,40.730239,-73.990369,Sushi Restaurant,40.738949,-73.989828,Gym / Fitness Center
-680,2025-05-28 13:30:00,40.738949,-73.989828,Gym / Fitness Center,40.73982,-73.987586,Indian Restaurant
-680,2025-05-28 17:00:00,40.73982,-73.987586,Indian Restaurant,40.727186,-73.988189,Bar
-680,2025-05-28 19:00:00,40.727186,-73.988189,Bar,40.734167,-73.990487,Movie Theater
-680,2025-05-28 21:00:00,40.734167,-73.990487,Movie Theater,40.734853,-73.988588,Bar

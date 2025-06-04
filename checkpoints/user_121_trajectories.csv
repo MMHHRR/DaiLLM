@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-121,2025-05-28 07:30:00,40.60259,-73.98888,Home (private),40.741826,-74.003815,Office
-121,2025-05-28 08:15:00,40.741826,-74.003815,Office,40.7416,-74.003649,Restaurant
-121,2025-05-28 12:00:00,40.7416,-74.003649,Restaurant,40.741826,-74.003815,Office
-121,2025-05-28 13:00:00,40.741826,-74.003815,Office,40.604564,-73.992521,Coffee Shop
-121,2025-05-28 17:30:00,40.604564,-73.992521,Coffee Shop,40.604532,-73.992438,Other Great Outdoors
-121,2025-05-28 18:30:00,40.604532,-73.992438,Other Great Outdoors,40.60259,-73.98888,Home (private)

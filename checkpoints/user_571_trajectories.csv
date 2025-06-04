@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-571,2025-05-28 13:00:00,40.812553,-73.9084,Neighborhood,40.81212,-73.961935,College Academic Building
-571,2025-05-28 13:30:00,40.81212,-73.961935,College Academic Building,40.814755,-73.958872,American Restaurant
-571,2025-05-28 14:00:00,40.814755,-73.958872,American Restaurant,40.81244,-73.908348,General Travel
-571,2025-05-28 15:00:00,40.81244,-73.908348,General Travel,40.828099,-73.933911,Bridge
-571,2025-05-28 16:00:00,40.828099,-73.933911,Bridge,40.811112,-73.957798,Southern / Soul Food Restaurant
-571,2025-05-28 18:00:00,40.811112,-73.957798,Southern / Soul Food Restaurant,40.777292,-73.980689,Church
-571,2025-05-28 19:30:00,40.777292,-73.980689,Church,40.828099,-73.933911,Bridge
-571,2025-05-28 20:30:00,40.828099,-73.933911,Bridge,40.804404,-73.96643,Burger Joint

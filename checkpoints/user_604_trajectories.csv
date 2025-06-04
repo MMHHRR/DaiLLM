@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-604,2025-05-28 08:30:00,40.917777,-74.169238,Community College,40.916006,-74.173175,Fast Food Restaurant
-604,2025-05-28 12:00:00,40.916006,-74.173175,Fast Food Restaurant,40.917777,-74.169238,Community College
-604,2025-05-28 13:00:00,40.917777,-74.169238,Community College,40.902809,-74.165998,Medical Center
-604,2025-05-28 15:00:00,40.902809,-74.165998,Medical Center,40.91559,-74.194502,Coffee Shop
-604,2025-05-28 17:00:00,40.91559,-74.194502,Coffee Shop,40.917387,-74.17443,Bar
-604,2025-05-28 18:00:00,40.917387,-74.17443,Bar,40.923994,-74.180616,Fast Food Restaurant
-604,2025-05-28 20:30:00,40.923994,-74.180616,Fast Food Restaurant,40.917387,-74.17443,Bar

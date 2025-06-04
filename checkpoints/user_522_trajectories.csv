@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-522,2025-05-28 06:30:00,40.862369,-74.227582,Gym / Fitness Center,40.839757,-74.207956,Coffee Shop
-522,2025-05-28 08:00:00,40.839757,-74.207956,Coffee Shop,40.884736,-74.214359,Miscellaneous Shop
-522,2025-05-28 09:00:00,40.884736,-74.214359,Miscellaneous Shop,40.815557,-74.218784,American Restaurant
-522,2025-05-28 12:30:00,40.815557,-74.218784,American Restaurant,40.776535,-74.013449,Park
-522,2025-05-28 14:00:00,40.776535,-74.013449,Park,40.862369,-74.227582,Gym / Fitness Center
-522,2025-05-28 16:00:00,40.862369,-74.227582,Gym / Fitness Center,40.838124,-74.207318,Pizza Place
-522,2025-05-28 18:00:00,40.838124,-74.207318,Pizza Place,40.753012,-74.025563,Bar
-522,2025-05-28 20:00:00,40.753012,-74.025563,Bar,40.862369,-74.227582,Gym / Fitness Center

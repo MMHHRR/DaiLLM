@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-710,2025-05-28 07:30:00,40.848352,-73.830819,Gym / Fitness Center,40.821371,-73.908693,High School
-710,2025-05-28 09:00:00,40.821371,-73.908693,High School,40.759117,-73.969134,Indian Restaurant
-710,2025-05-28 12:30:00,40.759117,-73.969134,Indian Restaurant,40.821371,-73.908693,High School
-710,2025-05-28 14:00:00,40.821371,-73.908693,High School,40.848352,-73.830819,Gym / Fitness Center
-710,2025-05-28 17:00:00,40.848352,-73.830819,Gym / Fitness Center,40.865919,-73.927732,Bar
-710,2025-05-28 19:30:00,40.865919,-73.927732,Bar,40.819444,-73.817234,American Restaurant
-710,2025-05-28 21:30:00,40.819444,-73.817234,American Restaurant,40.7858,-73.97644,Bar

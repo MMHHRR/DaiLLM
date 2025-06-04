@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-351,2025-05-28 12:00:00,40.66532,-73.756442,Fast Food Restaurant,40.757305,-73.96864,Bar
-351,2025-05-28 13:00:00,40.757305,-73.96864,Bar,40.730153,-73.954382,Bus Station
-351,2025-05-28 14:30:00,40.730153,-73.954382,Bus Station,40.763921,-73.771199,Cajun / Creole Restaurant
-351,2025-05-28 17:30:00,40.763921,-73.771199,Cajun / Creole Restaurant,40.742695,-73.954032,Bar
-351,2025-05-28 19:00:00,40.742695,-73.954032,Bar,40.769349,-73.773705,Mexican Restaurant
-351,2025-05-28 20:30:00,40.769349,-73.773705,Mexican Restaurant,40.74607,-73.94567,Diner

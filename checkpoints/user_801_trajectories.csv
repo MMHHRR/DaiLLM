@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-801,2025-05-28 06:30:00,40.712778,-73.782593,Deli / Bodega,40.80927,-73.949071,Gym / Fitness Center
-801,2025-05-28 07:00:00,40.80927,-73.949071,Gym / Fitness Center,40.758165,-73.989261,Coffee Shop
-801,2025-05-28 08:30:00,40.758165,-73.989261,Coffee Shop,40.750795,-73.993576,Train Station
-801,2025-05-28 09:00:00,40.750795,-73.993576,Train Station,40.740659,-73.998266,American Restaurant
-801,2025-05-28 17:30:00,40.740659,-73.998266,American Restaurant,40.739058,-73.99472,Bar
-801,2025-05-28 19:00:00,40.739058,-73.99472,Bar,40.753865,-73.974252,Pizza Place
-801,2025-05-28 21:00:00,40.753865,-73.974252,Pizza Place,40.697597,-73.75367,Home (private)

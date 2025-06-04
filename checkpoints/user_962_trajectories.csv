@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-962,2025-05-28 07:30:00,40.71809,-73.999999,Coffee Shop,40.743376,-73.984831,Office
-962,2025-05-28 08:00:00,40.743376,-73.984831,Office,40.743493,-73.984974,Deli / Bodega
-962,2025-05-28 12:00:00,40.743493,-73.984974,Deli / Bodega,40.743376,-73.984831,Office
-962,2025-05-28 12:30:00,40.743376,-73.984831,Office,40.71809,-73.999999,Coffee Shop
-962,2025-05-28 17:00:00,40.71809,-73.999999,Coffee Shop,40.636647,-74.014511,Seafood Restaurant
-962,2025-05-28 17:30:00,40.636647,-74.014511,Seafood Restaurant,40.718342,-74.000618,Neighborhood

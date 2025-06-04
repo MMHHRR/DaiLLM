@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-314,2025-05-28 07:30:00,40.836731,-74.106378,Home (private),40.829215,-74.10306,Medical Center
-314,2025-05-28 08:15:00,40.829215,-74.10306,Medical Center,40.78508,-73.97463,Government Building
-314,2025-05-28 09:00:00,40.78508,-73.97463,Government Building,40.800944,-74.115907,American Restaurant
-314,2025-05-28 12:00:00,40.800944,-74.115907,American Restaurant,40.829079,-74.103117,Government Building
-314,2025-05-28 13:00:00,40.829079,-74.103117,Government Building,40.883799,-74.056694,Medical Center
-314,2025-05-28 15:00:00,40.883799,-74.056694,Medical Center,40.74221,-74.034968,Government Building
-314,2025-05-28 17:30:00,40.74221,-74.034968,Government Building,40.892733,-74.114755,Diner
-314,2025-05-28 19:00:00,40.892733,-74.114755,Diner,40.836731,-74.106378,Home (private)

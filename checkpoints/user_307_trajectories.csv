@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-307,2025-05-28 07:30:00,40.720506,-74.03293,Office,40.723519,-74.039741,Food & Drink Shop
-307,2025-05-28 12:00:00,40.723519,-74.039741,Food & Drink Shop,40.720506,-74.03293,Office
-307,2025-05-28 13:00:00,40.720506,-74.03293,Office,40.719095,-74.034376,Gym / Fitness Center
-307,2025-05-28 17:00:00,40.719095,-74.034376,Gym / Fitness Center,40.73233,-74.00164,Bar
-307,2025-05-28 18:30:00,40.73233,-74.00164,Bar,40.716833,-74.03293,Food & Drink Shop
-307,2025-05-28 20:00:00,40.716833,-74.03293,Food & Drink Shop,40.718933,-74.03266,Bar

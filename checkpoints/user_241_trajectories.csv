@@ -1,5 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-241,2025-05-28 17:30:00,40.662718,-74.10628,American Restaurant,40.719675,-74.004452,Bar
-241,2025-05-28 19:00:00,40.719675,-74.004452,Bar,40.719711,-74.004567,Music Venue
-241,2025-05-28 20:30:00,40.719711,-74.004567,Music Venue,40.719588,-74.002575,Bar
-241,2025-05-28 23:00:00,40.719588,-74.002575,Bar,40.719711,-74.004567,Music Venue

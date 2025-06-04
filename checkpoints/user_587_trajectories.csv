@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-587,2025-05-28 09:00:00,40.745902,-73.988142,Cafe,40.764569,-73.98486,Gym / Fitness Center
-587,2025-05-28 10:30:00,40.764569,-73.98486,Gym / Fitness Center,40.745837,-73.987993,American Restaurant
-587,2025-05-28 12:30:00,40.745837,-73.987993,American Restaurant,40.745077,-73.988676,Hotel
-587,2025-05-28 13:30:00,40.745077,-73.988676,Hotel,40.753815,-73.983769,Sushi Restaurant
-587,2025-05-28 15:00:00,40.753815,-73.983769,Sushi Restaurant,40.740558,-74.00778,Beer Garden
-587,2025-05-28 17:00:00,40.740558,-74.00778,Beer Garden,40.718555,-73.988997,Bar
-587,2025-05-28 19:00:00,40.718555,-73.988997,Bar,40.740647,-74.0023,American Restaurant
-587,2025-05-28 21:00:00,40.740647,-74.0023,American Restaurant,40.740704,-74.007631,Bar

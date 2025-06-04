@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-228,2025-05-28 07:30:00,40.880538,-73.903914,Breakfast Spot,40.870507,-73.956937,Gym / Fitness Center
-228,2025-05-28 08:30:00,40.870507,-73.956937,Gym / Fitness Center,40.782872,-73.957792,Office
-228,2025-05-28 09:30:00,40.782872,-73.957792,Office,40.895599,-73.976044,Lunch at Mexican Restaurant
-228,2025-05-28 12:00:00,40.895599,-73.976044,Lunch at Mexican Restaurant,40.782872,-73.957792,Office
-228,2025-05-28 13:00:00,40.782872,-73.957792,Office,40.954073,-73.846044,Gym / Fitness Center
-228,2025-05-28 17:00:00,40.954073,-73.846044,Gym / Fitness Center,40.807017,-73.953585,Dinner at American Restaurant
-228,2025-05-28 18:30:00,40.807017,-73.953585,Dinner at American Restaurant,40.925838,-73.99671,Movie Theater
-228,2025-05-28 20:00:00,40.925838,-73.99671,Movie Theater,40.839679,-73.918346,Home (private)

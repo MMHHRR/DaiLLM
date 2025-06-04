@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-669,2025-05-28 09:00:00,40.769076,-73.984595,Coffee Shop,40.770257,-73.984458,University
-669,2025-05-28 10:30:00,40.770257,-73.984458,University,40.74508,-73.982476,Sandwich Place
-669,2025-05-28 12:00:00,40.74508,-73.982476,Sandwich Place,40.750614,-73.988564,Department Store
-669,2025-05-28 13:30:00,40.750614,-73.988564,Department Store,40.705541,-74.008256,Cupcake Shop
-669,2025-05-28 15:00:00,40.705541,-74.008256,Cupcake Shop,40.706904,-74.00367,Cosmetics Shop
-669,2025-05-28 16:00:00,40.706904,-74.00367,Cosmetics Shop,40.706815,-74.003849,Mexican Restaurant
-669,2025-05-28 18:00:00,40.706815,-74.003849,Mexican Restaurant,40.794058,-73.966729,Cupcake Shop
-669,2025-05-28 19:30:00,40.794058,-73.966729,Cupcake Shop,40.741128,-73.989902,Bar

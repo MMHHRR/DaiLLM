@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-357,2025-05-28 08:30:00,40.74322,-74.007734,Office,40.616788,-73.973306,Food & Drink Shop
-357,2025-05-28 12:00:00,40.616788,-73.973306,Food & Drink Shop,40.74322,-74.007734,Office
-357,2025-05-28 13:00:00,40.74322,-74.007734,Office,40.74322,-74.007734,Office
-357,2025-05-28 17:30:00,40.74322,-74.007734,Office,40.740728,-74.008611,Bar
-357,2025-05-28 18:30:00,40.740728,-74.008611,Bar,40.691361,-73.991508,Fried Chicken Joint
-357,2025-05-28 20:30:00,40.691361,-73.991508,Fried Chicken Joint,40.690525,-73.991964,Movie Theater

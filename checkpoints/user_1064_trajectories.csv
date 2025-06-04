@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-1064,2025-05-28 07:30:00,40.74225,-74.006095,Coffee Shop,40.72258,-73.997675,Office
-1064,2025-05-28 08:30:00,40.72258,-73.997675,Office,40.745677,-74.005468,American Restaurant
-1064,2025-05-28 12:30:00,40.745677,-74.005468,American Restaurant,40.746607,-74.001675,Coffee Shop
-1064,2025-05-28 13:30:00,40.746607,-74.001675,Coffee Shop,40.755576,-73.9738,Gym / Fitness Center
-1064,2025-05-28 17:30:00,40.755576,-73.9738,Gym / Fitness Center,40.744378,-74.002858,American Restaurant
-1064,2025-05-28 19:00:00,40.744378,-74.002858,American Restaurant,40.725328,-73.992498,Bar
-1064,2025-05-28 20:30:00,40.725328,-73.992498,Bar,40.752286,-73.985801,Coffee Shop

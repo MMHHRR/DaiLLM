@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-591,2025-05-28 07:30:00,40.727033,-73.995213,Coffee Shop,40.72612,-73.995792,Office
-591,2025-05-28 08:15:00,40.72612,-73.995792,Office,40.762716,-73.987637,Burrito Place
-591,2025-05-28 12:00:00,40.762716,-73.987637,Burrito Place,40.727955,-73.993261,Coffee Shop
-591,2025-05-28 13:00:00,40.727955,-73.993261,Coffee Shop,40.746119,-73.99307,Gym / Fitness Center
-591,2025-05-28 17:30:00,40.746119,-73.99307,Gym / Fitness Center,40.751278,-73.986834,American Restaurant
-591,2025-05-28 18:30:00,40.751278,-73.986834,American Restaurant,40.744607,-73.995232,Bar
-591,2025-05-28 20:00:00,40.744607,-73.995232,Bar,40.762569,-73.989555,Pizza Place

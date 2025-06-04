@@ -1,7 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-530,2025-05-28 08:00:00,40.739673,-74.001697,Residential Building (Apartment / Condo),40.74186,-74.004292,Office
-530,2025-05-28 09:00:00,40.74186,-74.004292,Office,40.740352,-74.001761,Restaurant
-530,2025-05-28 12:30:00,40.740352,-74.001761,Restaurant,40.74186,-74.004292,Office
-530,2025-05-28 13:30:00,40.74186,-74.004292,Office,40.761528,-73.98526,Bar
-530,2025-05-28 17:00:00,40.761528,-73.98526,Bar,40.725921,-73.997824,Burger Joint
-530,2025-05-28 19:00:00,40.725921,-73.997824,Burger Joint,40.739673,-74.001697,Residential Building (Apartment / Condo)

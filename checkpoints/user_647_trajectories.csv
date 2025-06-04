@@ -1,9 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-647,2025-05-28 08:00:00,40.773502,-73.981026,Office,40.72769,-74.04474,Other Great Outdoors
-647,2025-05-28 12:00:00,40.72769,-74.04474,Other Great Outdoors,40.685174,-74.070715,Restaurant
-647,2025-05-28 13:00:00,40.685174,-74.070715,Restaurant,40.72769,-74.04474,Other Great Outdoors
-647,2025-05-28 15:00:00,40.72769,-74.04474,Other Great Outdoors,40.712671,-74.011931,Train Station
-647,2025-05-28 17:00:00,40.712671,-74.011931,Train Station,40.730465,-74.00426,Bar
-647,2025-05-28 17:30:00,40.730465,-74.00426,Bar,40.72769,-74.04474,Other Great Outdoors
-647,2025-05-28 20:00:00,40.72769,-74.04474,Other Great Outdoors,40.712671,-74.011931,Train Station
-647,2025-05-28 21:30:00,40.712671,-74.011931,Train Station,40.7639,-73.973278,Home

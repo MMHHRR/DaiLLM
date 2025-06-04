@@ -1,8 +1,0 @@
-userId,timestamp,origin_lat,origin_lon,origin_category,destination_lat,destination_lon,destination_category
-380,2025-05-28 07:30:00,40.595556,-73.800734,Home (private),40.594811,-73.795412,School
-380,2025-05-28 08:00:00,40.594811,-73.795412,School,40.5903,-73.799829,Food & Drink Shop
-380,2025-05-28 12:30:00,40.5903,-73.799829,Food & Drink Shop,40.595371,-73.796756,Beach
-380,2025-05-28 14:00:00,40.595371,-73.796756,Beach,40.595371,-73.796756,Beach
-380,2025-05-28 16:30:00,40.595371,-73.796756,Beach,40.595556,-73.800734,Home (private)
-380,2025-05-28 18:00:00,40.595556,-73.800734,Home (private),40.5903,-73.799829,Food & Drink Shop
-380,2025-05-28 19:30:00,40.5903,-73.799829,Food & Drink Shop,40.595556,-73.800734,Home (private)

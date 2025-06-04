@@ -55,7 +55,7 @@ class Profiler:
         """
 
         response = client.chat.completions.create(
-            model=config.LLM_MODEL,
+            model=config.LLM_MODEL_P,
             messages=[{"role": "user", "content": prompt}]
         )
 
@@ -79,7 +79,7 @@ class Profiler:
         """
 
         response = client.chat.completions.create(
-            model=config.LLM_MODEL,
+            model=config.LLM_MODEL_P,
             messages=[{"role": "user", "content": prompt}]
         )
         
@@ -130,12 +130,37 @@ class Generator:
             prompt += f"\n\nPrevious feedback to consider:\n{feedback_prompt}"
         
         response = client.chat.completions.create(
-            model=config.LLM_MODEL,
+            model=config.LLM_MODEL_G,
             messages=[{"role": "user", "content": prompt}]
         )
         
         try:
-            trajectory_data = json.loads(response.choices[0].message.content)['trajectory']
+            content = response.choices[0].message.content.strip()
+            # 清理可能的 markdown 代码块标记
+            if content.startswith('```json'):
+                content = content[7:]
+            if content.endswith('```'):
+                content = content[:-3]
+            content = content.strip()
+            
+            # 尝试找到第一个 { 和最后一个 } 之间的内容
+            start_idx = content.find('{')
+            end_idx = content.rfind('}') + 1
+            if start_idx != -1 and end_idx != 0:
+                content = content[start_idx:end_idx]
+            
+            # 检查返回的内容是否已经是正确的JSON格式
+            try:
+                data = json.loads(content)
+                if 'trajectory' in data:
+                    trajectory_data = data['trajectory']
+                else:
+                    # 如果返回的是轨迹点数组，将其包装在trajectory字段中
+                    trajectory_data = json.loads(f'{{"trajectory": {content}}}')['trajectory']
+            except json.JSONDecodeError:
+                # 如果解析失败，尝试将内容包装在trajectory字段中
+                trajectory_data = json.loads(f'{{"trajectory": [{content}]}}')['trajectory']
+            
             dtype_map = {
                 'timestamp': 'datetime64[ns]',
                 'venue_category': 'string',
@@ -148,6 +173,8 @@ class Generator:
             return self.generated_trajectory
             
         except (json.JSONDecodeError, KeyError, ValueError) as e:
+            logging.error(f"Error processing trajectory data: {str(e)}")
+            logging.error(f"Raw response content: {content}")
             raise ValueError(f"Error processing trajectory data: {str(e)}")
 
 class Discriminator:
@@ -200,7 +227,7 @@ class Discriminator:
         """
         
         response = client.chat.completions.create(
-            model=config.LLM_MODEL,
+            model=config.LLM_MODEL_D,
             messages=[{"role": "user", "content": prompt}]
         )
         
@@ -235,18 +262,59 @@ class TrajectoryProcessor:
         self.output_dir.mkdir(exist_ok=True)
         self.checkpoint_dir.mkdir(exist_ok=True)
         
+    def sample_user_data(self, user_data: pd.DataFrame, max_days: int = 7, min_points: int = 200) -> pd.DataFrame:
+        """Sample user data to ensure it doesn't exceed model's token limit while maintaining sufficient data points
+        
+        Args:
+            user_data: DataFrame containing user trajectory data
+            max_days: Maximum number of days to sample
+            min_points: Minimum number of data points required
+        """
+        if not pd.api.types.is_datetime64_any_dtype(user_data['utcTimestamp']):
+            user_data['utcTimestamp'] = pd.to_datetime(user_data['utcTimestamp'])
+        
+        user_data['date'] = user_data['utcTimestamp'].dt.date
+        unique_dates = sorted(user_data['date'].unique())
+        daily_counts = user_data.groupby('date').size()
+        
+        # If number of days exceeds max_days, prioritize days with more data points
+        if len(unique_dates) > max_days:
+            sorted_dates = daily_counts.sort_values(ascending=False).index
+            selected_dates = sorted_dates[:max_days]
+            sampled_data = user_data[user_data['date'].isin(selected_dates)].copy()
+            if len(sampled_data) < 50:
+                sampled_data = user_data.copy()
+        else:
+            sampled_data = user_data.copy()
+        
+        # If data points exceed minimum requirement, perform uniform sampling
+        if len(sampled_data) > min_points:
+            sampled_data = sampled_data.sort_values('utcTimestamp')
+            step = len(sampled_data) // min_points
+            sampled_data = sampled_data.iloc[::step]
+            if len(sampled_data) > min_points:
+                sampled_data = sampled_data.iloc[:min_points]
+        
+        sampled_data = sampled_data.drop('date', axis=1)
+        return sampled_data
+        
     def process_user(self, user_id: int, user_data: pd.DataFrame) -> Dict:
         """Process trajectory generation for a single user"""
         try:
+            # data sampling
+            sampled_data = self.sample_user_data(user_data)
+            print(len(sampled_data))
+            # sampled_data = user_data
+            
             profiler = Profiler()
             generator = Generator()
             discriminator = Discriminator()
             
-            POI_data = user_data[['venueCategory', 'latitude', 'longitude']].copy()
+            POI_data = sampled_data[['venueCategory', 'latitude', 'longitude']].copy()
             
             # Analyze user characteristics
-            long_term_profile = profiler.analyze_long_term_profile(user_data)
-            short_term_pattern = profiler.analyze_short_term_pattern(user_data)
+            long_term_profile = profiler.analyze_long_term_profile(sampled_data)
+            short_term_pattern = profiler.analyze_short_term_pattern(sampled_data)
             
             # Generate and evaluate trajectory
             max_attempts = 3
@@ -270,7 +338,7 @@ class TrajectoryProcessor:
                     feedback_prompt=feedback_prompt
                 )
                 
-                score, feedback = discriminator.evaluate_trajectory(current_trajectory, user_data)
+                score, feedback = discriminator.evaluate_trajectory(current_trajectory, sampled_data)
                 
                 if score > best_score:
                     best_score = score
