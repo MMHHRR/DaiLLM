@@ -223,7 +223,6 @@ class Discriminator:
             "feedback": ["specific suggestion point 1", "specific suggestion point 2", ... limited 100 words]
         }}
         
-        Note: Only include feedback if overall_score < 0.8
         """
         
         response = client.chat.completions.create(
@@ -303,7 +302,7 @@ class TrajectoryProcessor:
         try:
             # data sampling
             sampled_data = self.sample_user_data(user_data)
-            print(len(sampled_data))
+            # print(len(sampled_data))
             # sampled_data = user_data
             
             profiler = Profiler()
@@ -321,6 +320,7 @@ class TrajectoryProcessor:
             attempt = 0
             best_score = 0.0
             best_trajectory = None
+            feedback_history = []
             
             while attempt < max_attempts:
                 feedback_prompt = None
@@ -339,12 +339,23 @@ class TrajectoryProcessor:
                 )
                 
                 score, feedback = discriminator.evaluate_trajectory(current_trajectory, sampled_data)
+                print(score)
                 
                 if score > best_score:
                     best_score = score
                     best_trajectory = current_trajectory
-                
-                if score >= 0.8:
+                # score = 0.9
+                # feedback = ' '
+                # best_trajectory = current_trajectory
+
+                feedback_history.append({
+                    'userId': user_id,
+                    'attempt': attempt,
+                    'score': score,
+                    'feedback': feedback
+                })
+
+                if score >= 0.9:
                     break
                     
                 attempt += 1
@@ -373,10 +384,12 @@ class TrajectoryProcessor:
                 # Save individual user results
                 user_results = pd.DataFrame(od_data)
                 user_scores = pd.DataFrame([{'userId': user_id, 'score': best_score}])
+                user_feedback = pd.DataFrame(feedback_history)
                 
                 # Save to temporary files
                 user_results.to_csv(self.checkpoint_dir / f'user_{user_id}_trajectories.csv', index=False)
                 user_scores.to_csv(self.checkpoint_dir / f'user_{user_id}_scores.csv', index=False)
+                user_feedback.to_csv(self.checkpoint_dir / f'user_{user_id}_feedback.csv', index=False)
                 
                 return {
                     'user_id': user_id,
@@ -408,13 +421,19 @@ class TrajectoryProcessor:
         trajectory_files = list(self.checkpoint_dir.glob('*_trajectories.csv'))
         if trajectory_files:
             trajectories = pd.concat([pd.read_csv(f) for f in trajectory_files])
-            trajectories.to_csv(self.output_dir / 'generated_trajectories_w_p.csv', index=False)
+            trajectories.to_csv(self.output_dir / 'generated_trajectories.csv', index=False)
         
         # Merge score data
         score_files = list(self.checkpoint_dir.glob('*_scores.csv'))
         if score_files:
             scores = pd.concat([pd.read_csv(f) for f in score_files])
-            scores.to_csv(self.output_dir / 'generation_scores_w_p.csv', index=False)
+            scores.to_csv(self.output_dir / 'generation_scores.csv', index=False)
+        
+        # Merge feedback data
+        feedback_files = list(self.checkpoint_dir.glob('*_feedback.csv'))
+        if feedback_files:
+            feedback = pd.concat([pd.read_csv(f) for f in feedback_files])
+            feedback.to_csv(self.output_dir / 'generation_feedback.csv', index=False)
 
 def main():
     # Create necessary directories
