@@ -408,13 +408,13 @@ class TrajectoryProcessor:
         trajectory_files = list(self.checkpoint_dir.glob('*_trajectories.csv'))
         if trajectory_files:
             trajectories = pd.concat([pd.read_csv(f) for f in trajectory_files])
-            trajectories.to_csv(self.output_dir / 'generated_trajectories2.csv', index=False)
+            trajectories.to_csv(self.output_dir / 'generated_trajectories_w_p.csv', index=False)
         
         # Merge score data
         score_files = list(self.checkpoint_dir.glob('*_scores.csv'))
         if score_files:
             scores = pd.concat([pd.read_csv(f) for f in score_files])
-            scores.to_csv(self.output_dir / 'generation_scores2.csv', index=False)
+            scores.to_csv(self.output_dir / 'generation_scores_w_p.csv', index=False)
 
 def main():
     # Create necessary directories
