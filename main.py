@@ -223,6 +223,7 @@ class Discriminator:
             "feedback": ["specific suggestion point 1", "specific suggestion point 2", ... limited 100 words]
         }}
         
+        NOTE: Only include feedback if overall_score < 0.85
         """
         
         response = client.chat.completions.create(
@@ -339,7 +340,7 @@ class TrajectoryProcessor:
                 )
                 
                 score, feedback = discriminator.evaluate_trajectory(current_trajectory, sampled_data)
-                print(score)
+                # print(score)
                 
                 if score > best_score:
                     best_score = score
@@ -355,7 +356,7 @@ class TrajectoryProcessor:
                     'feedback': feedback
                 })
 
-                if score >= 0.9:
+                if score >= 0.85:
                     break
                     
                 attempt += 1
