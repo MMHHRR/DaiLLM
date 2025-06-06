@@ -46,12 +46,10 @@ class Profiler:
         Please analyze and provide limited 100 words:
         1. Gender (male or female)
         2. Age group estimation
-        3. Race inference
-        4. Income level estimation
-        5. Likely occupation
-        6. Lifestyle characteristics
-        7. Regular activity patterns
-        8. Preferred locations and venue types
+        3. Income level estimation
+        4. Likely occupation
+        5. Lifestyle characteristics
+        6. Preferred locations and venue types
         """
 
         response = client.chat.completions.create(
@@ -106,8 +104,7 @@ class Generator:
         Generate a realistic trajectory that includes:
         1. Venue categories
         2. Timestamps
-        3. Latitude and longitude coordinates
-        4. Timezone information
+        3. Latitude and longitude coordinates (Refer to Historical Location)
         
         Return the trajectory in the following JSON format:
         {{
@@ -116,8 +113,7 @@ class Generator:
                     "timestamp": "YYYY-MM-DD HH:MM:SS",
                     "venue_category": "string",
                     "latitude": float,
-                    "longitude": float,
-                    "timezone_offset": integer
+                    "longitude": float
                 }},
                 ...
             ]
@@ -166,7 +162,6 @@ class Generator:
                 'venue_category': 'string',
                 'latitude': 'float64',
                 'longitude': 'float64',
-                'timezone_offset': 'int32'
             }
             
             self.generated_trajectory = pd.DataFrame(trajectory_data).astype(dtype_map)
@@ -233,14 +228,13 @@ class Discriminator:
         
         try:
             content = response.choices[0].message.content.strip()
-            # 清理可能的 markdown 代码块标记
+            
             if content.startswith('```json'):
                 content = content[7:]
             if content.endswith('```'):
                 content = content[:-3]
             content = content.strip()
             
-            # 尝试找到第一个 { 和最后一个 } 之间的内容
             start_idx = content.find('{')
             end_idx = content.rfind('}') + 1
             if start_idx != -1 and end_idx != 0:
@@ -262,7 +256,7 @@ class TrajectoryProcessor:
         self.output_dir.mkdir(exist_ok=True)
         self.checkpoint_dir.mkdir(exist_ok=True)
         
-    def sample_user_data(self, user_data: pd.DataFrame, max_days: int = 7, min_points: int = 200) -> pd.DataFrame:
+    def sample_user_data(self, user_data: pd.DataFrame, max_days: int = 7, min_points: int = 50) -> pd.DataFrame:
         """Sample user data to ensure it doesn't exceed model's token limit while maintaining sufficient data points
         
         Args:
@@ -282,7 +276,7 @@ class TrajectoryProcessor:
             sorted_dates = daily_counts.sort_values(ascending=False).index
             selected_dates = sorted_dates[:max_days]
             sampled_data = user_data[user_data['date'].isin(selected_dates)].copy()
-            if len(sampled_data) < 50:
+            if len(sampled_data) < min_points:
                 sampled_data = user_data.copy()
         else:
             sampled_data = user_data.copy()
@@ -302,15 +296,16 @@ class TrajectoryProcessor:
         """Process trajectory generation for a single user"""
         try:
             # data sampling
-            sampled_data = self.sample_user_data(user_data)
-            # print(len(sampled_data))
+            sampled_data_df = self.sample_user_data(user_data)
+
+            POI_data = sampled_data_df[['venueCategory', 'latitude', 'longitude']].copy()
+            sampled_data = sampled_data_df[['userId', 'venueCategory', 'utcTimestamp']].copy()
+            # print(sampled_data)
             # sampled_data = user_data
             
             profiler = Profiler()
             generator = Generator()
             discriminator = Discriminator()
-            
-            POI_data = sampled_data[['venueCategory', 'latitude', 'longitude']].copy()
             
             # Analyze user characteristics
             long_term_profile = profiler.analyze_long_term_profile(sampled_data)
@@ -340,11 +335,10 @@ class TrajectoryProcessor:
                 )
                 
                 score, feedback = discriminator.evaluate_trajectory(current_trajectory, sampled_data)
-                # print(score)
-                
                 if score > best_score:
                     best_score = score
                     best_trajectory = current_trajectory
+
                 # score = 0.9
                 # feedback = ' '
                 # best_trajectory = current_trajectory
@@ -422,19 +416,33 @@ class TrajectoryProcessor:
         trajectory_files = list(self.checkpoint_dir.glob('*_trajectories.csv'))
         if trajectory_files:
             trajectories = pd.concat([pd.read_csv(f) for f in trajectory_files])
-            trajectories.to_csv(self.output_dir / 'generated_trajectories.csv', index=False)
+            trajectories.to_csv(self.output_dir / 'generated_trajectories_w_p.csv', index=False)
         
         # Merge score data
         score_files = list(self.checkpoint_dir.glob('*_scores.csv'))
         if score_files:
             scores = pd.concat([pd.read_csv(f) for f in score_files])
-            scores.to_csv(self.output_dir / 'generation_scores.csv', index=False)
+            scores.to_csv(self.output_dir / 'generation_scores_w_p.csv', index=False)
         
         # Merge feedback data
         feedback_files = list(self.checkpoint_dir.glob('*_feedback.csv'))
         if feedback_files:
             feedback = pd.concat([pd.read_csv(f) for f in feedback_files])
-            feedback.to_csv(self.output_dir / 'generation_feedback.csv', index=False)
+            feedback.to_csv(self.output_dir / 'generation_feedback_w_p.csv', index=False)
+
+    def get_processed_user_ids(self) -> set:
+        """Get the set of user IDs that have already been processed"""
+        processed_ids = set()
+        # Check trajectory files
+        trajectory_files = list(self.checkpoint_dir.glob('*_trajectories.csv'))
+        for file in trajectory_files:
+            try:
+                df = pd.read_csv(file)
+                if 'userId' in df.columns:
+                    processed_ids.update(df['userId'].unique())
+            except Exception as e:
+                logging.warning(f"Error reading file {file}: {str(e)}")
+        return processed_ids
 
 def main():
     # Create necessary directories
@@ -445,11 +453,23 @@ def main():
     
     logging.info("Loading data...")
     data = pd.read_csv(r'D:\A_Research\A_doing_research\20250526_LLM_causal_inference\dataset\dataset_TSMC2014_NYC.csv')
-    data = data.drop(['venueId', 'venueCategoryId'], axis=1)
+    data = data.drop(['venueId', 'venueCategoryId', 'timezoneOffset'], axis=1)
     data['utcTimestamp'] = pd.to_datetime(data['utcTimestamp'])
     
+    processor = TrajectoryProcessor(checkpoint_dir, output_dir)
+    
+    # Get already processed user IDs
+    processed_ids = processor.get_processed_user_ids()
+    logging.info(f"Found {len(processed_ids)} already processed users")
+    
+    # Filter out unprocessed users
     unique_users = data['userId'].unique()
-    logging.info(f"Found {len(unique_users)} users")
+    remaining_users = [uid for uid in unique_users if uid not in processed_ids]
+    logging.info(f"Found {len(remaining_users)} users remaining to process")
+    
+    if not remaining_users:
+        logging.info("All users have been processed!")
+        return
     
     # Set up parallel processing
     num_processes = mp.cpu_count() - 1  # Reserve one CPU core
@@ -457,14 +477,12 @@ def main():
     
     # Process users in batches
     batch_size = 50
-    total_batches = (len(unique_users) + batch_size - 1) // batch_size
-    
-    processor = TrajectoryProcessor(checkpoint_dir, output_dir)
+    total_batches = (len(remaining_users) + batch_size - 1) // batch_size
     
     for batch_idx in range(total_batches):
         start_idx = batch_idx * batch_size
-        end_idx = min((batch_idx + 1) * batch_size, len(unique_users))
-        batch_users = unique_users[start_idx:end_idx]
+        end_idx = min((batch_idx + 1) * batch_size, len(remaining_users))
+        batch_users = remaining_users[start_idx:end_idx]
         
         logging.info(f"Processing batch {batch_idx + 1}/{total_batches} (users {start_idx}-{end_idx})")
         
