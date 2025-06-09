@@ -67,7 +67,7 @@ class Profiler:
         Historical Trajectory:
         {historical_trajectory.to_string()}
         
-        Please identify, limited 100 words:
+        Please identify and provide at least 500 words:
         1. Peak activity periods
         2. Key destinations
         3. Daily routes
@@ -91,7 +91,7 @@ class Generator:
     def generate_trajectory(self, profile: str, pattern: str, historical_data: pd.DataFrame, feedback_prompt: str = None) -> pd.DataFrame:
         prompt = f"""
         Generate a one-day (2025/5/28) trajectory based on:
-        
+
         User Profile:
         {profile}
         
@@ -310,6 +310,8 @@ class TrajectoryProcessor:
             # Analyze user characteristics
             long_term_profile = profiler.analyze_long_term_profile(sampled_data)
             short_term_pattern = profiler.analyze_short_term_pattern(sampled_data)
+            # long_term_profile = ' '
+            # short_term_pattern = ' '
             
             # Generate and evaluate trajectory
             max_attempts = 3
@@ -338,7 +340,6 @@ class TrajectoryProcessor:
                 if score > best_score:
                     best_score = score
                     best_trajectory = current_trajectory
-
                 # score = 0.9
                 # feedback = ' '
                 # best_trajectory = current_trajectory
@@ -416,19 +417,19 @@ class TrajectoryProcessor:
         trajectory_files = list(self.checkpoint_dir.glob('*_trajectories.csv'))
         if trajectory_files:
             trajectories = pd.concat([pd.read_csv(f) for f in trajectory_files])
-            trajectories.to_csv(self.output_dir / 'generated_trajectories_w_p.csv', index=False)
+            trajectories.to_csv(self.output_dir / 'generated_trajectories_TKY.csv', index=False)
         
         # Merge score data
         score_files = list(self.checkpoint_dir.glob('*_scores.csv'))
         if score_files:
             scores = pd.concat([pd.read_csv(f) for f in score_files])
-            scores.to_csv(self.output_dir / 'generation_scores_w_p.csv', index=False)
+            scores.to_csv(self.output_dir / 'generation_scores_TKYcsv', index=False)
         
         # Merge feedback data
         feedback_files = list(self.checkpoint_dir.glob('*_feedback.csv'))
         if feedback_files:
             feedback = pd.concat([pd.read_csv(f) for f in feedback_files])
-            feedback.to_csv(self.output_dir / 'generation_feedback_w_p.csv', index=False)
+            feedback.to_csv(self.output_dir / 'generation_feedback_TKY.csv', index=False)
 
     def get_processed_user_ids(self) -> set:
         """Get the set of user IDs that have already been processed"""
@@ -452,7 +453,7 @@ def main():
     Path(output_dir).mkdir(exist_ok=True)
     
     logging.info("Loading data...")
-    data = pd.read_csv(r'D:\A_Research\A_doing_research\20250526_LLM_causal_inference\dataset\dataset_TSMC2014_NYC.csv')
+    data = pd.read_csv(r'D:\A_Research\A_doing_research\20250526_LLM_causal_inference\dataset\dataset_TSMC2014_TKY.csv')
     data = data.drop(['venueId', 'venueCategoryId', 'timezoneOffset'], axis=1)
     data['utcTimestamp'] = pd.to_datetime(data['utcTimestamp'])
     
