@@ -88,9 +88,43 @@ class Generator:
     def __init__(self):
         self.generated_trajectory = None
     
-    def generate_trajectory(self, profile: str, pattern: str, historical_data: pd.DataFrame, feedback_prompt: str = None) -> pd.DataFrame:
+    def generate_trajectory(self, profile: str, pattern: str, historical_data: pd.DataFrame, 
+                          start_date: str = "2025/5/28", num_days: int = 3, 
+                          events: List[Dict] = None, feedback_prompt: str = None) -> pd.DataFrame:
+        """
+        Generate trajectory based on user profile and patterns
+        
+        Args:
+            profile: User profile analysis
+            pattern: Mobility pattern analysis
+            historical_data: Historical location data
+            start_date: Start date for trajectory generation (format: YYYY/MM/DD)
+            num_days: Number of days to generate
+            events: List of events that may affect mobility, each event is a dict with:
+                   {
+                       'date': 'YYYY/MM/DD',
+                       'type': 'event_type',
+                       'description': 'event_description',
+                       'impact': 'impact_description'
+                   }
+            feedback_prompt: Previous feedback to consider
+        """
+        # Calculate end date
+        start_dt = datetime.strptime(start_date, "%Y/%m/%d")
+        end_dt = start_dt + timedelta(days=num_days-1)
+        
+        # Format events information
+        events_info = ""
+        if events:
+            events_info = "\nSpecial Events to Consider:\n"
+            for event in events:
+                events_info += f"- Date: {event['date']}\n"
+                events_info += f"  Type: {event['type']}\n"
+                events_info += f"  Description: {event['description']}\n"
+                events_info += f"  Impact: {event['impact']}\n"
+        
         prompt = f"""
-        Generate a one-day (2025/5/28) trajectory based on:
+        Generate a {num_days}-day ({start_date}-{end_dt.strftime('%Y/%m/%d')}) trajectory based on:
 
         User Profile:
         {profile}
@@ -100,6 +134,8 @@ class Generator:
         
         Historical Location Data:
         {historical_data.to_string()}
+        
+        {events_info}
         
         Generate a realistic trajectory that includes:
         1. Venue categories
@@ -132,6 +168,7 @@ class Generator:
         
         try:
             content = response.choices[0].message.content.strip()
+
             # 清理可能的 markdown 代码块标记
             if content.startswith('```json'):
                 content = content[7:]
@@ -177,47 +214,65 @@ class Discriminator:
         self.score = 0.0
         self.feedback = []
     
-    def evaluate_trajectory(self, generated: pd.DataFrame, real: pd.DataFrame) -> Tuple[float, List[str]]:
-        prompt = f"""
-        Evaluate the following generated trajectory (one day) against the real trajectory (multiple days). The goal is to assess if this single day trajectory could be a realistic part of the longer-term pattern.
+    def evaluate_trajectory(self, generated: pd.DataFrame, real: pd.DataFrame, num_days: int = 3) -> Tuple[float, List[str]]:
+        """
+        Evaluate the generated trajectory against the real trajectory
         
-        Generated Trajectory (1 day):
+        Args:
+            generated: Generated trajectory DataFrame
+            real: Real trajectory DataFrame for reference
+            num_days: Number of days in the generated trajectory
+        """
+        # Calculate the number of days in the generated trajectory
+        generated['date'] = pd.to_datetime(generated['timestamp']).dt.date
+        unique_days = len(generated['date'].unique())
+        
+        prompt = f"""
+        Evaluate the following generated trajectory ({num_days} days) against the real trajectory (multiple days). 
+        The goal is to assess if this {num_days}-day trajectory could be a realistic part of the longer-term pattern.
+        
+        Generated Trajectory ({num_days} days):
         {generated.to_string()}
         
         Real Trajectory (Reference data):
         {real.to_string()}
         
-        Please evaluate based on these criteria, considering the single day vs multi-day context:
+        Please evaluate based on these criteria, considering the {num_days}-day vs multi-day context:
         1. Temporal patterns (0.00-1.00 score):
-        - Does the day follow common daily rhythm (morning, noon, evening activities)?
+        - Does each day follow common daily rhythm (morning, noon, evening activities)?
         - Award full points if timing matches ANY typical day pattern in real data
+        - Consider the impact of special events on daily patterns
         
         2. Venue type frequency (0.00-1.00 score):
         - Compare to the average daily venue type distribution
         - Award full points if proportions are within reasonable daily variation
         - Don't penalize for missing venue types that aren't visited every day
+        - Consider how special events might affect venue type preferences
         
         3. Geographical distribution (0.00-1.00 score):
-        - Focus on travel distances and area coverage for a single day
+        - Focus on travel distances and area coverage for {num_days} days
         - Award full points if locations fall within common activity zones
         - Don't penalize for not covering all possible areas in one day
+        - Consider how special events might affect travel distances
         
         4. Venue transition logic (0.00-1.00 score):
         - Evaluate if each transition makes sense in sequence
         - Award full points for logical daily flow (e.g., home->work->restaurant->home)
         - Consider common daily patterns rather than weekly variety
+        - Account for how special events might alter normal transition patterns
         
         5. Stay duration patterns (0.00-1.00 score):
-        - Compare durations to typical single-day patterns
+        - Compare durations to typical {num_days}-day patterns
         - Award full points if durations match common venue-specific stays
         - Consider peak/off-peak timing appropriateness
+        - Account for how special events might affect stay durations
         
         Return your evaluation in the following JSON format:
         {{
             "overall_score": <average of all scores>,
             "feedback": ["specific suggestion point 1", "specific suggestion point 2", ... limited 100 words]
         }}
-        
+
         NOTE: Only include feedback if overall_score < 0.85
         """
         
@@ -256,7 +311,7 @@ class TrajectoryProcessor:
         self.output_dir.mkdir(exist_ok=True)
         self.checkpoint_dir.mkdir(exist_ok=True)
         
-    def sample_user_data(self, user_data: pd.DataFrame, max_days: int = 7, min_points: int = 50) -> pd.DataFrame:
+    def sample_user_data(self, user_data: pd.DataFrame, max_days: int = 7, min_points: int = 100) -> pd.DataFrame:
         """Sample user data to ensure it doesn't exceed model's token limit while maintaining sufficient data points
         
         Args:
@@ -292,16 +347,24 @@ class TrajectoryProcessor:
         sampled_data = sampled_data.drop('date', axis=1)
         return sampled_data
         
-    def process_user(self, user_id: int, user_data: pd.DataFrame) -> Dict:
-        """Process trajectory generation for a single user"""
+    def process_user(self, user_id: int, user_data: pd.DataFrame, 
+                    start_date: str = "2025/5/28", num_days: int = 3,
+                    events: List[Dict] = None) -> Dict:
+        """Process trajectory generation for a single user
+        
+        Args:
+            user_id: User ID
+            user_data: User's historical trajectory data
+            start_date: Start date for trajectory generation (format: YYYY/MM/DD)
+            num_days: Number of days to generate
+            events: List of events that may affect mobility
+        """
         try:
             # data sampling
             sampled_data_df = self.sample_user_data(user_data)
 
             POI_data = sampled_data_df[['venueCategory', 'latitude', 'longitude']].copy()
             sampled_data = sampled_data_df[['userId', 'venueCategory', 'utcTimestamp']].copy()
-            # print(sampled_data)
-            # sampled_data = user_data
             
             profiler = Profiler()
             generator = Generator()
@@ -310,8 +373,6 @@ class TrajectoryProcessor:
             # Analyze user characteristics
             long_term_profile = profiler.analyze_long_term_profile(sampled_data)
             short_term_pattern = profiler.analyze_short_term_pattern(sampled_data)
-            # long_term_profile = ' '
-            # short_term_pattern = ' '
             
             # Generate and evaluate trajectory
             max_attempts = 3
@@ -333,16 +394,20 @@ class TrajectoryProcessor:
                     long_term_profile, 
                     short_term_pattern, 
                     POI_data,
+                    start_date=start_date,
+                    num_days=num_days,
+                    events=events,
                     feedback_prompt=feedback_prompt
                 )
                 
-                score, feedback = discriminator.evaluate_trajectory(current_trajectory, sampled_data)
+                score, feedback = discriminator.evaluate_trajectory(
+                    current_trajectory, 
+                    sampled_data,
+                    num_days=num_days
+                )
                 if score > best_score:
                     best_score = score
                     best_trajectory = current_trajectory
-                # score = 0.9
-                # feedback = ' '
-                # best_trajectory = current_trajectory
 
                 feedback_history.append({
                     'userId': user_id,
@@ -417,19 +482,19 @@ class TrajectoryProcessor:
         trajectory_files = list(self.checkpoint_dir.glob('*_trajectories.csv'))
         if trajectory_files:
             trajectories = pd.concat([pd.read_csv(f) for f in trajectory_files])
-            trajectories.to_csv(self.output_dir / 'generated_trajectories_TKY.csv', index=False)
+            trajectories.to_csv(self.output_dir / 'generated_trajectories_event_TKY.csv', index=False)
         
         # Merge score data
         score_files = list(self.checkpoint_dir.glob('*_scores.csv'))
         if score_files:
             scores = pd.concat([pd.read_csv(f) for f in score_files])
-            scores.to_csv(self.output_dir / 'generation_scores_TKYcsv', index=False)
+            scores.to_csv(self.output_dir / 'generation_scores_event_TKY.csv', index=False)
         
         # Merge feedback data
         feedback_files = list(self.checkpoint_dir.glob('*_feedback.csv'))
         if feedback_files:
             feedback = pd.concat([pd.read_csv(f) for f in feedback_files])
-            feedback.to_csv(self.output_dir / 'generation_feedback_TKY.csv', index=False)
+            feedback.to_csv(self.output_dir / 'generation_feedback_event_TKY.csv', index=False)
 
     def get_processed_user_ids(self) -> set:
         """Get the set of user IDs that have already been processed"""
@@ -476,6 +541,21 @@ def main():
     num_processes = mp.cpu_count() - 1  # Reserve one CPU core
     logging.info(f"Using {num_processes} processes for parallel processing")
     
+    # Define simulation parameters
+    start_date = "2025/5/19"
+    num_days = 5
+    
+    # Define events that may affect mobility
+    # events = ['']
+    events = [
+        {
+            'date': '2025/5/20',
+            'type': 'weather',
+            'description': 'Typhoon approaching',
+            'impact': 'Strong typhoon expected to affect the region for 1-2 days. Heavy typhoon may limit outdoor activities and affect transportation. People may prefer indoor venues and stay closer to home.'
+        }
+    ]
+    
     # Process users in batches
     batch_size = 50
     total_batches = (len(remaining_users) + batch_size - 1) // batch_size
@@ -491,7 +571,14 @@ def main():
             futures = []
             for user_id in batch_users:
                 user_data = data[data['userId'] == user_id].copy()
-                future = executor.submit(processor.process_user, user_id, user_data)
+                future = executor.submit(
+                    processor.process_user, 
+                    user_id, 
+                    user_data,
+                    start_date=start_date,
+                    num_days=num_days,
+                    events=events
+                )
                 futures.append(future)
             
             # Use tqdm to show progress
