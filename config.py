@@ -2,12 +2,17 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-OPENAI_API_KEY = " "
-OPENAI_BASE_URL = "https://api.zetatechs.com/v1/"
+# # OpenAI配置
+OPENAI_API_KEY = ""
+OPENAI_BASE_URL = ""
 LLM_MODEL_P = "gpt-4o-mini"
 LLM_MODEL_G = "gpt-4o-mini"
 LLM_MODEL_D = "gpt-4o-mini"
 
-# OPENAI_API_KEY = " "
-# OPENAI_BASE_URL = "https://api.siliconflow.cn/v1"
-# LLM_MODEL = "Qwen/Qwen2.5-14B-Instruct"
+
+# # Ollama
+# OPENAI_API_KEY = "ollama"
+# OPENAI_BASE_URL = "http://localhost:6006/v1/"
+# LLM_MODEL_P = "qwen3:8b"
+# LLM_MODEL_G = "qwen3:8b"
+# LLM_MODEL_D = "qwen3:8b"

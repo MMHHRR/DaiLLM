@@ -67,7 +67,7 @@ class Profiler:
         Historical Trajectory:
         {historical_trajectory.to_string()}
         
-        Please identify and provide at least 500 words:
+        Please identify and provide limited 200 words:
         1. Peak activity periods
         2. Key destinations
         3. Daily routes
@@ -88,61 +88,106 @@ class Generator:
     def __init__(self):
         self.generated_trajectory = None
     
-    def generate_trajectory(self, profile: str, pattern: str, historical_data: pd.DataFrame, 
-                          start_date: str = "2025/5/28", num_days: int = 3, 
-                          events: List[Dict] = None, feedback_prompt: str = None) -> pd.DataFrame:
-        """
-        Generate trajectory based on user profile and patterns
-        
-        Args:
-            profile: User profile analysis
-            pattern: Mobility pattern analysis
-            historical_data: Historical location data
-            start_date: Start date for trajectory generation (format: YYYY/MM/DD)
-            num_days: Number of days to generate
-            events: List of events that may affect mobility, each event is a dict with:
-                   {
-                       'date': 'YYYY/MM/DD',
-                       'type': 'event_type',
-                       'description': 'event_description',
-                       'impact': 'impact_description'
-                   }
-            feedback_prompt: Previous feedback to consider
-        """
-        # Calculate end date
+    def _generate_activities(self, profile: str, pattern: str, historical_data: pd.DataFrame, 
+                           start_date: str, num_days: int, feedback_prompt: str = None) -> str:
+        """First round: Generate possible activities based on long-term personal features"""
         start_dt = datetime.strptime(start_date, "%Y/%m/%d")
         end_dt = start_dt + timedelta(days=num_days-1)
-        
-        # Format events information
-        events_info = ""
-        if events:
-            events_info = "\nSpecial Events to Consider:\n"
-            for event in events:
-                events_info += f"- Date: {event['date']}\n"
-                events_info += f"  Type: {event['type']}\n"
-                events_info += f"  Description: {event['description']}\n"
-                events_info += f"  Impact: {event['impact']}\n"
-        
+
         prompt = f"""
-        Generate a {num_days}-day ({start_date}-{end_dt.strftime('%Y/%m/%d')}) trajectory based on:
+        Based on the following user profile and mobility pattern, generate a chain of possible activities for {num_days} days ({start_date}-{end_dt.strftime('%Y/%m/%d')}):
 
         User Profile:
         {profile}
+
+        Mobility Pattern:
+        {pattern}
+
+        Please generate a reasonable chain of activities, including:
+        1. Activity type (e.g., work, shopping, entertainment)
+        2. Activity frequency (times per day/week)
+        3. Activity importance (high/medium/low)
+        """
+        
+        if feedback_prompt:
+            prompt += f"\n\nPrevious feedback to consider:\n{feedback_prompt}"
+        
+        response = client.chat.completions.create(
+            model=config.LLM_MODEL_G,
+            messages=[{"role": "user", "content": prompt}]
+        )
+        
+        return response.choices[0].message.content.strip()
+
+
+    def _assign_timestamps(self, activities: List[Dict], pattern: str, 
+                         start_date: str, num_days: int, feedback_prompt: str = None) -> str:
+        """Second round: Assign timestamps to activities"""
+        start_dt = datetime.strptime(start_date, "%Y/%m/%d")
+        end_dt = start_dt + timedelta(days=num_days-1)
+
+        prompt = f"""
+        Based on the following generated chain of activities and historical mobility pattern, assign specific times to each activity for {num_days} days ({start_date}-{end_dt.strftime('%Y/%m/%d')}):
+
+        Generated Chain of Activities:
+        {activities}
         
         Mobility Pattern:
         {pattern}
+
+        Please assign specific times to each activity, considering:
+        1. Activity time preferences (e.g., work during daytime)
+        2. Activity duration (Minute granularity)
+        3. Reasonable intervals between activities
+
+        Return in JSON format:
+        {{
+            "scheduled_activities": [
+                {{
+                    "type": "activity_type",
+                    "start_time": "YYYY-MM-DD HH:MM (Minute granularity)",
+                    "end_time": "YYYY-MM-DD HH:MM (Minute granularity)",
+                    "importance": "importance"
+                }},
+                ...
+            ]
+        }}
+        """
         
-        Historical Location Data:
+        if feedback_prompt:
+            prompt += f"\n\nPrevious feedback to consider:\n{feedback_prompt}"
+        
+        response = client.chat.completions.create(
+            model=config.LLM_MODEL_G,
+            messages=[{"role": "user", "content": prompt}]
+        )
+        
+        return response.choices[0].message.content.strip()
+    
+
+    def _select_locations(self, scheduled_activities: List[Dict], 
+                        historical_data: pd.DataFrame, feedback_prompt: str = None) -> pd.DataFrame:
+        """Third round: Select specific locations for activities"""
+        prompt = f"""
+        Based on the following generated scheduled activities and historical location, select appropriate locations for each activity:
+
+        Generated Scheduled Activities:
+        {scheduled_activities}
+        
+        Historical Location:
         {historical_data.to_string()}
-        
-        {events_info}
-        
+
+        Please select appropriate locations for each activity, considering:
+        1. Match between activity type and venue type
+        2. Reasonable distances between locations
+        3. Transportation mode and activity intervals
+
         Generate a realistic trajectory that includes:
-        1. Venue categories
-        2. Timestamps
+        1. Venue categories (Refer to Historical Location)
+        2. Timestamps (Refer to Generated Scheduled Activities)
         3. Latitude and longitude coordinates (Refer to Historical Location)
-        
-        Return the trajectory in the following JSON format:
+
+        Return in JSON format:
         {{
             "trajectory": [
                 {{
@@ -154,7 +199,6 @@ class Generator:
                 ...
             ]
         }}
-        
         Note: Only output the JSON, no other text. Do not include markdown code block markers.
         """
         
@@ -169,29 +213,24 @@ class Generator:
         try:
             content = response.choices[0].message.content.strip()
 
-            # 清理可能的 markdown 代码块标记
             if content.startswith('```json'):
                 content = content[7:]
             if content.endswith('```'):
                 content = content[:-3]
             content = content.strip()
             
-            # 尝试找到第一个 { 和最后一个 } 之间的内容
             start_idx = content.find('{')
             end_idx = content.rfind('}') + 1
             if start_idx != -1 and end_idx != 0:
                 content = content[start_idx:end_idx]
-            
-            # 检查返回的内容是否已经是正确的JSON格式
+
             try:
                 data = json.loads(content)
                 if 'trajectory' in data:
                     trajectory_data = data['trajectory']
                 else:
-                    # 如果返回的是轨迹点数组，将其包装在trajectory字段中
                     trajectory_data = json.loads(f'{{"trajectory": {content}}}')['trajectory']
             except json.JSONDecodeError:
-                # 如果解析失败，尝试将内容包装在trajectory字段中
                 trajectory_data = json.loads(f'{{"trajectory": [{content}]}}')['trajectory']
             
             dtype_map = {
@@ -208,6 +247,33 @@ class Generator:
             logging.error(f"Error processing trajectory data: {str(e)}")
             logging.error(f"Raw response content: {content}")
             raise ValueError(f"Error processing trajectory data: {str(e)}")
+        
+
+    def generate_trajectory(self, profile: str, pattern: str, historical_data: pd.DataFrame, 
+                          start_date: str = "2025/5/28", num_days: int = 3, feedback_prompt: str = None) -> pd.DataFrame:
+        """
+        Generate trajectory using Chain of Thought method
+        
+        Args:
+            profile: User profile analysis
+            pattern: Mobility pattern analysis
+            historical_data: Historical location data
+            start_date: Start date for trajectory generation (format: YYYY/MM/DD)
+            num_days: Number of days to generate
+            feedback_prompt: Previous feedback to consider
+        """
+
+        # First round: Generate activity list
+        activities = self._generate_activities(profile, pattern, historical_data, start_date, num_days, feedback_prompt)
+        
+        # Second round: Assign timestamps to activities
+        scheduled_activities = self._assign_timestamps(activities, pattern, start_date, num_days, feedback_prompt)
+
+        # Third round: Select specific locations
+        self.generated_trajectory = self._select_locations(scheduled_activities, historical_data, feedback_prompt)
+
+        return self.generated_trajectory
+
 
 class Discriminator:
     def __init__(self):
@@ -267,10 +333,10 @@ class Discriminator:
         - Consider peak/off-peak timing appropriateness
         - Account for how special events might affect stay durations
         
-        Return your evaluation in the following JSON format:
+        IMPORTANT: You must respond with ONLY a valid JSON object in the following format, with no additional text or explanation:
         {{
-            "overall_score": <average of all scores>,
-            "feedback": ["specific suggestion point 1", "specific suggestion point 2", ... limited 100 words]
+            "overall_score": <average of all scores (float between 0.00 and 1.00)>,
+            "feedback": ["specific suggestion point 1", "specific suggestion point 2", ... Limited 100 words]
         }}
 
         NOTE: Only include feedback if overall_score < 0.85
@@ -310,46 +376,48 @@ class TrajectoryProcessor:
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(exist_ok=True)
         self.checkpoint_dir.mkdir(exist_ok=True)
-        
-    def sample_user_data(self, user_data: pd.DataFrame, max_days: int = 7, min_points: int = 100) -> pd.DataFrame:
-        """Sample user data to ensure it doesn't exceed model's token limit while maintaining sufficient data points
+
+    def sample_user_data(self, user_data: pd.DataFrame, n_clusters: int = 10, min_points: int = 50) -> pd.DataFrame:
+        """Sample user data using clustering to maintain data distribution.
         
         Args:
-            user_data: DataFrame containing user trajectory data
-            max_days: Maximum number of days to sample
+            user_data: DataFrame containing trajectory data
+            n_clusters: Number of clusters to create
             min_points: Minimum number of data points required
         """
-        if not pd.api.types.is_datetime64_any_dtype(user_data['utcTimestamp']):
-            user_data['utcTimestamp'] = pd.to_datetime(user_data['utcTimestamp'])
+        from sklearn.cluster import KMeans
         
-        user_data['date'] = user_data['utcTimestamp'].dt.date
-        unique_dates = sorted(user_data['date'].unique())
-        daily_counts = user_data.groupby('date').size()
+        timestamp_col = 'utcTimestamp'
+        if not pd.api.types.is_datetime64_any_dtype(user_data[timestamp_col]):
+            user_data = user_data.assign(**{
+                timestamp_col: pd.to_datetime(user_data[timestamp_col])
+            })
         
-        # If number of days exceeds max_days, prioritize days with more data points
-        if len(unique_dates) > max_days:
-            sorted_dates = daily_counts.sort_values(ascending=False).index
-            selected_dates = sorted_dates[:max_days]
-            sampled_data = user_data[user_data['date'].isin(selected_dates)].copy()
-            if len(sampled_data) < min_points:
-                sampled_data = user_data.copy()
-        else:
-            sampled_data = user_data.copy()
+        # Convert timestamps to numeric values for clustering
+        timestamps = user_data[timestamp_col].astype(np.int64).values.reshape(-1, 1)
         
-        # If data points exceed minimum requirement, perform uniform sampling
-        if len(sampled_data) > min_points:
-            sampled_data = sampled_data.sort_values('utcTimestamp')
-            step = len(sampled_data) // min_points
-            sampled_data = sampled_data.iloc[::step]
-            if len(sampled_data) > min_points:
-                sampled_data = sampled_data.iloc[:min_points]
+        # Adjust number of clusters if data is too small
+        n_clusters = min(n_clusters, len(user_data) // 2)
         
-        sampled_data = sampled_data.drop('date', axis=1)
-        return sampled_data
+        # Perform clustering
+        kmeans = KMeans(n_clusters=n_clusters, random_state=42)
+        clusters = kmeans.fit_predict(timestamps)
+        
+        # Sample from each cluster
+        points_per_cluster = max(min_points // n_clusters, 1)
+        sampled_dfs = []
+        
+        for i in range(n_clusters):
+            cluster_data = user_data[clusters == i]
+            if len(cluster_data) > points_per_cluster:
+                cluster_data = cluster_data.sample(n=points_per_cluster)
+            sampled_dfs.append(cluster_data)
+        
+        return pd.concat(sampled_dfs).sort_values(timestamp_col)
+    
         
     def process_user(self, user_id: int, user_data: pd.DataFrame, 
-                    start_date: str = "2025/5/28", num_days: int = 3,
-                    events: List[Dict] = None) -> Dict:
+                    start_date: str = "2025/5/28", num_days: int = 3) -> Dict:
         """Process trajectory generation for a single user
         
         Args:
@@ -373,6 +441,8 @@ class TrajectoryProcessor:
             # Analyze user characteristics
             long_term_profile = profiler.analyze_long_term_profile(sampled_data)
             short_term_pattern = profiler.analyze_short_term_pattern(sampled_data)
+            # long_term_profile = ['']
+            # short_term_pattern = ['']
             
             # Generate and evaluate trajectory
             max_attempts = 3
@@ -396,15 +466,18 @@ class TrajectoryProcessor:
                     POI_data,
                     start_date=start_date,
                     num_days=num_days,
-                    events=events,
                     feedback_prompt=feedback_prompt
                 )
                 
+                ## whiout D module
                 score, feedback = discriminator.evaluate_trajectory(
                     current_trajectory, 
                     sampled_data,
                     num_days=num_days
                 )
+                # score = 0.9
+                # feedback = ['']
+
                 if score > best_score:
                     best_score = score
                     best_trajectory = current_trajectory
@@ -482,19 +555,19 @@ class TrajectoryProcessor:
         trajectory_files = list(self.checkpoint_dir.glob('*_trajectories.csv'))
         if trajectory_files:
             trajectories = pd.concat([pd.read_csv(f) for f in trajectory_files])
-            trajectories.to_csv(self.output_dir / 'generated_trajectories_event_TKY.csv', index=False)
+            trajectories.to_csv(self.output_dir / 'generated_trajectories_test.csv', index=False)
         
         # Merge score data
         score_files = list(self.checkpoint_dir.glob('*_scores.csv'))
         if score_files:
             scores = pd.concat([pd.read_csv(f) for f in score_files])
-            scores.to_csv(self.output_dir / 'generation_scores_event_TKY.csv', index=False)
+            scores.to_csv(self.output_dir / 'generation_scores_test.csv', index=False)
         
         # Merge feedback data
         feedback_files = list(self.checkpoint_dir.glob('*_feedback.csv'))
         if feedback_files:
             feedback = pd.concat([pd.read_csv(f) for f in feedback_files])
-            feedback.to_csv(self.output_dir / 'generation_feedback_event_TKY.csv', index=False)
+            feedback.to_csv(self.output_dir / 'generation_feedback_test.csv', index=False)
 
     def get_processed_user_ids(self) -> set:
         """Get the set of user IDs that have already been processed"""
@@ -518,7 +591,7 @@ def main():
     Path(output_dir).mkdir(exist_ok=True)
     
     logging.info("Loading data...")
-    data = pd.read_csv(r'D:\A_Research\A_doing_research\20250526_LLM_causal_inference\dataset\dataset_TSMC2014_TKY.csv')
+    data = pd.read_csv('./dataset/dataset_TSMC2014_NYC.csv')
     data = data.drop(['venueId', 'venueCategoryId', 'timezoneOffset'], axis=1)
     data['utcTimestamp'] = pd.to_datetime(data['utcTimestamp'])
     
@@ -543,18 +616,7 @@ def main():
     
     # Define simulation parameters
     start_date = "2025/5/19"
-    num_days = 5
-    
-    # Define events that may affect mobility
-    # events = ['']
-    events = [
-        {
-            'date': '2025/5/20',
-            'type': 'weather',
-            'description': 'Typhoon approaching',
-            'impact': 'Strong typhoon expected to affect the region for 1-2 days. Heavy typhoon may limit outdoor activities and affect transportation. People may prefer indoor venues and stay closer to home.'
-        }
-    ]
+    num_days = 1
     
     # Process users in batches
     batch_size = 50
@@ -576,8 +638,7 @@ def main():
                     user_id, 
                     user_data,
                     start_date=start_date,
-                    num_days=num_days,
-                    events=events
+                    num_days=num_days
                 )
                 futures.append(future)
             
