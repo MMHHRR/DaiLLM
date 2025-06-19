@@ -2,6 +2,8 @@
 
 DaiLLM: A Large Language Model Based Agent Framework with AI Feedback Reinforcement for Simulating Human Mobility. This project implements a GAN-like architecture using Large Language Models (LLMs) to generate human mobility trajectories.
 
+![](./assets/F1.png)
+
 ## Usage
 1. Install dependencies:
 ```bash
@@ -19,8 +21,6 @@ python main.py
 - Analyzes long-term user profiles $P_{long}$
 - Identifies short-term mobility patterns $P_{short}$
 
-![](./assets/F4.png)
-
 ### Generator
 - Chain of Thought (CoT) based approach
 - 3 rounds Q&A process based on $P_{long}$ and $P_{short}$
@@ -28,12 +28,14 @@ python main.py
 - Generates realistic activity sequences $T_{real}$
 - $T_{gen}^{(k+1)}=G_{LLM} (P_{long},P_{short},T_{real},F_{fb}^{(k)})$
 
+![](./assets/F2.png)
+
 ### Discriminator
 - Evaluates generated trajectories based on Reinforcement Learning from AI Feedback (RLAIF) mechanism
 - Validates generated results
 - $s^{(k+1)},F_{fb}^{(k+1)}=D_{LLM} (T_{gen}^{(k+1)},T_{real})$
 
-![](./assets/F2.png)
+![](./assets/F3.png)
 
 
 ## 📌Paper Will Comming Soon🤗
