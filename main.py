@@ -49,7 +49,6 @@ class Profiler:
         3. Income level estimation
         4. Likely occupation
         5. Lifestyle characteristics
-        6. Preferred locations and venue types
         """
 
         response = client.chat.completions.create(
@@ -72,8 +71,10 @@ class Profiler:
         2. Key destinations
         3. Daily routes
         4. Temporal patterns
-        5. Categorical preferences
-        6. Transportation mode
+        5. Transportation mode
+
+        6. ALL Timestamp list ['', '']
+        7. ALL Venue list ['', '']
         """
 
         response = client.chat.completions.create(
@@ -95,7 +96,7 @@ class Generator:
         end_dt = start_dt + timedelta(days=num_days-1)
 
         prompt = f"""
-        Based on the following user profile and mobility pattern, generate a chain of possible activities for {num_days} days ({start_date}-{end_dt.strftime('%Y/%m/%d')}):
+        Let's think step by step. Based on the following user profile and mobility patterns, generate {num_days} logical chains of possible activities for {num_days} days ({start_date}-{end_dt.strftime('%Y/%m/%d')}):
 
         User Profile:
         {profile}
@@ -103,10 +104,16 @@ class Generator:
         Mobility Pattern:
         {pattern}
 
-        Please generate a reasonable chain of activities, including:
-        1. Activity type (e.g., work, shopping, entertainment)
+        For each activity chain, please consider:
+        1. Activity type (e.g., work, shopping)
         2. Activity frequency (times per day/week)
-        3. Activity importance (high/medium/low)
+        3. Activity motivation (limited 10 words)
+
+        Format each chain as follows:
+        Chian 1 (day 1): Fitness (Frequency: 3-4 time per week; Motivation: For good health) -> Breakfast (Frequency: ...; Motivation: ...) -> Working (Frequency: ...; Motivation: ...) ->...(at least 4-6 activities or more)
+        Chian 2 (day 2): ...
+        Chian 3 (day 3): ...
+        
         """
         
         if feedback_prompt:
@@ -116,7 +123,8 @@ class Generator:
             model=config.LLM_MODEL_G,
             messages=[{"role": "user", "content": prompt}]
         )
-        
+
+        print(response.choices[0].message.content.strip())
         return response.choices[0].message.content.strip()
 
 
@@ -127,7 +135,7 @@ class Generator:
         end_dt = start_dt + timedelta(days=num_days-1)
 
         prompt = f"""
-        Based on the following generated chain of activities and historical mobility pattern, assign specific times to each activity for {num_days} days ({start_date}-{end_dt.strftime('%Y/%m/%d')}):
+        Let's think step by step. Based on the given activity chains and mobility patterns, please assign specific times to each activity, create a schedule covering {num_days} days (from {start_date} to {end_dt.strftime('%Y/%m/%d')})
 
         Generated Chain of Activities:
         {activities}
@@ -135,19 +143,20 @@ class Generator:
         Mobility Pattern:
         {pattern}
 
-        Please assign specific times to each activity, considering:
-        1. Activity time preferences (e.g., work during daytime)
-        2. Activity duration (Minute granularity)
-        3. Reasonable intervals between activities
+        For each activity chain, please consider:
+        1. Peak activity periods (based on time list)
+        2. Key destinations (based on location list)
+        3. Daily routes (reasonable intervals)
+        4. Temporal patterns (minute granularity)
+        5. Transportation mode
 
         Return in JSON format:
         {{
             "scheduled_activities": [
                 {{
                     "type": "activity_type",
-                    "start_time": "YYYY-MM-DD HH:MM (Minute granularity)",
-                    "end_time": "YYYY-MM-DD HH:MM (Minute granularity)",
-                    "importance": "importance"
+                    "start_time": "YYYY-MM-DD HH:MM (MUST Minute granularity)",
+                    "end_time": "YYYY-MM-DD HH:MM (MUST Minute granularity)"
                 }},
                 ...
             ]
@@ -161,7 +170,8 @@ class Generator:
             model=config.LLM_MODEL_G,
             messages=[{"role": "user", "content": prompt}]
         )
-        
+
+        print(response.choices[0].message.content.strip())
         return response.choices[0].message.content.strip()
     
 
@@ -179,8 +189,9 @@ class Generator:
 
         Please select appropriate locations for each activity, considering:
         1. Match between activity type and venue type
-        2. Reasonable distances between locations
-        3. Transportation mode and activity intervals
+        2. Core location requirements, such as home, workplace, or school (if avaliabel)
+        3. Reasonable distances between locations
+        4. Transportation mode and spatial intervals
 
         Generate a realistic trajectory that includes:
         1. Venue categories (Refer to Historical Location)
@@ -241,6 +252,7 @@ class Generator:
             }
             
             self.generated_trajectory = pd.DataFrame(trajectory_data).astype(dtype_map)
+            print(self.generated_trajectory)
             return self.generated_trajectory
             
         except (json.JSONDecodeError, KeyError, ValueError) as e:
@@ -469,7 +481,7 @@ class TrajectoryProcessor:
                     feedback_prompt=feedback_prompt
                 )
                 
-                ## whiout D module
+                # ## whiout D module
                 score, feedback = discriminator.evaluate_trajectory(
                     current_trajectory, 
                     sampled_data,
@@ -519,11 +531,15 @@ class TrajectoryProcessor:
                 user_results = pd.DataFrame(od_data)
                 user_scores = pd.DataFrame([{'userId': user_id, 'score': best_score}])
                 user_feedback = pd.DataFrame(feedback_history)
+                user_profile = pd.DataFrame([
+                    {'userId': user_id, 'long_term_profile': long_term_profile, 'short_term_pattern': short_term_pattern}
+                ])
                 
                 # Save to temporary files
                 user_results.to_csv(self.checkpoint_dir / f'user_{user_id}_trajectories.csv', index=False)
                 user_scores.to_csv(self.checkpoint_dir / f'user_{user_id}_scores.csv', index=False)
                 user_feedback.to_csv(self.checkpoint_dir / f'user_{user_id}_feedback.csv', index=False)
+                user_profile.to_csv(self.checkpoint_dir / f'user_{user_id}_profile.csv', index=False)
                 
                 return {
                     'user_id': user_id,
@@ -555,19 +571,25 @@ class TrajectoryProcessor:
         trajectory_files = list(self.checkpoint_dir.glob('*_trajectories.csv'))
         if trajectory_files:
             trajectories = pd.concat([pd.read_csv(f) for f in trajectory_files])
-            trajectories.to_csv(self.output_dir / 'generated_trajectories_test.csv', index=False)
+            trajectories.to_csv(self.output_dir / 'generated_trajectories_test1.csv', index=False)
         
         # Merge score data
         score_files = list(self.checkpoint_dir.glob('*_scores.csv'))
         if score_files:
             scores = pd.concat([pd.read_csv(f) for f in score_files])
-            scores.to_csv(self.output_dir / 'generation_scores_test.csv', index=False)
+            scores.to_csv(self.output_dir / 'generation_scores_test1.csv', index=False)
         
         # Merge feedback data
         feedback_files = list(self.checkpoint_dir.glob('*_feedback.csv'))
         if feedback_files:
             feedback = pd.concat([pd.read_csv(f) for f in feedback_files])
-            feedback.to_csv(self.output_dir / 'generation_feedback_test.csv', index=False)
+            feedback.to_csv(self.output_dir / 'generation_feedback_test1.csv', index=False)
+        
+        # Merge profile text data
+        profile_files = list(self.checkpoint_dir.glob('*_profile.csv'))
+        if profile_files:
+            profiles = pd.concat([pd.read_csv(f) for f in profile_files])
+            profiles.to_csv(self.output_dir / 'profile_texts_test1.csv', index=False)
 
     def get_processed_user_ids(self) -> set:
         """Get the set of user IDs that have already been processed"""
@@ -589,6 +611,10 @@ def main():
     output_dir = 'output'
     Path(checkpoint_dir).mkdir(exist_ok=True)
     Path(output_dir).mkdir(exist_ok=True)
+    
+    # ====== Add batch mode switch ======
+    enable_batch_mode = False  # Set to False to process only the first user
+    # ===================================
     
     logging.info("Loading data...")
     data = pd.read_csv('./dataset/dataset_TSMC2014_NYC.csv')
@@ -618,50 +644,64 @@ def main():
     start_date = "2025/5/19"
     num_days = 1
     
-    # Process users in batches
-    batch_size = 50
-    total_batches = (len(remaining_users) + batch_size - 1) // batch_size
-    
-    for batch_idx in range(total_batches):
-        start_idx = batch_idx * batch_size
-        end_idx = min((batch_idx + 1) * batch_size, len(remaining_users))
-        batch_users = remaining_users[start_idx:end_idx]
+    if enable_batch_mode:
+        # Batch mode: process users in batches with parallel processing
+        batch_size = 50
+        total_batches = (len(remaining_users) + batch_size - 1) // batch_size
         
-        logging.info(f"Processing batch {batch_idx + 1}/{total_batches} (users {start_idx}-{end_idx})")
-        
-        with ProcessPoolExecutor(max_workers=num_processes) as executor:
-            futures = []
-            for user_id in batch_users:
-                user_data = data[data['userId'] == user_id].copy()
-                future = executor.submit(
-                    processor.process_user, 
-                    user_id, 
-                    user_data,
-                    start_date=start_date,
-                    num_days=num_days
-                )
-                futures.append(future)
+        for batch_idx in range(total_batches):
+            start_idx = batch_idx * batch_size
+            end_idx = min((batch_idx + 1) * batch_size, len(remaining_users))
+            batch_users = remaining_users[start_idx:end_idx]
             
-            # Use tqdm to show progress
-            for future in tqdm(as_completed(futures), total=len(futures)):
-                try:
-                    result = future.result()
-                    if result['status'] == 'success':
-                        logging.info(f"Successfully processed user {result['user_id']} with score {result['score']:.2f}")
-                    else:
-                        logging.warning(f"Failed to process user {result['user_id']}: {result.get('error', 'Unknown error')}")
-                except Exception as e:
-                    logging.error(f"Error in future: {str(e)}")
+            logging.info(f"Processing batch {batch_idx + 1}/{total_batches} (users {start_idx}-{end_idx})")
+            
+            with ProcessPoolExecutor(max_workers=num_processes) as executor:
+                futures = []
+                for user_id in batch_users:
+                    user_data = data[data['userId'] == user_id].copy()
+                    future = executor.submit(
+                        processor.process_user, 
+                        user_id, 
+                        user_data,
+                        start_date=start_date,
+                        num_days=num_days
+                    )
+                    futures.append(future)
+                
+                # Use tqdm to show progress
+                for future in tqdm(as_completed(futures), total=len(futures)):
+                    try:
+                        result = future.result()
+                        if result['status'] == 'success':
+                            logging.info(f"Successfully processed user {result['user_id']} with score {result['score']:.2f}")
+                        else:
+                            logging.warning(f"Failed to process user {result['user_id']}: {result.get('error', 'Unknown error')}")
+                    except Exception as e:
+                        logging.error(f"Error in future: {str(e)}")
+            
+            # Merge results after each batch
+            processor.merge_results()
+            logging.info(f"Completed batch {batch_idx + 1}/{total_batches}")
         
-        # Merge results after each batch
+        # Final merge of all results
         processor.merge_results()
-        logging.info(f"Completed batch {batch_idx + 1}/{total_batches}")
-    
-    # Final merge of all results
-    processor.merge_results()
-    logging.info("Generation completed!")
-    logging.info(f"Results saved to {output_dir}/generated_trajectories.csv")
-    logging.info(f"Scores saved to {output_dir}/generation_scores.csv")
+        logging.info("Generation completed!")
+        logging.info(f"Results saved to {output_dir}/generated_trajectories.csv")
+        logging.info(f"Scores saved to {output_dir}/generation_scores.csv")
+    else:
+        # Non-batch mode: only process the first user
+        user_id = remaining_users[0]
+        user_data = data[data['userId'] == user_id].copy()
+        result = processor.process_user(user_id, user_data, start_date=start_date, num_days=num_days)
+        if result['status'] == 'success':
+            logging.info(f"[Single user mode] Successfully processed user {result['user_id']} with score {result['score']:.2f}")
+        else:
+            logging.warning(f"[Single user mode] Failed to process user {result['user_id']}: {result.get('error', 'Unknown error')}")
+        processor.merge_results()
+        logging.info("[Single user mode] Generation completed!")
+        logging.info(f"[Single user mode] Results saved to {output_dir}/generated_trajectories.csv")
+        logging.info(f"[Single user mode] Scores saved to {output_dir}/generation_scores.csv")
 
 if __name__ == "__main__":
     main() 
