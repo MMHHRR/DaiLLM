@@ -66,15 +66,12 @@ class Profiler:
         Historical Trajectory:
         {historical_trajectory.to_string()}
         
-        Please identify and provide limited 200 words:
+        Please identify and provide limited 100 words:
         1. Peak activity periods
         2. Key destinations
         3. Daily routes
         4. Temporal patterns
         5. Transportation mode
-
-        6. ALL Timestamp list ['', '']
-        7. ALL Venue list ['', '']
         """
 
         response = client.chat.completions.create(
@@ -85,120 +82,80 @@ class Profiler:
         self.short_term_pattern = response.choices[0].message.content
         return self.short_term_pattern
 
+
 class Generator:
     def __init__(self):
         self.generated_trajectory = None
     
-    def _generate_activities(self, profile: str, pattern: str, historical_data: pd.DataFrame, 
-                           start_date: str, num_days: int, feedback_prompt: str = None) -> str:
-        """First round: Generate possible activities based on long-term personal features"""
+    def generate_trajectory(self, profile: str, pattern: str, location_data: pd.DataFrame, 
+                          start_date: str, num_days: int, feedback_prompt: str = None) -> pd.DataFrame:
+        """
+        Generate trajectory based on user profile and patterns
+        """
+        # Calculate end date
         start_dt = datetime.strptime(start_date, "%Y/%m/%d")
         end_dt = start_dt + timedelta(days=num_days-1)
-
+        
         prompt = f"""
-        Let's think step by step. Based on the following user profile and mobility patterns, generate {num_days} logical chains of possible activities for {num_days} days ({start_date}-{end_dt.strftime('%Y/%m/%d')}):
+        Let's think step by step to generate a realistic trajectory for {num_days}-day ({start_date}-{end_dt.strftime('%Y/%m/%d')}):
+        
+        STEP 1: Analyze the user profile. Think about how gender, age, income level, occupation, and lifestyle would affect daily movement patterns. Generate potential activities (at least 8-10), Output format: Activity (Motivation: max 5 words; Important: H/M/L). Activity Rule: Eating/Work/Relax...(one word)
+        \nUser Profile: {profile}
+        
+        STEP 2: Examine the mobility pattern carefully. Consider peak activity periods, key destinations, daily routes, temporal patterns, and transportation modes when planning the trajectory. Filtering and Structure daily activity sequences, Output format: Activity (Time HH:MM:SS; Duration: H/M/L) -> Next Activity...
+        \nMobility Pattern: {pattern}
+        
+        STEP 3: Study the historical location data to understand previously visited locations and venue categories. Use these coordinates as references for the new trajectory. Map activities to specific locations category, Output format: Activity (Venue category; Coordinates) -> Next Activity... MUST have coordinates.
+        \nHistorical Location Data: {location_data.to_string()}
+
+        STEP 4: Create realistic daily routines by:
+        1. Assigning activities based on profile and mobility patterns
+        2. Adding natural variations (weekend vs weekday, occasional deviations)
+        3. Maintaining temporal consistency between locations
+        
+        Generate a realistic trajectory that includes:
+        1. Venue categories matching historical data
+        2. Timestamps in "YYYY-MM-DD HH:MM:SS" format
+        3. Precise latitude/longitude coordinates
+        
+        Return the think step in following text format:
+        STEP 1 Activity: [Activity list with frequency and motivations]
+        STEP 2 Schedule: [Time-ordered activity chain]
+        STEP 3 Locations: [Detailed venue and coordinate mapping]
+
+        AND Return generate trajectory in the following JSON format:
+        {{
+            "trajectory": [
+                {{
+                    "timestamp": "YYYY-MM-DD HH:MM:SS",
+                    "venue_category": "string",
+                    "latitude": float,
+                    "longitude": float
+                }},
+                ... // multiple entries
+            ]
+        }}
+        NOTE: Do not need Explanation or Summary.
+        """
+
+        prompt_noCoT = f"""
+        Generate a {num_days}-day ({start_date}-{end_dt.strftime('%Y/%m/%d')}) trajectory based on:
 
         User Profile:
         {profile}
-
-        Mobility Pattern:
-        {pattern}
-
-        For each activity chain, please consider:
-        1. Activity type (e.g., work, shopping)
-        2. Activity frequency (times per day/week)
-        3. Activity motivation (limited 10 words)
-
-        Format each chain as follows:
-        Chian 1 (day 1): Fitness (Frequency: 3-4 time per week; Motivation: For good health) -> Breakfast (Frequency: ...; Motivation: ...) -> Working (Frequency: ...; Motivation: ...) ->...(at least 4-6 activities or more)
-        Chian 2 (day 2): ...
-        Chian 3 (day 3): ...
-        
-        """
-        
-        if feedback_prompt:
-            prompt += f"\n\nPrevious feedback to consider:\n{feedback_prompt}"
-        
-        response = client.chat.completions.create(
-            model=config.LLM_MODEL_G,
-            messages=[{"role": "user", "content": prompt}]
-        )
-
-        print(response.choices[0].message.content.strip())
-        return response.choices[0].message.content.strip()
-
-
-    def _assign_timestamps(self, activities: List[Dict], pattern: str, 
-                         start_date: str, num_days: int, feedback_prompt: str = None) -> str:
-        """Second round: Assign timestamps to activities"""
-        start_dt = datetime.strptime(start_date, "%Y/%m/%d")
-        end_dt = start_dt + timedelta(days=num_days-1)
-
-        prompt = f"""
-        Let's think step by step. Based on the given activity chains and mobility patterns, please assign specific times to each activity, create a schedule covering {num_days} days (from {start_date} to {end_dt.strftime('%Y/%m/%d')})
-
-        Generated Chain of Activities:
-        {activities}
         
         Mobility Pattern:
         {pattern}
-
-        For each activity chain, please consider:
-        1. Peak activity periods (based on time list)
-        2. Key destinations (based on location list)
-        3. Daily routes (reasonable intervals)
-        4. Temporal patterns (minute granularity)
-        5. Transportation mode
-
-        Return in JSON format:
-        {{
-            "scheduled_activities": [
-                {{
-                    "type": "activity_type",
-                    "start_time": "YYYY-MM-DD HH:MM (MUST Minute granularity)",
-                    "end_time": "YYYY-MM-DD HH:MM (MUST Minute granularity)"
-                }},
-                ...
-            ]
-        }}
-        """
         
-        if feedback_prompt:
-            prompt += f"\n\nPrevious feedback to consider:\n{feedback_prompt}"
+        Historical Location Data:
+        {location_data.to_string()}
         
-        response = client.chat.completions.create(
-            model=config.LLM_MODEL_G,
-            messages=[{"role": "user", "content": prompt}]
-        )
-
-        print(response.choices[0].message.content.strip())
-        return response.choices[0].message.content.strip()
-    
-
-    def _select_locations(self, scheduled_activities: List[Dict], 
-                        historical_data: pd.DataFrame, feedback_prompt: str = None) -> pd.DataFrame:
-        """Third round: Select specific locations for activities"""
-        prompt = f"""
-        Based on the following generated scheduled activities and historical location, select appropriate locations for each activity:
-
-        Generated Scheduled Activities:
-        {scheduled_activities}
-        
-        Historical Location:
-        {historical_data.to_string()}
-
-        Please select appropriate locations for each activity, considering:
-        1. Match between activity type and venue type
-        2. Core location requirements, such as home, workplace, or school (if avaliabel)
-        3. Reasonable distances between locations
-        4. Transportation mode and spatial intervals
-
         Generate a realistic trajectory that includes:
-        1. Venue categories (Refer to Historical Location)
-        2. Timestamps (Refer to Generated Scheduled Activities)
+        1. Venue categories
+        2. Timestamps
         3. Latitude and longitude coordinates (Refer to Historical Location)
-
-        Return in JSON format:
+        
+        Return the trajectory in the following JSON format:
         {{
             "trajectory": [
                 {{
@@ -210,16 +167,29 @@ class Generator:
                 ...
             ]
         }}
+        
         Note: Only output the JSON, no other text. Do not include markdown code block markers.
         """
         
+        ## Enable CoT
         if feedback_prompt:
             prompt += f"\n\nPrevious feedback to consider:\n{feedback_prompt}"
-        
+
         response = client.chat.completions.create(
             model=config.LLM_MODEL_G,
             messages=[{"role": "user", "content": prompt}]
         )
+
+        ## Unenable CoT
+        # if feedback_prompt:
+        #     prompt_noCoT += f"\n\nPrevious feedback to consider:\n{feedback_prompt}"
+
+        # response = client.chat.completions.create(
+        #     model=config.LLM_MODEL_G,
+        #     messages=[{"role": "user", "content": prompt_noCoT}]
+        # )
+
+        print(response.choices[0].message.content.strip())
         
         try:
             content = response.choices[0].message.content.strip()
@@ -234,7 +204,7 @@ class Generator:
             end_idx = content.rfind('}') + 1
             if start_idx != -1 and end_idx != 0:
                 content = content[start_idx:end_idx]
-
+            
             try:
                 data = json.loads(content)
                 if 'trajectory' in data:
@@ -252,39 +222,12 @@ class Generator:
             }
             
             self.generated_trajectory = pd.DataFrame(trajectory_data).astype(dtype_map)
-            print(self.generated_trajectory)
             return self.generated_trajectory
             
         except (json.JSONDecodeError, KeyError, ValueError) as e:
             logging.error(f"Error processing trajectory data: {str(e)}")
             logging.error(f"Raw response content: {content}")
             raise ValueError(f"Error processing trajectory data: {str(e)}")
-        
-
-    def generate_trajectory(self, profile: str, pattern: str, historical_data: pd.DataFrame, 
-                          start_date: str = "2025/5/28", num_days: int = 3, feedback_prompt: str = None) -> pd.DataFrame:
-        """
-        Generate trajectory using Chain of Thought method
-        
-        Args:
-            profile: User profile analysis
-            pattern: Mobility pattern analysis
-            historical_data: Historical location data
-            start_date: Start date for trajectory generation (format: YYYY/MM/DD)
-            num_days: Number of days to generate
-            feedback_prompt: Previous feedback to consider
-        """
-
-        # First round: Generate activity list
-        activities = self._generate_activities(profile, pattern, historical_data, start_date, num_days, feedback_prompt)
-        
-        # Second round: Assign timestamps to activities
-        scheduled_activities = self._assign_timestamps(activities, pattern, start_date, num_days, feedback_prompt)
-
-        # Third round: Select specific locations
-        self.generated_trajectory = self._select_locations(scheduled_activities, historical_data, feedback_prompt)
-
-        return self.generated_trajectory
 
 
 class Discriminator:
@@ -348,7 +291,7 @@ class Discriminator:
         IMPORTANT: You must respond with ONLY a valid JSON object in the following format, with no additional text or explanation:
         {{
             "overall_score": <average of all scores (float between 0.00 and 1.00)>,
-            "feedback": ["specific suggestion point 1", "specific suggestion point 2", ... Limited 100 words]
+            "feedback": ["specific suggestion point 1", "specific suggestion point 2", ... (each feedback Limited 100 words)]
         }}
 
         NOTE: Only include feedback if overall_score < 0.85
@@ -443,8 +386,8 @@ class TrajectoryProcessor:
             # data sampling
             sampled_data_df = self.sample_user_data(user_data)
 
-            POI_data = sampled_data_df[['venueCategory', 'latitude', 'longitude']].copy()
-            sampled_data = sampled_data_df[['userId', 'venueCategory', 'utcTimestamp']].copy()
+            POI_data = sampled_data_df[['venueCategory', 'latitude', 'longitude']].drop_duplicates().copy()
+            sampled_data = sampled_data_df[['venueCategory', 'utcTimestamp']].copy()
             
             profiler = Profiler()
             generator = Generator()
@@ -468,7 +411,7 @@ class TrajectoryProcessor:
                 if attempt > 0:
                     feedback_prompt = f"""
                     Previous generated trajectory: {current_trajectory.to_string()}
-                    Previous evaluation score: {score}
+                    Previous evaluation score: {score} enhancing to > 0.85
                     Previous feedback to consider: {feedback}
                     """
                 
@@ -480,6 +423,8 @@ class TrajectoryProcessor:
                     num_days=num_days,
                     feedback_prompt=feedback_prompt
                 )
+
+                print(current_trajectory)
                 
                 # ## whiout D module
                 score, feedback = discriminator.evaluate_trajectory(
@@ -501,7 +446,7 @@ class TrajectoryProcessor:
                     'feedback': feedback
                 })
 
-                if score >= 0.85:
+                if score >= 0.80:
                     break
                     
                 attempt += 1
@@ -571,25 +516,25 @@ class TrajectoryProcessor:
         trajectory_files = list(self.checkpoint_dir.glob('*_trajectories.csv'))
         if trajectory_files:
             trajectories = pd.concat([pd.read_csv(f) for f in trajectory_files])
-            trajectories.to_csv(self.output_dir / 'generated_trajectories_test1.csv', index=False)
+            trajectories.to_csv(self.output_dir / 'generated_trajectories_noCoT.csv', index=False)
         
         # Merge score data
         score_files = list(self.checkpoint_dir.glob('*_scores.csv'))
         if score_files:
             scores = pd.concat([pd.read_csv(f) for f in score_files])
-            scores.to_csv(self.output_dir / 'generation_scores_test1.csv', index=False)
+            scores.to_csv(self.output_dir / 'generation_scores_noCoT.csv', index=False)
         
         # Merge feedback data
         feedback_files = list(self.checkpoint_dir.glob('*_feedback.csv'))
         if feedback_files:
             feedback = pd.concat([pd.read_csv(f) for f in feedback_files])
-            feedback.to_csv(self.output_dir / 'generation_feedback_test1.csv', index=False)
+            feedback.to_csv(self.output_dir / 'generation_feedback_noCoT.csv', index=False)
         
-        # Merge profile text data
-        profile_files = list(self.checkpoint_dir.glob('*_profile.csv'))
-        if profile_files:
-            profiles = pd.concat([pd.read_csv(f) for f in profile_files])
-            profiles.to_csv(self.output_dir / 'profile_texts_test1.csv', index=False)
+        # # Merge profile text data
+        # profile_files = list(self.checkpoint_dir.glob('*_profile.csv'))
+        # if profile_files:
+        #     profiles = pd.concat([pd.read_csv(f) for f in profile_files])
+        #     profiles.to_csv(self.output_dir / 'profile_texts_noCoT.csv', index=False)
 
     def get_processed_user_ids(self) -> set:
         """Get the set of user IDs that have already been processed"""
