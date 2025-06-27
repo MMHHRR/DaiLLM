@@ -1,3 +1,0 @@
-userId,attempt,score,feedback
-470,0,0.76,"['Consider adding more variety to venue types to better match common daily patterns observed in real data.', 'Evaluate the duration spent at each venue to align more closely with typical visit lengths during similar times.', 'Review geographical distribution to ensure travel distances are practical and aligned with typical activity zones in real trajectories.']"
-470,1,0.87,[]
